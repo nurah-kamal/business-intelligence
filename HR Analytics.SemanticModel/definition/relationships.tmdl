@@ -1,0 +1,17 @@
+relationship 'Hired on'
+	fromColumn: Employees.'Hire Date'
+	toColumn: Date.Date
+
+relationship 'Left on'
+	isActive: false
+	fromColumn: Employees.'Leave Date'
+	toColumn: Date.Date
+
+relationship 'Employee department'
+	fromColumn: Employees.Department
+	toColumn: Department.Department
+
+relationship 'Employee job'
+	fromColumn: Employees.'Job Title'
+	toColumn: Job.'Job Title'
+

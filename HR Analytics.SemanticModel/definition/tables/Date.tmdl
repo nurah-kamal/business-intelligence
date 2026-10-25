@@ -1,0 +1,70 @@
+/// One row per day, 2016 to 2026.
+table Date
+	lineageTag: f8b4f083-f525-4cae-8163-34f9d381b9fd
+	dataCategory: Time
+
+	column Date
+		dataType: dateTime
+		isUnique
+		isKey
+		formatString: yyyy-mm-dd
+		lineageTag: c27dd2eb-873d-4410-881c-0ec29c34486a
+		summarizeBy: none
+		sourceColumn: Date
+
+	column Year
+		dataType: int64
+		lineageTag: 5fd40169-c964-4e91-8e15-e907c1c6fc4d
+		summarizeBy: none
+		sourceColumn: Year
+
+	column Quarter
+		dataType: string
+		lineageTag: d6ba61e7-b347-457c-ba47-319caa9fa737
+		summarizeBy: none
+		sourceColumn: Quarter
+
+	column 'Month No'
+		dataType: int64
+		isHidden
+		lineageTag: e7b8eeb7-358f-4c2a-887a-a75c2c12c4d8
+		summarizeBy: none
+		sourceColumn: Month No
+
+	column Month
+		dataType: string
+		lineageTag: 919f8b38-5b08-4df0-833a-5f60e7bcde33
+		summarizeBy: none
+		sourceColumn: Month
+		sortByColumn: 'Month No'
+
+	column 'Year Month'
+		dataType: string
+		lineageTag: 85d2a31d-690a-495b-b1b6-e5b5f68d5836
+		summarizeBy: none
+		sourceColumn: Year Month
+
+	/// First day of the month, as a date, so monthly charts get a continuous time axis.
+	column 'Month Start' = DATE ( 'Date'[Year], 'Date'[Month No], 1 )
+		dataType: dateTime
+		formatString: mmm yyyy
+		summarizeBy: none
+
+	column 'Is Month End'
+		dataType: int64
+		isHidden
+		lineageTag: 8970c584-debe-4528-94b9-5ec719652a7a
+		summarizeBy: none
+		sourceColumn: Is Month End
+
+	partition Date = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "calendar.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Renamed = Table.RenameColumns(Promoted, {{"date", "Date"}, {"year", "Year"}, {"quarter", "Quarter"}, {"month_no", "Month No"}, {"month", "Month"}, {"year_month", "Year Month"}, {"is_month_end", "Is Month End"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Date", type date}, {"Year", Int64.Type}, {"Quarter", type text}, {"Month No", Int64.Type}, {"Month", type text}, {"Year Month", type text}, {"Is Month End", Int64.Type}}, "en-US")
+				in
+				    Typed
+

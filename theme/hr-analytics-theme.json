@@ -1,0 +1,39 @@
+{
+  "name": "HR Analytics",
+  "dataColors": ["#C8553D", "#6B8F71", "#D9A441", "#7C98AB", "#8A5A44", "#B7C9B9", "#E3B5A4", "#4F5D56"],
+  "foreground": "#2E2A27",
+  "foregroundNeutralSecondary": "#6E6259",
+  "foregroundNeutralTertiary": "#A39486",
+  "background": "#FFFDF9",
+  "backgroundLight": "#F4EDE4",
+  "backgroundNeutral": "#E8DCCB",
+  "tableAccent": "#C8553D",
+  "good": "#6B8F71",
+  "neutral": "#D9A441",
+  "bad": "#C8553D",
+  "maximum": "#C8553D",
+  "center": "#E3B5A4",
+  "minimum": "#F4EDE4",
+  "hyperlink": "#C8553D",
+  "visitedHyperlink": "#8A5A44",
+  "textClasses": {
+    "callout": { "fontSize": 40, "fontFace": "Georgia", "color": "#2E2A27" },
+    "title": { "fontSize": 13, "fontFace": "Georgia", "color": "#2E2A27" },
+    "header": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#2E2A27" },
+    "label": { "fontSize": 10, "fontFace": "Segoe UI", "color": "#2E2A27" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFDF9" } }, "transparency": 0 }],
+        "border": [{ "show": false, "radius": 12 }],
+        "dropShadow": [{ "show": false }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F4EDE4" } }, "transparency": 0 }]
+      }
+    }
+  }
+}

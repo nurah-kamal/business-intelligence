@@ -1,0 +1,36 @@
+/// One row per department, with a made-up manager address used by the row-level security role.
+table Department
+	lineageTag: 491628f0-f992-406a-ac78-f4311e8def76
+
+	column Department
+		dataType: string
+		lineageTag: c6d85519-d6ed-4b68-b91c-fe26ed2f92f9
+		summarizeBy: none
+		sourceColumn: Department
+		sortByColumn: 'Department Sort'
+
+	column 'Manager Email'
+		dataType: string
+		isHidden
+		lineageTag: 470b698a-b4e7-44bc-841e-dae84de08829
+		summarizeBy: none
+		sourceColumn: Manager Email
+
+	column 'Department Sort'
+		dataType: int64
+		isHidden
+		lineageTag: f5c22be4-6771-43fc-a53f-05d98a1d6379
+		summarizeBy: none
+		sourceColumn: Department Sort
+
+	partition Department = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "department.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Renamed = Table.RenameColumns(Promoted, {{"department", "Department"}, {"manager_email", "Manager Email"}, {"department_sort", "Department Sort"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Department", type text}, {"Manager Email", type text}, {"Department Sort", Int64.Type}})
+				in
+				    Typed
+

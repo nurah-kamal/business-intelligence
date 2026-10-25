@@ -1,0 +1,330 @@
+/// One row per person ever employed, 2016 to 30 September 2026. Invented: IDs only, no names.
+table Employees
+	lineageTag: 69973beb-085f-4cad-83b9-e1b38c7d2787
+
+	/// The last day the data covers.
+	measure 'Data As Of' = DATE ( 2026, 9, 30 )
+		formatString: d mmm yyyy
+		isHidden
+		displayFolder: 0 Settings
+		lineageTag: 8ce388ff-6878-41a5-b065-899953566a0b
+
+	/// The last day of the period in view, no later than the data.
+	measure 'Period End' = MIN ( MAX ( 'Date'[Date] ), [Data As Of] )
+		formatString: d mmm yyyy
+		isHidden
+		displayFolder: 0 Settings
+		lineageTag: 7cae3023-6c78-4be5-ac5c-3e10e0b8d0b1
+
+	/// People employed on the last day of the period: hired by then and not yet left.
+	measure Headcount =
+			VAR _end = [Period End]
+			RETURN
+			    CALCULATE (
+			        COUNTROWS ( Employees ),
+			        REMOVEFILTERS ( 'Date' ),
+			        Employees[Hire Date] <= _end,
+			        ISBLANK ( Employees[Leave Date] ) || Employees[Leave Date] > _end
+			    )
+		formatString: #,0
+		displayFolder: 1 Headcount
+		lineageTag: 75bc6650-c501-45cc-8c55-d21de094346e
+
+	/// People employed the day before the period starts.
+	measure 'Headcount at Start' =
+			VAR _start = MIN ( 'Date'[Date] ) - 1
+			RETURN
+			    CALCULATE (
+			        COUNTROWS ( Employees ),
+			        REMOVEFILTERS ( 'Date' ),
+			        Employees[Hire Date] <= _start,
+			        ISBLANK ( Employees[Leave Date] ) || Employees[Leave Date] > _start
+			    )
+		formatString: #,0
+		displayFolder: 1 Headcount
+		lineageTag: ae88308b-bc65-4a77-a13d-d73efd204c2f
+
+	/// The average of headcount at the start and the end of the period.
+	measure 'Average Headcount' = DIVIDE ( [Headcount at Start] + [Headcount], 2 )
+		formatString: #,0
+		displayFolder: 1 Headcount
+		lineageTag: d8719202-fa0a-48d6-b648-aa6bb5d5b900
+
+	/// People who started in the period.
+	measure Hires = COUNTROWS ( Employees )
+		formatString: #,0
+		displayFolder: 2 Movement
+		lineageTag: 396f8170-8d54-4432-af2e-6350aee53931
+
+	/// People who left in the period, for any reason. Switches on the inactive Leave Date relationship.
+	measure Leavers = CALCULATE ( COUNTROWS ( Employees ), USERELATIONSHIP ( Employees[Leave Date], 'Date'[Date] ), NOT ISBLANK ( Employees[Leave Date] ) )
+		formatString: #,0
+		displayFolder: 2 Movement
+		lineageTag: 581ef5c3-e83a-4642-be37-311fbfc028e5
+
+	/// People who chose to leave in the period.
+	measure Resignations = CALCULATE ( [Leavers], Employees[Leave Reason] = "Resigned" )
+		formatString: #,0
+		displayFolder: 2 Movement
+		lineageTag: 3217cbb6-d49f-4aa6-93c6-8e339de13ecb
+
+	/// Hires minus leavers.
+	measure 'Net Change' = [Hires] - [Leavers]
+		formatString: +#,0;-#,0;0
+		displayFolder: 2 Movement
+		lineageTag: 4c46a813-8284-423b-adbc-77f3fbb1b77e
+
+	/// Leavers in the period over average headcount.
+	measure 'Attrition Rate' = DIVIDE ( [Leavers], [Average Headcount] )
+		formatString: 0.0%
+		displayFolder: 3 Attrition
+		lineageTag: f441a81b-5c6d-49e5-8f30-ba1615de5bb4
+
+	/// Attrition over the 12 months to the end of the period.
+	measure 'Attrition 12m' =
+			VAR _end = [Period End]
+			RETURN CALCULATE ( [Attrition Rate], DATESINPERIOD ( 'Date'[Date], _end, -12, MONTH ) )
+		formatString: 0.0%
+		displayFolder: 3 Attrition
+		lineageTag: f25ce3d7-422d-4ce7-9da8-2b856b1e4cbc
+
+	/// Resignations over the 12 months to the end of the period, over average headcount.
+	measure 'Resignation Rate 12m' =
+			VAR _end = [Period End]
+			RETURN CALCULATE ( DIVIDE ( [Resignations], [Average Headcount] ), DATESINPERIOD ( 'Date'[Date], _end, -12, MONTH ) )
+		formatString: 0.0%
+		displayFolder: 3 Attrition
+		lineageTag: ea3f4458-70d9-4c0c-ada0-68a46e41c922
+
+	/// Rolling 12-month attrition for call centre agents.
+	measure 'Call Centre Attrition 12m' = CALCULATE ( [Attrition 12m], Job[Job Title] = "Call Centre Agent" )
+		formatString: 0.0%
+		displayFolder: 3 Attrition
+		lineageTag: 54dcc619-41d0-4a2a-9c4a-de6b0fc00dee
+
+	/// Rolling 12-month attrition for everyone except call centre agents.
+	measure 'Everyone Else Attrition 12m' = CALCULATE ( [Attrition 12m], Job[Job Title] <> "Call Centre Agent" )
+		formatString: 0.0%
+		displayFolder: 3 Attrition
+		lineageTag: b0016008-6295-4a0d-919c-a33ed0cddd6e
+
+	/// Total time people spent employed in the period, in years.
+	measure Person-Years =
+			VAR _start = MIN ( 'Date'[Date] )
+			VAR _end = [Period End]
+			RETURN
+			    CALCULATE (
+			        SUMX (
+			            Employees,
+			            VAR _from = MAX ( Employees[Hire Date], _start )
+			            VAR _to = MIN ( COALESCE ( Employees[Leave Date], _end ), _end )
+			            RETURN MAX ( 0, DATEDIFF ( _from, _to, DAY ) )
+			        ),
+			        REMOVEFILTERS ( 'Date' ),
+			        Employees[Hire Date] <= _end,
+			        ISBLANK ( Employees[Leave Date] ) || Employees[Leave Date] >= _start
+			    ) / 365.25
+		formatString: #,0
+		displayFolder: 3 Attrition
+		lineageTag: 205b747e-7eb4-4bc1-9ad1-84cb8538615c
+
+	/// Resignations for every 100 years of employment in the period. Fair across groups of different size and tenure.
+	measure 'Resignations per 100 Person-Years' = DIVIDE ( [Resignations], [Person-Years] ) * 100
+		formatString: 0.0
+		displayFolder: 3 Attrition
+		lineageTag: a4f898ae-eabf-42f4-a82a-928ab4ebe3db
+
+	/// Average years of service of the people employed at the end of the period.
+	measure 'Average Tenure (Years)' =
+			VAR _end = [Period End]
+			RETURN
+			    CALCULATE (
+			        AVERAGEX ( Employees, DATEDIFF ( Employees[Hire Date], _end, DAY ) / 365.25 ),
+			        REMOVEFILTERS ( 'Date' ),
+			        Employees[Hire Date] <= _end,
+			        ISBLANK ( Employees[Leave Date] ) || Employees[Leave Date] > _end
+			    )
+		formatString: 0.0
+		displayFolder: 1 Headcount
+		lineageTag: fbe5a798-7424-40f4-9522-577e08f0301d
+
+	/// Middle annual salary of the people employed at the end of the period.
+	measure 'Median Salary' =
+			VAR _end = [Period End]
+			RETURN
+			    CALCULATE (
+			        MEDIAN ( Employees[Salary] ),
+			        REMOVEFILTERS ( 'Date' ),
+			        Employees[Hire Date] <= _end,
+			        ISBLANK ( Employees[Leave Date] ) || Employees[Leave Date] > _end
+			    )
+		formatString: R #,0
+		displayFolder: 1 Headcount
+		lineageTag: 10f0025b-9602-40bd-9aaf-d1360a253378
+
+	/// Share of headcount who are women.
+	measure 'Female Share' = DIVIDE ( CALCULATE ( [Headcount], Employees[Gender] = "Female" ), [Headcount] )
+		formatString: 0.0%
+		displayFolder: 4 Equity
+		lineageTag: 71398feb-43e9-4179-b05e-e7607e9a0054
+
+	/// Share of headcount who are African, Coloured or Indian.
+	measure 'Designated Share' = DIVIDE ( CALCULATE ( [Headcount], Employees[Designated Group] = "Designated by race" ), [Headcount] )
+		formatString: 0.0%
+		displayFolder: 4 Equity
+		lineageTag: e45caebf-0315-40d8-bb1f-cccefa6d290b
+
+	/// Designated share at top and senior management.
+	measure 'Designated Share (Top and Senior)' = CALCULATE ( [Designated Share], Job[Level Sort] <= 2 )
+		formatString: 0.0%
+		displayFolder: 4 Equity
+		lineageTag: f72121f0-84ef-4370-b06f-0e8173963632
+
+	/// Designated share across the whole workforce, whatever level is selected.
+	measure 'Designated Share (Workforce)' = CALCULATE ( [Designated Share], REMOVEFILTERS ( Job ) )
+		formatString: 0.0%
+		displayFolder: 4 Equity
+		lineageTag: caf74c42-50a5-4e7a-b75f-17bcf5a6439e
+
+	/// Percentage points between designated representation at the top and in the workforce. Below zero means under-represented at the top.
+	measure 'Representation Gap (pts)' = ( [Designated Share (Top and Senior)] - [Designated Share (Workforce)] ) * 100
+		formatString: +0.0;-0.0;0.0
+		displayFolder: 4 Equity
+		lineageTag: 36ce5fd2-4dc5-4fbd-86e7-c02b26f920ce
+
+	/// Share of headcount with a disability.
+	measure 'Disability Share' = DIVIDE ( CALCULATE ( [Headcount], Employees[Disability] = "Yes" ), [Headcount] )
+		formatString: 0.0%
+		displayFolder: 4 Equity
+		lineageTag: 96a93bd5-2153-44db-89f5-c57e6698f886
+
+	column 'Employee ID'
+		dataType: string
+		lineageTag: 41b5d246-8448-4a7a-a95e-962ebdfb34e9
+		summarizeBy: none
+		sourceColumn: Employee ID
+
+	column 'Hire Date'
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 48643d0e-2a3f-40fb-afc6-e2303cf528de
+		summarizeBy: none
+		sourceColumn: Hire Date
+
+	column 'Leave Date'
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: f9f3e78d-ebd1-41d9-a53b-3525c241e1f7
+		summarizeBy: none
+		sourceColumn: Leave Date
+
+	column 'Leave Reason'
+		dataType: string
+		lineageTag: 08221d39-f785-4b53-b66d-3f6b9acc47b5
+		summarizeBy: none
+		sourceColumn: Leave Reason
+
+	column Department
+		dataType: string
+		isHidden
+		lineageTag: c0a51686-fd38-4afb-82fc-cdcff9242cef
+		summarizeBy: none
+		sourceColumn: Department
+
+	column 'Job Title'
+		dataType: string
+		isHidden
+		lineageTag: c22370b1-d567-4c2c-91fb-112677da086c
+		summarizeBy: none
+		sourceColumn: Job Title
+
+	column Province
+		dataType: string
+		lineageTag: e99f755b-14fa-495d-b195-a7c1a16568ee
+		summarizeBy: none
+		sourceColumn: Province
+
+	column City
+		dataType: string
+		lineageTag: 471dc171-f3e4-46fc-abf6-cce394638d9f
+		summarizeBy: none
+		sourceColumn: City
+
+	column Gender
+		dataType: string
+		lineageTag: 7482e8fa-ebd1-42f1-b4b0-c0482b2805ce
+		summarizeBy: none
+		sourceColumn: Gender
+
+	/// Invented. The Employment Equity Act's designated groups by race are African, Coloured and Indian.
+	column 'Population Group'
+		dataType: string
+		lineageTag: 1c0c5436-e1b2-432e-b40c-ecbd311c2807
+		summarizeBy: none
+		sourceColumn: Population Group
+
+	column Disability
+		dataType: string
+		lineageTag: 1e72d80b-7fe6-442f-8b24-6adef8bbcff3
+		summarizeBy: none
+		sourceColumn: Disability
+
+	column Education
+		dataType: string
+		lineageTag: cb634b3c-2757-4dd4-a5e5-1fb1eb2f70a9
+		summarizeBy: none
+		sourceColumn: Education
+
+	column Salary
+		dataType: int64
+		formatString: R #,0
+		lineageTag: 95c6f839-bfe7-441e-9293-d2d4c4c88507
+		summarizeBy: none
+		sourceColumn: Salary
+
+	column Performance
+		dataType: string
+		lineageTag: 88cd6d34-dfc1-4f74-bfd1-a363aedeeb6c
+		summarizeBy: none
+		sourceColumn: Performance
+
+	/// Years from hiring to leaving; blank for people still employed.
+	column 'Tenure at Leaving (Years)' = IF ( NOT ISBLANK ( Employees[Leave Date] ), DATEDIFF ( Employees[Hire Date], Employees[Leave Date], DAY ) / 365.25 )
+		dataType: double
+		formatString: 0.0
+		lineageTag: 6367622c-bc17-4260-8c56-b2e6fb499421
+		summarizeBy: none
+
+	column 'Tenure Band Sort' =
+			VAR _t = Employees[Tenure at Leaving (Years)]
+			RETURN SWITCH ( TRUE (), ISBLANK ( _t ), BLANK (), _t < 1, 1, _t < 2, 2, _t < 5, 3, 4 )
+		dataType: int64
+		isHidden
+		lineageTag: 57fdee04-e03f-4fa7-b706-6c56b5e16ec3
+		summarizeBy: none
+
+	/// How long a leaver had been employed.
+	column 'Tenure Band' = SWITCH ( Employees[Tenure Band Sort], 1, "Under 1 year", 2, "1 to 2 years", 3, "2 to 5 years", 4, "5 years or more" )
+		dataType: string
+		lineageTag: c55abb2d-eba1-4e53-8e8c-6799773a3550
+		summarizeBy: none
+		sortByColumn: 'Tenure Band Sort'
+
+	/// African, Coloured and Indian people are designated groups under the Employment Equity Act. Women and people with disabilities are designated too; they have their own measures.
+	column 'Designated Group' = IF ( Employees[Population Group] = "White", "Not designated by race", "Designated by race" )
+		dataType: string
+		lineageTag: 8eb95cdb-64ac-4f49-8856-3ef2867e0d33
+		summarizeBy: none
+
+	partition Employees = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "employees.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Blanks = Table.ReplaceValue(Promoted, "", null, Replacer.ReplaceValue, {"leave_date", "leave_reason"}),
+				    Renamed = Table.RenameColumns(Blanks, {{"employee_id", "Employee ID"}, {"hire_date", "Hire Date"}, {"leave_date", "Leave Date"}, {"leave_reason", "Leave Reason"}, {"department", "Department"}, {"job_title", "Job Title"}, {"province", "Province"}, {"city", "City"}, {"gender", "Gender"}, {"population_group", "Population Group"}, {"disability", "Disability"}, {"education", "Education"}, {"salary", "Salary"}, {"performance", "Performance"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Employee ID", type text}, {"Hire Date", type date}, {"Leave Date", type date}, {"Leave Reason", type text}, {"Department", type text}, {"Job Title", type text}, {"Province", type text}, {"City", type text}, {"Gender", type text}, {"Population Group", type text}, {"Disability", type text}, {"Education", type text}, {"Salary", Int64.Type}, {"Performance", type text}}, "en-US")
+				in
+				    Typed
+

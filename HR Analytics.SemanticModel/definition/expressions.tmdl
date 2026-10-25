@@ -1,0 +1,4 @@
+/// Folder holding the CSVs made by scripts/make_data.py, ending in a backslash.
+expression DataFolder = "C:\Users\user\Desktop\hr-analytics-powerbi\data\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: b1b2b6d4-138f-46e9-af7f-497b2e7372be
+

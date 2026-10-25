@@ -3,9 +3,9 @@
   "name": "v011",
   "position": {
     "x": 36,
-    "y": 166,
+    "y": 164,
     "z": 11000,
-    "height": 30,
+    "height": 46,
     "width": 400
   },
   "visual": {
@@ -20,7 +20,7 @@
                   {
                     "value": "of staff left in the 12 months to September 2026",
                     "textStyle": {
-                      "fontSize": "11pt",
+                      "fontSize": "10.5pt",
                       "fontWeight": "normal",
                       "color": "#6E6259"
                     }

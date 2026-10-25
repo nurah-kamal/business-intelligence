@@ -3,9 +3,9 @@
   "name": "v003",
   "position": {
     "x": 36,
-    "y": 166,
+    "y": 164,
     "z": 3000,
-    "height": 30,
+    "height": 46,
     "width": 400
   },
   "visual": {
@@ -20,7 +20,7 @@
                   {
                     "value": "people employed on 30 September 2026",
                     "textStyle": {
-                      "fontSize": "11pt",
+                      "fontSize": "10.5pt",
                       "fontWeight": "normal",
                       "color": "#6E6259"
                     }

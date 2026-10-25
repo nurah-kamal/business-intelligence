@@ -1,5 +1,7 @@
 # CPI Inflation in Power BI
 
+[![power-bi-cpi](https://github.com/nurah-kamal/business-intelligence/actions/workflows/power-bi-cpi.yml/badge.svg?branch=main&event=push)](https://github.com/nurah-kamal/business-intelligence/actions/workflows/power-bi-cpi.yml) 4 tests
+
 **Fifty-seven years of South African inflation from Stats SA, and an honest test of whether a model can forecast it. It can't beat "it stays where it is", and this report shows exactly where and why.**
 
 The backtest comes from [statistical-modelling/cpi-inflation-forecast](https://github.com/nurah-kamal/statistical-modelling/tree/main/cpi-inflation-forecast), rerun here with the same code so every forecast can be explored in Power BI. Its sibling, [Power BI Turnaround](https://github.com/nurah-kamal/business-intelligence/tree/main/power-bi-turnaround), is built on synthetic data; this one is built on official public data.

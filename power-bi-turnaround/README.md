@@ -1,5 +1,7 @@
 # SA Turnaround in Power BI
 
+[![power-bi-turnaround](https://github.com/nurah-kamal/business-intelligence/actions/workflows/power-bi-turnaround.yml/badge.svg?branch=main&event=push)](https://github.com/nurah-kamal/business-intelligence/actions/workflows/power-bi-turnaround.yml) 5 tests
+
 **The SA Turnaround analysis rebuilt as a Power BI model: a star schema, a date table that knows every South African public holiday, and 23 measures that count turnaround in working days. Every figure on the report matches the SQL version to the request.**
 
 The original project, with the working-day library and the SQL, is at [reporting/sa-turnaround](https://github.com/nurah-kamal/reporting/tree/main/sa-turnaround). This one asks the same question in the tool most BI teams use.

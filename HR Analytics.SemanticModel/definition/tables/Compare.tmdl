@@ -7,10 +7,10 @@ table Compare
 		calculationItem 'This period' = SELECTEDMEASURE ()
 			ordinal: 0
 
-		calculationItem 'Same period last year' = CALCULATE ( SELECTEDMEASURE (), SAMEPERIODLASTYEAR ( 'Date'[Date] ) )
+		calculationItem 'Last year' = CALCULATE ( SELECTEDMEASURE (), SAMEPERIODLASTYEAR ( 'Date'[Date] ) )
 			ordinal: 1
 
-		calculationItem 'Change on last year' =
+		calculationItem Change =
 				VAR _now = SELECTEDMEASURE ()
 				VAR _then = CALCULATE ( SELECTEDMEASURE (), SAMEPERIODLASTYEAR ( 'Date'[Date] ) )
 				RETURN IF ( NOT ISBLANK ( _now ) && NOT ISBLANK ( _then ), _now - _then )

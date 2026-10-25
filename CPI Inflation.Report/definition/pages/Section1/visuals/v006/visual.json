@@ -2,35 +2,17 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "v006",
   "position": {
-    "x": 324,
-    "y": 24,
+    "x": 648,
+    "y": 148,
     "z": 6000,
-    "height": 600,
-    "width": 932
+    "height": 80,
+    "width": 292
   },
   "visual": {
-    "visualType": "lineChart",
+    "visualType": "card",
     "query": {
       "queryState": {
-        "Category": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Date"
-                    }
-                  },
-                  "Property": "Month"
-                }
-              },
-              "queryRef": "Date.Month",
-              "active": true
-            }
-          ]
-        },
-        "Y": {
+        "Values": {
           "projections": [
             {
               "field": {
@@ -40,63 +22,44 @@
                       "Entity": "CPI"
                     }
                   },
-                  "Property": "Official Rate"
+                  "Property": "Months Above 10%"
                 }
               },
-              "queryRef": "CPI.Official Rate"
-            },
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "CPI"
-                    }
-                  },
-                  "Property": "Official Rate 12m Average"
-                }
-              },
-              "queryRef": "CPI.Official Rate 12m Average"
+              "queryRef": "CPI.Months Above 10%"
             }
           ]
         }
-      },
-      "sortDefinition": {
-        "sort": [
-          {
-            "field": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "Date"
-                  }
-                },
-                "Property": "Month"
-              }
-            },
-            "direction": "Ascending"
-          }
-        ]
       }
     },
     "objects": {
-      "valueAxis": [
+      "labels": [
         {
           "properties": {
-            "showAxisTitle": {
+            "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "24D"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1F3A5F'"
+                    }
+                  }
                 }
               }
             }
           }
         }
       ],
-      "categoryAxis": [
+      "categoryLabels": [
         {
           "properties": {
-            "showAxisTitle": {
+            "show": {
               "expr": {
                 "Literal": {
                   "Value": "false"
@@ -121,7 +84,76 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Headline CPI, % year on year, and its 12-month average, 1969 to 2026'"
+                  "Value": "'Months above 10%'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#5B6B7D'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

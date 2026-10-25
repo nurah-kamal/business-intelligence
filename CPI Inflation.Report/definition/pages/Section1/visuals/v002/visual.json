@@ -2,138 +2,68 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "v002",
   "position": {
-    "x": 20,
-    "y": 340,
+    "x": 28,
+    "y": 16,
     "z": 2000,
-    "height": 72,
-    "width": 260
+    "height": 104,
+    "width": 820
   },
   "visual": {
-    "visualType": "card",
-    "query": {
-      "queryState": {
-        "Values": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "CPI"
-                    }
-                  },
-                  "Property": "Latest Rate"
-                }
-              },
-              "queryRef": "CPI.Latest Rate"
-            }
-          ]
-        }
-      }
-    },
+    "visualType": "textbox",
     "objects": {
-      "labels": [
+      "general": [
         {
           "properties": {
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "22D"
-                }
-              }
-            },
-            "color": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#FFFFFF'"
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "SOUTH AFRICAN INFLATION",
+                    "textStyle": {
+                      "fontSize": "9pt",
+                      "fontWeight": "bold",
+                      "color": "#E9A23B"
                     }
                   }
-                }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Inflation has halved since targeting began",
+                    "textStyle": {
+                      "fontSize": "22pt",
+                      "fontWeight": "bold",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Headline CPI averaged 11.2% a year before February 2000 and 5.4% since. It last went above 10% in November 2008.",
+                    "textStyle": {
+                      "fontSize": "10.5pt",
+                      "fontWeight": "normal",
+                      "color": "#D5E0EA"
+                    }
+                  }
+                ]
               }
-            }
-          }
-        }
-      ],
-      "categoryLabels": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
+            ]
           }
         }
       ]
     },
     "visualContainerObjects": {
-      "title": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Latest rate, September 2026'"
-                }
-              }
-            },
-            "fontColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#C9D6E3'"
-                    }
-                  }
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "10D"
-                }
-              }
-            }
-          }
-        }
-      ],
       "background": [
         {
           "properties": {
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "color": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#1F3A5F'"
-                    }
-                  }
-                }
-              }
-            },
-            "transparency": {
-              "expr": {
-                "Literal": {
-                  "Value": "0D"
+                  "Value": "false"
                 }
               }
             }
@@ -153,7 +83,6 @@
           }
         }
       ]
-    },
-    "drillFilterOtherVisuals": true
+    }
   }
 }

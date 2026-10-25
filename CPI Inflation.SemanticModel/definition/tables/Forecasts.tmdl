@@ -38,6 +38,11 @@ table Forecasts
 		displayFolder: 2 Backtest
 		lineageTag: 1c965711-d03b-4309-8e37-f2651bbc6a3f
 
+	/// Skill against no change for the Ridge model only, whatever method is selected.
+	measure 'Ridge Skill vs No Change' = CALCULATE ( [Skill vs No Change], REMOVEFILTERS ( Method ), Method[Method] = "Ridge on recent changes" )
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 2 Backtest
+
 	/// The biggest single miss in the period, in percentage points.
 	measure 'Largest Miss' = MAXX ( Forecasts, ABS ( Forecasts[Forecast] - Forecasts[Actual] ) )
 		formatString: 0.00

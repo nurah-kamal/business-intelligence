@@ -2,138 +2,93 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "v003",
   "position": {
-    "x": 20,
-    "y": 424,
+    "x": 860,
+    "y": 16,
     "z": 3000,
-    "height": 72,
-    "width": 260
+    "height": 32,
+    "width": 384
   },
   "visual": {
-    "visualType": "card",
-    "query": {
-      "queryState": {
-        "Values": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "CPI"
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "1  History",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "fontWeight": "bold",
+                      "color": "#E9A23B"
                     }
                   },
-                  "Property": "Peak Rate"
-                }
-              },
-              "queryRef": "CPI.Peak Rate"
-            }
-          ]
-        }
-      }
-    },
-    "objects": {
-      "labels": [
-        {
-          "properties": {
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "22D"
-                }
-              }
-            },
-            "color": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#FFFFFF'"
+                  {
+                    "value": "     ",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "fontWeight": "normal",
+                      "color": "#9FB3C8"
+                    }
+                  },
+                  {
+                    "value": "2  Backtest",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "fontWeight": "normal",
+                      "color": "#9FB3C8"
+                    }
+                  },
+                  {
+                    "value": "     ",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "fontWeight": "normal",
+                      "color": "#9FB3C8"
+                    }
+                  },
+                  {
+                    "value": "3  Forecasts",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "fontWeight": "normal",
+                      "color": "#9FB3C8"
+                    }
+                  },
+                  {
+                    "value": "     ",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "fontWeight": "normal",
+                      "color": "#9FB3C8"
+                    }
+                  },
+                  {
+                    "value": "4  Misses",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "fontWeight": "normal",
+                      "color": "#9FB3C8"
                     }
                   }
-                }
+                ],
+                "horizontalTextAlignment": "right"
               }
-            }
-          }
-        }
-      ],
-      "categoryLabels": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
+            ]
           }
         }
       ]
     },
     "visualContainerObjects": {
-      "title": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "text": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Peak rate'"
-                }
-              }
-            },
-            "fontColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#C9D6E3'"
-                    }
-                  }
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "10D"
-                }
-              }
-            }
-          }
-        }
-      ],
       "background": [
         {
           "properties": {
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "color": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#1F3A5F'"
-                    }
-                  }
-                }
-              }
-            },
-            "transparency": {
-              "expr": {
-                "Literal": {
-                  "Value": "0D"
+                  "Value": "false"
                 }
               }
             }
@@ -153,7 +108,6 @@
           }
         }
       ]
-    },
-    "drillFilterOtherVisuals": true
+    }
   }
 }

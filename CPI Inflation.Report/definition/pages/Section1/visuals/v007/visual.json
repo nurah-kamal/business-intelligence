@@ -2,31 +2,78 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "v007",
   "position": {
-    "x": 324,
-    "y": 640,
+    "x": 956,
+    "y": 148,
     "z": 7000,
-    "height": 56,
-    "width": 932
+    "height": 80,
+    "width": 292
   },
   "visual": {
-    "visualType": "textbox",
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Date"
+                    }
+                  },
+                  "Property": "Era"
+                }
+              },
+              "queryRef": "Date.Era",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
     "objects": {
-      "general": [
+      "data": [
         {
           "properties": {
-            "paragraphs": [
-              {
-                "textRuns": [
-                  {
-                    "value": "Source: Statistics South Africa, P0141 Consumer Price Index, CPI History (September 2026 release). The forecasts and every result here are my own processing of that data.",
-                    "textStyle": {
-                      "fontSize": "9.5pt",
-                      "color": "#4A5B6E"
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "header": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Era'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#5B6B7D'"
                     }
                   }
-                ]
+                }
               }
-            ]
+            }
           }
         }
       ]
@@ -38,7 +85,25 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
                 }
               }
             }
@@ -58,6 +123,7 @@
           }
         }
       ]
-    }
+    },
+    "drillFilterOtherVisuals": true
   }
 }

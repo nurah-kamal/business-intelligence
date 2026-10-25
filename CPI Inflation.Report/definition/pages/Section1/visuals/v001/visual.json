@@ -5,8 +5,8 @@
     "x": 0,
     "y": 0,
     "z": 1000,
-    "height": 720,
-    "width": 300
+    "height": 128,
+    "width": 1280
   },
   "visual": {
     "visualType": "textbox",
@@ -18,59 +18,11 @@
               {
                 "textRuns": [
                   {
-                    "value": "CPI INFLATION · 1 OF 4",
-                    "textStyle": {
-                      "fontSize": "9pt",
-                      "fontWeight": "bold",
-                      "color": "#E9A23B"
-                    }
-                  }
-                ]
-              },
-              {
-                "textRuns": [
-                  {
                     "value": " ",
                     "textStyle": {
                       "fontSize": "6pt",
                       "fontWeight": "normal",
-                      "color": "#C9D6E3"
-                    }
-                  }
-                ]
-              },
-              {
-                "textRuns": [
-                  {
-                    "value": "Inflation has halved since targeting began",
-                    "textStyle": {
-                      "fontSize": "20pt",
-                      "fontWeight": "bold",
-                      "color": "#FFFFFF"
-                    }
-                  }
-                ]
-              },
-              {
-                "textRuns": [
-                  {
-                    "value": " ",
-                    "textStyle": {
-                      "fontSize": "6pt",
-                      "fontWeight": "normal",
-                      "color": "#C9D6E3"
-                    }
-                  }
-                ]
-              },
-              {
-                "textRuns": [
-                  {
-                    "value": "Stats SA's headline rate averaged 11.2% a year before inflation targeting began in February 2000, and 5.4% since. It last went above 10% in November 2008.",
-                    "textStyle": {
-                      "fontSize": "10.5pt",
-                      "fontWeight": "normal",
-                      "color": "#C9D6E3"
+                      "color": "#1F3A5F"
                     }
                   }
                 ]

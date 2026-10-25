@@ -2,52 +2,16 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "v014",
   "position": {
-    "x": 324,
-    "y": 470,
+    "x": 32,
+    "y": 148,
     "z": 14000,
-    "height": 226,
-    "width": 932
+    "height": 80,
+    "width": 292
   },
   "visual": {
-    "visualType": "pivotTable",
+    "visualType": "card",
     "query": {
       "queryState": {
-        "Rows": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Method"
-                    }
-                  },
-                  "Property": "Short Name"
-                }
-              },
-              "queryRef": "Method.Short Name",
-              "active": true
-            }
-          ]
-        },
-        "Columns": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Horizon"
-                    }
-                  },
-                  "Property": "Months Ahead"
-                }
-              },
-              "queryRef": "Horizon.Months Ahead",
-              "active": true
-            }
-          ]
-        },
         "Values": {
           "projections": [
             {
@@ -58,62 +22,47 @@
                       "Entity": "Forecasts"
                     }
                   },
-                  "Property": "Skill vs No Change"
+                  "Property": "Ridge MAE (Shown)"
                 }
               },
-              "queryRef": "Forecasts.Skill vs No Change"
+              "queryRef": "Forecasts.Ridge MAE (Shown)"
             }
           ]
         }
       }
     },
     "objects": {
-      "values": [
+      "labels": [
         {
           "properties": {
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "13D"
+                  "Value": "24D"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#1F3A5F'"
+                    }
+                  }
                 }
               }
             }
           }
         }
       ],
-      "columnHeaders": [
+      "categoryLabels": [
         {
           "properties": {
-            "fontSize": {
+            "show": {
               "expr": {
                 "Literal": {
-                  "Value": "13D"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "rowHeaders": [
-        {
-          "properties": {
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "13D"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "grid": [
-        {
-          "properties": {
-            "rowPadding": {
-              "expr": {
-                "Literal": {
-                  "Value": "6D"
+                  "Value": "false"
                 }
               }
             }
@@ -135,7 +84,76 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Skill against no change: how much smaller the error is (above zero is better)'"
+                  "Value": "'Ridge error, points'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#5B6B7D'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

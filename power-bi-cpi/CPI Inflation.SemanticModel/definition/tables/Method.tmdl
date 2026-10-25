@@ -1,0 +1,36 @@
+/// The three forecasting methods.
+table Method
+	lineageTag: ffe35afb-0dbd-4705-99fa-41ac67f88601
+
+	column Method
+		dataType: string
+		lineageTag: efa8e84e-c5d3-44d5-8e3b-f5e8cddb84e2
+		summarizeBy: none
+		sourceColumn: Method
+		sortByColumn: 'Method Sort'
+
+	column 'Short Name'
+		dataType: string
+		lineageTag: c3d627a8-184c-455b-9a89-fd9002bd9c00
+		summarizeBy: none
+		sourceColumn: Short Name
+		sortByColumn: 'Method Sort'
+
+	column 'Method Sort'
+		dataType: int64
+		isHidden
+		lineageTag: 55986499-3f8c-4d74-ba65-b784a42114e4
+		summarizeBy: none
+		sourceColumn: Method Sort
+
+	partition Method = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "method.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Renamed = Table.RenameColumns(Promoted, {{"method", "Method"}, {"short_name", "Short Name"}, {"sort_order", "Method Sort"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Method", type text}, {"Short Name", type text}, {"Method Sort", Int64.Type}})
+				in
+				    Typed
+

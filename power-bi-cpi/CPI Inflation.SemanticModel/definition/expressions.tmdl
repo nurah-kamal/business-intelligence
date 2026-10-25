@@ -1,0 +1,4 @@
+/// Folder holding the CSVs made by scripts/make_data.py, ending in a backslash.
+expression DataFolder = "C:\Users\user\Desktop\cpi-inflation-powerbi\data\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: bf64e809-9202-4bf0-902c-57c7cffb2ccd
+

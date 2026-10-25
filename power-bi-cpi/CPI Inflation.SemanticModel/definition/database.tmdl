@@ -1,0 +1,6 @@
+/// South African headline CPI from Stats SA, and a backtest of three inflation forecasts.
+database 'CPI Inflation'
+	compatibilityLevel: 1606
+	compatibilityMode: powerBI
+	language: 1033
+

@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.log
+# Power BI per-user files inside a .pbip project
+**/.pbi/localSettings.json
+**/.pbi/cache.abf

@@ -5,6 +5,7 @@
 | Project | What it is | Built with |
 | --- | --- | --- |
 | [Power BI Turnaround](power-bi-turnaround/) | The SA Turnaround analysis rebuilt as a Power BI model: a star schema, a date table that knows every South African public holiday, 23 DAX measures and four report pages. Every figure matches the SQL version, and tests check that. | Power BI, DAX |
+| [CPI Inflation](power-bi-cpi/) | Fifty-seven years of Stats SA headline CPI and a backtest of three inflation forecasts, as a four-page Power BI story. No model beats "it stays where it is", and the report shows where and why. Every error matches the published backtest, and tests check that. | Power BI, DAX, Python |
 | [Tableau](tableau/) | Three Tableau dashboards: South African HR on synthetic data, data science salaries, and sales performance. | Tableau |
 
 The report itself, with the working-day library and the SQL behind it, is in [reporting](https://github.com/nurah-kamal/reporting/tree/main/sa-turnaround).

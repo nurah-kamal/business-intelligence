@@ -1,0 +1,39 @@
+{
+  "name": "CPI Inflation",
+  "dataColors": ["#1F3A5F", "#2A9D8F", "#E9A23B", "#7A8CA3", "#C8553D", "#9DB4C0", "#264653", "#F4D58D"],
+  "foreground": "#1B2A3A",
+  "foregroundNeutralSecondary": "#4A5B6E",
+  "foregroundNeutralTertiary": "#8796A8",
+  "background": "#FFFFFF",
+  "backgroundLight": "#F3F6F9",
+  "backgroundNeutral": "#DCE4EC",
+  "tableAccent": "#2A9D8F",
+  "good": "#2A9D8F",
+  "neutral": "#E9A23B",
+  "bad": "#C8553D",
+  "maximum": "#1F3A5F",
+  "center": "#7A8CA3",
+  "minimum": "#DCE4EC",
+  "hyperlink": "#2A9D8F",
+  "visitedHyperlink": "#1F3A5F",
+  "textClasses": {
+    "callout": { "fontSize": 28, "fontFace": "Segoe UI Semibold", "color": "#1F3A5F" },
+    "title": { "fontSize": 13, "fontFace": "Segoe UI Semibold", "color": "#1B2A3A" },
+    "header": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#1B2A3A" },
+    "label": { "fontSize": 10, "fontFace": "Segoe UI", "color": "#1B2A3A" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": false, "radius": 10 }],
+        "dropShadow": [{ "show": false }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#EDF1F5" } }, "transparency": 0 }]
+      }
+    }
+  }
+}

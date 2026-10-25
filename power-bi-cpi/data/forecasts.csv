@@ -1,0 +1,2347 @@
+origin,target_month,horizon,method,forecast,actual
+2010-01-01,2010-02-01,1,Ridge on recent changes,6.1365,5.7
+2010-01-01,2010-02-01,1,No change (last rate),6.2,5.7
+2010-01-01,2010-02-01,1,Average of last 12 months,6.9833,5.7
+2010-02-01,2010-03-01,1,Ridge on recent changes,5.5558,5.1
+2010-02-01,2010-03-01,1,No change (last rate),5.7,5.1
+2010-02-01,2010-03-01,1,Average of last 12 months,6.7417,5.1
+2010-03-01,2010-04-01,1,Ridge on recent changes,4.906,4.8
+2010-03-01,2010-04-01,1,No change (last rate),5.1,4.8
+2010-03-01,2010-04-01,1,Average of last 12 months,6.4583,4.8
+2010-04-01,2010-05-01,1,Ridge on recent changes,4.6809,4.6
+2010-04-01,2010-05-01,1,No change (last rate),4.8,4.6
+2010-04-01,2010-05-01,1,Average of last 12 months,6.1583,4.6
+2010-05-01,2010-06-01,1,Ridge on recent changes,4.5067,4.1
+2010-05-01,2010-06-01,1,No change (last rate),4.6,4.1
+2010-05-01,2010-06-01,1,Average of last 12 months,5.875,4.1
+2010-06-01,2010-07-01,1,Ridge on recent changes,3.872,3.7
+2010-06-01,2010-07-01,1,No change (last rate),4.1,3.7
+2010-06-01,2010-07-01,1,Average of last 12 months,5.6417,3.7
+2010-07-01,2010-08-01,1,Ridge on recent changes,3.5851,3.5
+2010-07-01,2010-08-01,1,No change (last rate),3.7,3.5
+2010-07-01,2010-08-01,1,Average of last 12 months,5.3917,3.5
+2010-08-01,2010-09-01,1,Ridge on recent changes,3.4395,3.2
+2010-08-01,2010-09-01,1,No change (last rate),3.5,3.2
+2010-08-01,2010-09-01,1,Average of last 12 months,5.15,3.2
+2010-09-01,2010-10-01,1,Ridge on recent changes,3.1536,3.4
+2010-09-01,2010-10-01,1,No change (last rate),3.2,3.4
+2010-09-01,2010-10-01,1,Average of last 12 months,4.9083,3.4
+2010-10-01,2010-11-01,1,Ridge on recent changes,3.4767,3.6
+2010-10-01,2010-11-01,1,No change (last rate),3.4,3.6
+2010-10-01,2010-11-01,1,Average of last 12 months,4.7,3.6
+2010-11-01,2010-12-01,1,Ridge on recent changes,3.7151,3.5
+2010-11-01,2010-12-01,1,No change (last rate),3.6,3.5
+2010-11-01,2010-12-01,1,Average of last 12 months,4.5167,3.5
+2010-12-01,2011-01-01,1,Ridge on recent changes,3.5382,3.7
+2010-12-01,2011-01-01,1,No change (last rate),3.5,3.7
+2010-12-01,2011-01-01,1,Average of last 12 months,4.2833,3.7
+2011-01-01,2011-02-01,1,Ridge on recent changes,3.8758,3.7
+2011-01-01,2011-02-01,1,No change (last rate),3.7,3.7
+2011-01-01,2011-02-01,1,Average of last 12 months,4.075,3.7
+2011-02-01,2011-03-01,1,Ridge on recent changes,3.8131,4.1
+2011-02-01,2011-03-01,1,No change (last rate),3.7,4.1
+2011-02-01,2011-03-01,1,Average of last 12 months,3.9083,4.1
+2011-03-01,2011-04-01,1,Ridge on recent changes,4.4446,4.2
+2011-03-01,2011-04-01,1,No change (last rate),4.1,4.2
+2011-03-01,2011-04-01,1,Average of last 12 months,3.825,4.2
+2011-04-01,2011-05-01,1,Ridge on recent changes,4.4145,4.6
+2011-04-01,2011-05-01,1,No change (last rate),4.2,4.6
+2011-04-01,2011-05-01,1,Average of last 12 months,3.775,4.6
+2011-05-01,2011-06-01,1,Ridge on recent changes,4.9351,5.0
+2011-05-01,2011-06-01,1,No change (last rate),4.6,5.0
+2011-05-01,2011-06-01,1,Average of last 12 months,3.775,5.0
+2011-06-01,2011-07-01,1,Ridge on recent changes,5.2407,5.3
+2011-06-01,2011-07-01,1,No change (last rate),5.0,5.3
+2011-06-01,2011-07-01,1,Average of last 12 months,3.85,5.3
+2011-07-01,2011-08-01,1,Ridge on recent changes,5.5599,5.3
+2011-07-01,2011-08-01,1,No change (last rate),5.3,5.3
+2011-07-01,2011-08-01,1,Average of last 12 months,3.9833,5.3
+2011-08-01,2011-09-01,1,Ridge on recent changes,5.3807,5.7
+2011-08-01,2011-09-01,1,No change (last rate),5.3,5.7
+2011-08-01,2011-09-01,1,Average of last 12 months,4.1333,5.7
+2011-09-01,2011-10-01,1,Ridge on recent changes,5.9018,6.0
+2011-09-01,2011-10-01,1,No change (last rate),5.7,6.0
+2011-09-01,2011-10-01,1,Average of last 12 months,4.3417,6.0
+2011-10-01,2011-11-01,1,Ridge on recent changes,6.1041,6.1
+2011-10-01,2011-11-01,1,No change (last rate),6.0,6.1
+2011-10-01,2011-11-01,1,Average of last 12 months,4.5583,6.1
+2011-11-01,2011-12-01,1,Ridge on recent changes,6.1608,6.1
+2011-11-01,2011-12-01,1,No change (last rate),6.1,6.1
+2011-11-01,2011-12-01,1,Average of last 12 months,4.7667,6.1
+2011-12-01,2012-01-01,1,Ridge on recent changes,6.0648,6.3
+2011-12-01,2012-01-01,1,No change (last rate),6.1,6.3
+2011-12-01,2012-01-01,1,Average of last 12 months,4.9833,6.3
+2012-01-01,2012-02-01,1,Ridge on recent changes,6.3438,6.1
+2012-01-01,2012-02-01,1,No change (last rate),6.3,6.1
+2012-01-01,2012-02-01,1,Average of last 12 months,5.2,6.1
+2012-02-01,2012-03-01,1,Ridge on recent changes,6.0218,6.0
+2012-02-01,2012-03-01,1,No change (last rate),6.1,6.0
+2012-02-01,2012-03-01,1,Average of last 12 months,5.4,6.0
+2012-03-01,2012-04-01,1,Ridge on recent changes,6.0338,6.1
+2012-03-01,2012-04-01,1,No change (last rate),6.0,6.1
+2012-03-01,2012-04-01,1,Average of last 12 months,5.5583,6.1
+2012-04-01,2012-05-01,1,Ridge on recent changes,6.1654,5.7
+2012-04-01,2012-05-01,1,No change (last rate),6.1,5.7
+2012-04-01,2012-05-01,1,Average of last 12 months,5.7167,5.7
+2012-05-01,2012-06-01,1,Ridge on recent changes,5.5784,5.5
+2012-05-01,2012-06-01,1,No change (last rate),5.7,5.5
+2012-05-01,2012-06-01,1,Average of last 12 months,5.8083,5.5
+2012-06-01,2012-07-01,1,Ridge on recent changes,5.3797,4.9
+2012-06-01,2012-07-01,1,No change (last rate),5.5,4.9
+2012-06-01,2012-07-01,1,Average of last 12 months,5.85,4.9
+2012-07-01,2012-08-01,1,Ridge on recent changes,4.5842,5.0
+2012-07-01,2012-08-01,1,No change (last rate),4.9,5.0
+2012-07-01,2012-08-01,1,Average of last 12 months,5.8167,5.0
+2012-08-01,2012-09-01,1,Ridge on recent changes,4.9689,5.5
+2012-08-01,2012-09-01,1,No change (last rate),5.0,5.5
+2012-08-01,2012-09-01,1,Average of last 12 months,5.7917,5.5
+2012-09-01,2012-10-01,1,Ridge on recent changes,5.6708,5.6
+2012-09-01,2012-10-01,1,No change (last rate),5.5,5.6
+2012-09-01,2012-10-01,1,Average of last 12 months,5.775,5.6
+2012-10-01,2012-11-01,1,Ridge on recent changes,5.7404,5.6
+2012-10-01,2012-11-01,1,No change (last rate),5.6,5.6
+2012-10-01,2012-11-01,1,Average of last 12 months,5.7417,5.6
+2012-11-01,2012-12-01,1,Ridge on recent changes,5.6999,5.7
+2012-11-01,2012-12-01,1,No change (last rate),5.6,5.7
+2012-11-01,2012-12-01,1,Average of last 12 months,5.7,5.7
+2012-12-01,2013-01-01,1,Ridge on recent changes,5.7338,5.4
+2012-12-01,2013-01-01,1,No change (last rate),5.7,5.4
+2012-12-01,2013-01-01,1,Average of last 12 months,5.6667,5.4
+2013-01-01,2013-02-01,1,Ridge on recent changes,5.2778,5.9
+2013-01-01,2013-02-01,1,No change (last rate),5.4,5.9
+2013-01-01,2013-02-01,1,Average of last 12 months,5.5917,5.9
+2013-02-01,2013-03-01,1,Ridge on recent changes,6.0827,5.9
+2013-02-01,2013-03-01,1,No change (last rate),5.9,5.9
+2013-02-01,2013-03-01,1,Average of last 12 months,5.575,5.9
+2013-03-01,2013-04-01,1,Ridge on recent changes,6.0091,5.9
+2013-03-01,2013-04-01,1,No change (last rate),5.9,5.9
+2013-03-01,2013-04-01,1,Average of last 12 months,5.5667,5.9
+2013-04-01,2013-05-01,1,Ridge on recent changes,6.0304,5.6
+2013-04-01,2013-05-01,1,No change (last rate),5.9,5.6
+2013-04-01,2013-05-01,1,Average of last 12 months,5.55,5.6
+2013-05-01,2013-06-01,1,Ridge on recent changes,5.4868,5.5
+2013-05-01,2013-06-01,1,No change (last rate),5.6,5.5
+2013-05-01,2013-06-01,1,Average of last 12 months,5.5417,5.5
+2013-06-01,2013-07-01,1,Ridge on recent changes,5.3797,6.3
+2013-06-01,2013-07-01,1,No change (last rate),5.5,6.3
+2013-06-01,2013-07-01,1,Average of last 12 months,5.5417,6.3
+2013-07-01,2013-08-01,1,Ridge on recent changes,6.5383,6.4
+2013-07-01,2013-08-01,1,No change (last rate),6.3,6.4
+2013-07-01,2013-08-01,1,Average of last 12 months,5.6583,6.4
+2013-08-01,2013-09-01,1,Ridge on recent changes,6.4961,6.0
+2013-08-01,2013-09-01,1,No change (last rate),6.4,6.0
+2013-08-01,2013-09-01,1,Average of last 12 months,5.775,6.0
+2013-09-01,2013-10-01,1,Ridge on recent changes,5.948,5.5
+2013-09-01,2013-10-01,1,No change (last rate),6.0,5.5
+2013-09-01,2013-10-01,1,Average of last 12 months,5.8167,5.5
+2013-10-01,2013-11-01,1,Ridge on recent changes,5.2747,5.3
+2013-10-01,2013-11-01,1,No change (last rate),5.5,5.3
+2013-10-01,2013-11-01,1,Average of last 12 months,5.8083,5.3
+2013-11-01,2013-12-01,1,Ridge on recent changes,5.1451,5.4
+2013-11-01,2013-12-01,1,No change (last rate),5.3,5.4
+2013-11-01,2013-12-01,1,Average of last 12 months,5.7833,5.4
+2013-12-01,2014-01-01,1,Ridge on recent changes,5.3648,5.8
+2013-12-01,2014-01-01,1,No change (last rate),5.4,5.8
+2013-12-01,2014-01-01,1,Average of last 12 months,5.7583,5.8
+2014-01-01,2014-02-01,1,Ridge on recent changes,5.9345,5.9
+2014-01-01,2014-02-01,1,No change (last rate),5.8,5.9
+2014-01-01,2014-02-01,1,Average of last 12 months,5.7917,5.9
+2014-02-01,2014-03-01,1,Ridge on recent changes,6.0227,6.0
+2014-02-01,2014-03-01,1,No change (last rate),5.9,6.0
+2014-02-01,2014-03-01,1,Average of last 12 months,5.7917,6.0
+2014-03-01,2014-04-01,1,Ridge on recent changes,6.185,6.1
+2014-03-01,2014-04-01,1,No change (last rate),6.0,6.1
+2014-03-01,2014-04-01,1,Average of last 12 months,5.8,6.1
+2014-04-01,2014-05-01,1,Ridge on recent changes,6.2417,6.6
+2014-04-01,2014-05-01,1,No change (last rate),6.1,6.6
+2014-04-01,2014-05-01,1,Average of last 12 months,5.8167,6.6
+2014-05-01,2014-06-01,1,Ridge on recent changes,6.8076,6.6
+2014-05-01,2014-06-01,1,No change (last rate),6.6,6.6
+2014-05-01,2014-06-01,1,Average of last 12 months,5.9,6.6
+2014-06-01,2014-07-01,1,Ridge on recent changes,6.5693,6.3
+2014-06-01,2014-07-01,1,No change (last rate),6.6,6.3
+2014-06-01,2014-07-01,1,Average of last 12 months,5.9917,6.3
+2014-07-01,2014-08-01,1,Ridge on recent changes,6.1911,6.4
+2014-07-01,2014-08-01,1,No change (last rate),6.3,6.4
+2014-07-01,2014-08-01,1,Average of last 12 months,5.9917,6.4
+2014-08-01,2014-09-01,1,Ridge on recent changes,6.4084,5.9
+2014-08-01,2014-09-01,1,No change (last rate),6.4,5.9
+2014-08-01,2014-09-01,1,Average of last 12 months,5.9917,5.9
+2014-09-01,2014-10-01,1,Ridge on recent changes,5.6822,5.9
+2014-09-01,2014-10-01,1,No change (last rate),5.9,5.9
+2014-09-01,2014-10-01,1,Average of last 12 months,5.9833,5.9
+2014-10-01,2014-11-01,1,Ridge on recent changes,5.8062,5.8
+2014-10-01,2014-11-01,1,No change (last rate),5.9,5.8
+2014-10-01,2014-11-01,1,Average of last 12 months,6.0167,5.8
+2014-11-01,2014-12-01,1,Ridge on recent changes,5.6319,5.3
+2014-11-01,2014-12-01,1,No change (last rate),5.8,5.3
+2014-11-01,2014-12-01,1,Average of last 12 months,6.0583,5.3
+2014-12-01,2015-01-01,1,Ridge on recent changes,5.0285,4.4
+2014-12-01,2015-01-01,1,No change (last rate),5.3,4.4
+2014-12-01,2015-01-01,1,Average of last 12 months,6.05,4.4
+2015-01-01,2015-02-01,1,Ridge on recent changes,3.9512,3.9
+2015-01-01,2015-02-01,1,No change (last rate),4.4,3.9
+2015-01-01,2015-02-01,1,Average of last 12 months,5.9333,3.9
+2015-02-01,2015-03-01,1,Ridge on recent changes,3.6282,4.0
+2015-02-01,2015-03-01,1,No change (last rate),3.9,4.0
+2015-02-01,2015-03-01,1,Average of last 12 months,5.7667,4.0
+2015-03-01,2015-04-01,1,Ridge on recent changes,4.08,4.5
+2015-03-01,2015-04-01,1,No change (last rate),4.0,4.5
+2015-03-01,2015-04-01,1,Average of last 12 months,5.6,4.5
+2015-04-01,2015-05-01,1,Ridge on recent changes,4.8999,4.6
+2015-04-01,2015-05-01,1,No change (last rate),4.5,4.6
+2015-04-01,2015-05-01,1,Average of last 12 months,5.4667,4.6
+2015-05-01,2015-06-01,1,Ridge on recent changes,4.8623,4.7
+2015-05-01,2015-06-01,1,No change (last rate),4.6,4.7
+2015-05-01,2015-06-01,1,Average of last 12 months,5.3,4.7
+2015-06-01,2015-07-01,1,Ridge on recent changes,4.8581,5.0
+2015-06-01,2015-07-01,1,No change (last rate),4.7,5.0
+2015-06-01,2015-07-01,1,Average of last 12 months,5.1417,5.0
+2015-07-01,2015-08-01,1,Ridge on recent changes,5.2049,4.6
+2015-07-01,2015-08-01,1,No change (last rate),5.0,4.6
+2015-07-01,2015-08-01,1,Average of last 12 months,5.0333,4.6
+2015-08-01,2015-09-01,1,Ridge on recent changes,4.5404,4.6
+2015-08-01,2015-09-01,1,No change (last rate),4.6,4.6
+2015-08-01,2015-09-01,1,Average of last 12 months,4.8833,4.6
+2015-09-01,2015-10-01,1,Ridge on recent changes,4.6373,4.7
+2015-09-01,2015-10-01,1,No change (last rate),4.6,4.7
+2015-09-01,2015-10-01,1,Average of last 12 months,4.775,4.7
+2015-10-01,2015-11-01,1,Ridge on recent changes,4.6892,4.8
+2015-10-01,2015-11-01,1,No change (last rate),4.7,4.8
+2015-10-01,2015-11-01,1,Average of last 12 months,4.675,4.8
+2015-11-01,2015-12-01,1,Ridge on recent changes,4.8186,5.2
+2015-11-01,2015-12-01,1,No change (last rate),4.8,5.2
+2015-11-01,2015-12-01,1,Average of last 12 months,4.5917,5.2
+2015-12-01,2016-01-01,1,Ridge on recent changes,5.3378,6.2
+2015-12-01,2016-01-01,1,No change (last rate),5.2,6.2
+2015-12-01,2016-01-01,1,Average of last 12 months,4.5833,6.2
+2016-01-01,2016-02-01,1,Ridge on recent changes,6.6009,7.0
+2016-01-01,2016-02-01,1,No change (last rate),6.2,7.0
+2016-01-01,2016-02-01,1,Average of last 12 months,4.7333,7.0
+2016-02-01,2016-03-01,1,Ridge on recent changes,7.4298,6.3
+2016-02-01,2016-03-01,1,No change (last rate),7.0,6.3
+2016-02-01,2016-03-01,1,Average of last 12 months,4.9917,6.3
+2016-03-01,2016-04-01,1,Ridge on recent changes,6.2203,6.2
+2016-03-01,2016-04-01,1,No change (last rate),6.3,6.2
+2016-03-01,2016-04-01,1,Average of last 12 months,5.1833,6.2
+2016-04-01,2016-05-01,1,Ridge on recent changes,6.2448,6.1
+2016-04-01,2016-05-01,1,No change (last rate),6.2,6.1
+2016-04-01,2016-05-01,1,Average of last 12 months,5.325,6.1
+2016-05-01,2016-06-01,1,Ridge on recent changes,6.0148,6.3
+2016-05-01,2016-06-01,1,No change (last rate),6.1,6.3
+2016-05-01,2016-06-01,1,Average of last 12 months,5.45,6.3
+2016-06-01,2016-07-01,1,Ridge on recent changes,6.3587,6.0
+2016-06-01,2016-07-01,1,No change (last rate),6.3,6.0
+2016-06-01,2016-07-01,1,Average of last 12 months,5.5833,6.0
+2016-07-01,2016-08-01,1,Ridge on recent changes,5.8934,5.9
+2016-07-01,2016-08-01,1,No change (last rate),6.0,5.9
+2016-07-01,2016-08-01,1,Average of last 12 months,5.6667,5.9
+2016-08-01,2016-09-01,1,Ridge on recent changes,5.8461,6.1
+2016-08-01,2016-09-01,1,No change (last rate),5.9,6.1
+2016-08-01,2016-09-01,1,Average of last 12 months,5.775,6.1
+2016-09-01,2016-10-01,1,Ridge on recent changes,6.1074,6.4
+2016-09-01,2016-10-01,1,No change (last rate),6.1,6.4
+2016-09-01,2016-10-01,1,Average of last 12 months,5.9,6.4
+2016-10-01,2016-11-01,1,Ridge on recent changes,6.4407,6.6
+2016-10-01,2016-11-01,1,No change (last rate),6.4,6.6
+2016-10-01,2016-11-01,1,Average of last 12 months,6.0417,6.6
+2016-11-01,2016-12-01,1,Ridge on recent changes,6.6543,6.8
+2016-11-01,2016-12-01,1,No change (last rate),6.6,6.8
+2016-11-01,2016-12-01,1,Average of last 12 months,6.1917,6.8
+2016-12-01,2017-01-01,1,Ridge on recent changes,6.8533,6.6
+2016-12-01,2017-01-01,1,No change (last rate),6.8,6.6
+2016-12-01,2017-01-01,1,Average of last 12 months,6.325,6.6
+2017-01-01,2017-02-01,1,Ridge on recent changes,6.5116,6.3
+2017-01-01,2017-02-01,1,No change (last rate),6.6,6.3
+2017-01-01,2017-02-01,1,Average of last 12 months,6.3583,6.3
+2017-02-01,2017-03-01,1,Ridge on recent changes,6.1945,6.1
+2017-02-01,2017-03-01,1,No change (last rate),6.3,6.1
+2017-02-01,2017-03-01,1,Average of last 12 months,6.3,6.1
+2017-03-01,2017-04-01,1,Ridge on recent changes,6.038,5.3
+2017-03-01,2017-04-01,1,No change (last rate),6.1,5.3
+2017-03-01,2017-04-01,1,Average of last 12 months,6.2833,5.3
+2017-04-01,2017-05-01,1,Ridge on recent changes,4.9823,5.4
+2017-04-01,2017-05-01,1,No change (last rate),5.3,5.4
+2017-04-01,2017-05-01,1,Average of last 12 months,6.2083,5.4
+2017-05-01,2017-06-01,1,Ridge on recent changes,5.3716,5.1
+2017-05-01,2017-06-01,1,No change (last rate),5.4,5.1
+2017-05-01,2017-06-01,1,Average of last 12 months,6.15,5.1
+2017-06-01,2017-07-01,1,Ridge on recent changes,4.9237,4.6
+2017-06-01,2017-07-01,1,No change (last rate),5.1,4.6
+2017-06-01,2017-07-01,1,Average of last 12 months,6.05,4.6
+2017-07-01,2017-08-01,1,Ridge on recent changes,4.4206,4.8
+2017-07-01,2017-08-01,1,No change (last rate),4.6,4.8
+2017-07-01,2017-08-01,1,Average of last 12 months,5.9333,4.8
+2017-08-01,2017-09-01,1,Ridge on recent changes,4.8394,5.1
+2017-08-01,2017-09-01,1,No change (last rate),4.8,5.1
+2017-08-01,2017-09-01,1,Average of last 12 months,5.8417,5.1
+2017-09-01,2017-10-01,1,Ridge on recent changes,5.2091,4.8
+2017-09-01,2017-10-01,1,No change (last rate),5.1,4.8
+2017-09-01,2017-10-01,1,Average of last 12 months,5.7583,4.8
+2017-10-01,2017-11-01,1,Ridge on recent changes,4.7419,4.6
+2017-10-01,2017-11-01,1,No change (last rate),4.8,4.6
+2017-10-01,2017-11-01,1,Average of last 12 months,5.625,4.6
+2017-11-01,2017-12-01,1,Ridge on recent changes,4.5549,4.7
+2017-11-01,2017-12-01,1,No change (last rate),4.6,4.7
+2017-11-01,2017-12-01,1,Average of last 12 months,5.4583,4.7
+2017-12-01,2018-01-01,1,Ridge on recent changes,4.7331,4.4
+2017-12-01,2018-01-01,1,No change (last rate),4.7,4.4
+2017-12-01,2018-01-01,1,Average of last 12 months,5.2833,4.4
+2018-01-01,2018-02-01,1,Ridge on recent changes,4.3181,4.0
+2018-01-01,2018-02-01,1,No change (last rate),4.4,4.0
+2018-01-01,2018-02-01,1,Average of last 12 months,5.1,4.0
+2018-02-01,2018-03-01,1,Ridge on recent changes,3.9318,3.8
+2018-02-01,2018-03-01,1,No change (last rate),4.0,3.8
+2018-02-01,2018-03-01,1,Average of last 12 months,4.9083,3.8
+2018-03-01,2018-04-01,1,Ridge on recent changes,3.7766,4.5
+2018-03-01,2018-04-01,1,No change (last rate),3.8,4.5
+2018-03-01,2018-04-01,1,Average of last 12 months,4.7167,4.5
+2018-04-01,2018-05-01,1,Ridge on recent changes,4.8431,4.4
+2018-04-01,2018-05-01,1,No change (last rate),4.5,4.4
+2018-04-01,2018-05-01,1,Average of last 12 months,4.65,4.4
+2018-05-01,2018-06-01,1,Ridge on recent changes,4.4637,4.6
+2018-05-01,2018-06-01,1,No change (last rate),4.4,4.6
+2018-05-01,2018-06-01,1,Average of last 12 months,4.5667,4.6
+2018-06-01,2018-07-01,1,Ridge on recent changes,4.786,5.1
+2018-06-01,2018-07-01,1,No change (last rate),4.6,5.1
+2018-06-01,2018-07-01,1,Average of last 12 months,4.525,5.1
+2018-07-01,2018-08-01,1,Ridge on recent changes,5.3489,4.9
+2018-07-01,2018-08-01,1,No change (last rate),5.1,4.9
+2018-07-01,2018-08-01,1,Average of last 12 months,4.5667,4.9
+2018-08-01,2018-09-01,1,Ridge on recent changes,4.913,4.9
+2018-08-01,2018-09-01,1,No change (last rate),4.9,4.9
+2018-08-01,2018-09-01,1,Average of last 12 months,4.575,4.9
+2018-09-01,2018-10-01,1,Ridge on recent changes,4.9604,5.1
+2018-09-01,2018-10-01,1,No change (last rate),4.9,5.1
+2018-09-01,2018-10-01,1,Average of last 12 months,4.5583,5.1
+2018-10-01,2018-11-01,1,Ridge on recent changes,5.1668,5.2
+2018-10-01,2018-11-01,1,No change (last rate),5.1,5.2
+2018-10-01,2018-11-01,1,Average of last 12 months,4.5833,5.2
+2018-11-01,2018-12-01,1,Ridge on recent changes,5.268,4.5
+2018-11-01,2018-12-01,1,No change (last rate),5.2,4.5
+2018-11-01,2018-12-01,1,Average of last 12 months,4.6333,4.5
+2018-12-01,2019-01-01,1,Ridge on recent changes,4.2684,4.0
+2018-12-01,2019-01-01,1,No change (last rate),4.5,4.0
+2018-12-01,2019-01-01,1,Average of last 12 months,4.6167,4.0
+2019-01-01,2019-02-01,1,Ridge on recent changes,3.7581,4.1
+2019-01-01,2019-02-01,1,No change (last rate),4.0,4.1
+2019-01-01,2019-02-01,1,Average of last 12 months,4.5833,4.1
+2019-02-01,2019-03-01,1,Ridge on recent changes,4.0869,4.5
+2019-02-01,2019-03-01,1,No change (last rate),4.1,4.5
+2019-02-01,2019-03-01,1,Average of last 12 months,4.5917,4.5
+2019-03-01,2019-04-01,1,Ridge on recent changes,4.706,4.4
+2019-03-01,2019-04-01,1,No change (last rate),4.5,4.4
+2019-03-01,2019-04-01,1,Average of last 12 months,4.65,4.4
+2019-04-01,2019-05-01,1,Ridge on recent changes,4.5235,4.5
+2019-04-01,2019-05-01,1,No change (last rate),4.4,4.5
+2019-04-01,2019-05-01,1,Average of last 12 months,4.6417,4.5
+2019-05-01,2019-06-01,1,Ridge on recent changes,4.6567,4.5
+2019-05-01,2019-06-01,1,No change (last rate),4.5,4.5
+2019-05-01,2019-06-01,1,Average of last 12 months,4.65,4.5
+2019-06-01,2019-07-01,1,Ridge on recent changes,4.5639,4.0
+2019-06-01,2019-07-01,1,No change (last rate),4.5,4.0
+2019-06-01,2019-07-01,1,Average of last 12 months,4.6417,4.0
+2019-07-01,2019-08-01,1,Ridge on recent changes,3.8849,4.3
+2019-07-01,2019-08-01,1,No change (last rate),4.0,4.3
+2019-07-01,2019-08-01,1,Average of last 12 months,4.55,4.3
+2019-08-01,2019-09-01,1,Ridge on recent changes,4.4387,4.1
+2019-08-01,2019-09-01,1,No change (last rate),4.3,4.1
+2019-08-01,2019-09-01,1,Average of last 12 months,4.5,4.1
+2019-09-01,2019-10-01,1,Ridge on recent changes,4.0616,3.7
+2019-09-01,2019-10-01,1,No change (last rate),4.1,3.7
+2019-09-01,2019-10-01,1,Average of last 12 months,4.4333,3.7
+2019-10-01,2019-11-01,1,Ridge on recent changes,3.611,3.6
+2019-10-01,2019-11-01,1,No change (last rate),3.7,3.6
+2019-10-01,2019-11-01,1,Average of last 12 months,4.3167,3.6
+2019-11-01,2019-12-01,1,Ridge on recent changes,3.5667,4.0
+2019-11-01,2019-12-01,1,No change (last rate),3.6,4.0
+2019-11-01,2019-12-01,1,Average of last 12 months,4.1833,4.0
+2019-12-01,2020-01-01,1,Ridge on recent changes,4.1565,4.5
+2019-12-01,2020-01-01,1,No change (last rate),4.0,4.5
+2019-12-01,2020-01-01,1,Average of last 12 months,4.1417,4.5
+2020-01-01,2020-02-01,1,Ridge on recent changes,4.7508,4.6
+2020-01-01,2020-02-01,1,No change (last rate),4.5,4.6
+2020-01-01,2020-02-01,1,Average of last 12 months,4.1833,4.6
+2020-02-01,2020-03-01,1,Ridge on recent changes,4.7729,4.1
+2020-02-01,2020-03-01,1,No change (last rate),4.6,4.1
+2020-02-01,2020-03-01,1,Average of last 12 months,4.225,4.1
+2020-03-01,2020-04-01,1,Ridge on recent changes,4.0469,3.0
+2020-03-01,2020-04-01,1,No change (last rate),4.1,3.0
+2020-03-01,2020-04-01,1,Average of last 12 months,4.1917,3.0
+2020-04-01,2020-05-01,1,Ridge on recent changes,2.6355,2.1
+2020-04-01,2020-05-01,1,No change (last rate),3.0,2.1
+2020-04-01,2020-05-01,1,Average of last 12 months,4.075,2.1
+2020-05-01,2020-06-01,1,Ridge on recent changes,1.6926,2.2
+2020-05-01,2020-06-01,1,No change (last rate),2.1,2.2
+2020-05-01,2020-06-01,1,Average of last 12 months,3.875,2.2
+2020-06-01,2020-07-01,1,Ridge on recent changes,2.195,3.2
+2020-06-01,2020-07-01,1,No change (last rate),2.2,3.2
+2020-06-01,2020-07-01,1,Average of last 12 months,3.6833,3.2
+2020-07-01,2020-08-01,1,Ridge on recent changes,3.6893,3.1
+2020-07-01,2020-08-01,1,No change (last rate),3.2,3.1
+2020-07-01,2020-08-01,1,Average of last 12 months,3.6167,3.1
+2020-08-01,2020-09-01,1,Ridge on recent changes,3.2887,3.0
+2020-08-01,2020-09-01,1,No change (last rate),3.1,3.0
+2020-08-01,2020-09-01,1,Average of last 12 months,3.5167,3.0
+2020-09-01,2020-10-01,1,Ridge on recent changes,3.1543,3.3
+2020-09-01,2020-10-01,1,No change (last rate),3.0,3.3
+2020-09-01,2020-10-01,1,Average of last 12 months,3.425,3.3
+2020-10-01,2020-11-01,1,Ridge on recent changes,3.4975,3.2
+2020-10-01,2020-11-01,1,No change (last rate),3.3,3.2
+2020-10-01,2020-11-01,1,Average of last 12 months,3.3917,3.2
+2020-11-01,2020-12-01,1,Ridge on recent changes,3.2508,3.1
+2020-11-01,2020-12-01,1,No change (last rate),3.2,3.1
+2020-11-01,2020-12-01,1,Average of last 12 months,3.3583,3.1
+2020-12-01,2021-01-01,1,Ridge on recent changes,3.154,3.2
+2020-12-01,2021-01-01,1,No change (last rate),3.1,3.2
+2020-12-01,2021-01-01,1,Average of last 12 months,3.2833,3.2
+2021-01-01,2021-02-01,1,Ridge on recent changes,3.3169,2.9
+2021-01-01,2021-02-01,1,No change (last rate),3.2,2.9
+2021-01-01,2021-02-01,1,Average of last 12 months,3.175,2.9
+2021-02-01,2021-03-01,1,Ridge on recent changes,2.9045,3.2
+2021-02-01,2021-03-01,1,No change (last rate),2.9,3.2
+2021-02-01,2021-03-01,1,Average of last 12 months,3.0333,3.2
+2021-03-01,2021-04-01,1,Ridge on recent changes,3.45,4.4
+2021-03-01,2021-04-01,1,No change (last rate),3.2,4.4
+2021-03-01,2021-04-01,1,Average of last 12 months,2.9583,4.4
+2021-04-01,2021-05-01,1,Ridge on recent changes,4.9825,5.2
+2021-04-01,2021-05-01,1,No change (last rate),4.4,5.2
+2021-04-01,2021-05-01,1,Average of last 12 months,3.075,5.2
+2021-05-01,2021-06-01,1,Ridge on recent changes,5.6377,4.9
+2021-05-01,2021-06-01,1,No change (last rate),5.2,4.9
+2021-05-01,2021-06-01,1,Average of last 12 months,3.3333,4.9
+2021-06-01,2021-07-01,1,Ridge on recent changes,4.8869,4.6
+2021-06-01,2021-07-01,1,No change (last rate),4.9,4.6
+2021-06-01,2021-07-01,1,Average of last 12 months,3.5583,4.6
+2021-07-01,2021-08-01,1,Ridge on recent changes,4.5594,4.9
+2021-07-01,2021-08-01,1,No change (last rate),4.6,4.9
+2021-07-01,2021-08-01,1,Average of last 12 months,3.675,4.9
+2021-08-01,2021-09-01,1,Ridge on recent changes,5.0515,5.0
+2021-08-01,2021-09-01,1,No change (last rate),4.9,5.0
+2021-08-01,2021-09-01,1,Average of last 12 months,3.825,5.0
+2021-09-01,2021-10-01,1,Ridge on recent changes,5.0998,5.0
+2021-09-01,2021-10-01,1,No change (last rate),5.0,5.0
+2021-09-01,2021-10-01,1,Average of last 12 months,3.9917,5.0
+2021-10-01,2021-11-01,1,Ridge on recent changes,5.0266,5.5
+2021-10-01,2021-11-01,1,No change (last rate),5.0,5.5
+2021-10-01,2021-11-01,1,Average of last 12 months,4.1333,5.5
+2021-11-01,2021-12-01,1,Ridge on recent changes,5.6889,5.9
+2021-11-01,2021-12-01,1,No change (last rate),5.5,5.9
+2021-11-01,2021-12-01,1,Average of last 12 months,4.325,5.9
+2021-12-01,2022-01-01,1,Ridge on recent changes,6.0682,5.7
+2021-12-01,2022-01-01,1,No change (last rate),5.9,5.7
+2021-12-01,2022-01-01,1,Average of last 12 months,4.5583,5.7
+2022-01-01,2022-02-01,1,Ridge on recent changes,5.6476,5.7
+2022-01-01,2022-02-01,1,No change (last rate),5.7,5.7
+2022-01-01,2022-02-01,1,Average of last 12 months,4.7667,5.7
+2022-02-01,2022-03-01,1,Ridge on recent changes,5.7092,5.9
+2022-02-01,2022-03-01,1,No change (last rate),5.7,5.9
+2022-02-01,2022-03-01,1,Average of last 12 months,5.0,5.9
+2022-03-01,2022-04-01,1,Ridge on recent changes,5.9873,5.9
+2022-03-01,2022-04-01,1,No change (last rate),5.9,5.9
+2022-03-01,2022-04-01,1,Average of last 12 months,5.225,5.9
+2022-04-01,2022-05-01,1,Ridge on recent changes,5.9432,6.5
+2022-04-01,2022-05-01,1,No change (last rate),5.9,6.5
+2022-04-01,2022-05-01,1,Average of last 12 months,5.35,6.5
+2022-05-01,2022-06-01,1,Ridge on recent changes,6.7579,7.4
+2022-05-01,2022-06-01,1,No change (last rate),6.5,7.4
+2022-05-01,2022-06-01,1,Average of last 12 months,5.4583,7.4
+2022-06-01,2022-07-01,1,Ridge on recent changes,7.7588,7.8
+2022-06-01,2022-07-01,1,No change (last rate),7.4,7.8
+2022-06-01,2022-07-01,1,Average of last 12 months,5.6667,7.8
+2022-07-01,2022-08-01,1,Ridge on recent changes,8.0361,7.6
+2022-07-01,2022-08-01,1,No change (last rate),7.8,7.6
+2022-07-01,2022-08-01,1,Average of last 12 months,5.9333,7.6
+2022-08-01,2022-09-01,1,Ridge on recent changes,7.5593,7.5
+2022-08-01,2022-09-01,1,No change (last rate),7.6,7.5
+2022-08-01,2022-09-01,1,Average of last 12 months,6.1583,7.5
+2022-09-01,2022-10-01,1,Ridge on recent changes,7.3936,7.6
+2022-09-01,2022-10-01,1,No change (last rate),7.5,7.6
+2022-09-01,2022-10-01,1,Average of last 12 months,6.3667,7.6
+2022-10-01,2022-11-01,1,Ridge on recent changes,7.4814,7.4
+2022-10-01,2022-11-01,1,No change (last rate),7.6,7.4
+2022-10-01,2022-11-01,1,Average of last 12 months,6.5833,7.4
+2022-11-01,2022-12-01,1,Ridge on recent changes,7.1888,7.2
+2022-11-01,2022-12-01,1,No change (last rate),7.4,7.2
+2022-11-01,2022-12-01,1,Average of last 12 months,6.7417,7.2
+2022-12-01,2023-01-01,1,Ridge on recent changes,7.0077,6.9
+2022-12-01,2023-01-01,1,No change (last rate),7.2,6.9
+2022-12-01,2023-01-01,1,Average of last 12 months,6.85,6.9
+2023-01-01,2023-02-01,1,Ridge on recent changes,6.6447,7.0
+2023-01-01,2023-02-01,1,No change (last rate),6.9,7.0
+2023-01-01,2023-02-01,1,Average of last 12 months,6.95,7.0
+2023-02-01,2023-03-01,1,Ridge on recent changes,6.9243,7.1
+2023-02-01,2023-03-01,1,No change (last rate),7.0,7.1
+2023-02-01,2023-03-01,1,Average of last 12 months,7.0583,7.1
+2023-03-01,2023-04-01,1,Ridge on recent changes,7.0767,6.8
+2023-03-01,2023-04-01,1,No change (last rate),7.1,6.8
+2023-03-01,2023-04-01,1,Average of last 12 months,7.1583,6.8
+2023-04-01,2023-05-01,1,Ridge on recent changes,6.6736,6.3
+2023-04-01,2023-05-01,1,No change (last rate),6.8,6.3
+2023-04-01,2023-05-01,1,Average of last 12 months,7.2333,6.3
+2023-05-01,2023-06-01,1,Ridge on recent changes,6.066,5.4
+2023-05-01,2023-06-01,1,No change (last rate),6.3,5.4
+2023-05-01,2023-06-01,1,Average of last 12 months,7.2167,5.4
+2023-06-01,2023-07-01,1,Ridge on recent changes,4.9702,4.7
+2023-06-01,2023-07-01,1,No change (last rate),5.4,4.7
+2023-06-01,2023-07-01,1,Average of last 12 months,7.05,4.7
+2023-07-01,2023-08-01,1,Ridge on recent changes,4.3875,4.8
+2023-07-01,2023-08-01,1,No change (last rate),4.7,4.8
+2023-07-01,2023-08-01,1,Average of last 12 months,6.7917,4.8
+2023-08-01,2023-09-01,1,Ridge on recent changes,4.8146,5.4
+2023-08-01,2023-09-01,1,No change (last rate),4.8,5.4
+2023-08-01,2023-09-01,1,Average of last 12 months,6.5583,5.4
+2023-09-01,2023-10-01,1,Ridge on recent changes,5.659,5.9
+2023-09-01,2023-10-01,1,No change (last rate),5.4,5.9
+2023-09-01,2023-10-01,1,Average of last 12 months,6.3833,5.9
+2023-10-01,2023-11-01,1,Ridge on recent changes,6.1442,5.5
+2023-10-01,2023-11-01,1,No change (last rate),5.9,5.5
+2023-10-01,2023-11-01,1,Average of last 12 months,6.2417,5.5
+2023-11-01,2023-12-01,1,Ridge on recent changes,5.3779,5.1
+2023-11-01,2023-12-01,1,No change (last rate),5.5,5.1
+2023-11-01,2023-12-01,1,Average of last 12 months,6.0833,5.1
+2023-12-01,2024-01-01,1,Ridge on recent changes,4.9269,5.3
+2023-12-01,2024-01-01,1,No change (last rate),5.1,5.3
+2023-12-01,2024-01-01,1,Average of last 12 months,5.9083,5.3
+2024-01-01,2024-02-01,1,Ridge on recent changes,5.2873,5.6
+2024-01-01,2024-02-01,1,No change (last rate),5.3,5.6
+2024-01-01,2024-02-01,1,Average of last 12 months,5.775,5.6
+2024-02-01,2024-03-01,1,Ridge on recent changes,5.6948,5.3
+2024-02-01,2024-03-01,1,No change (last rate),5.6,5.3
+2024-02-01,2024-03-01,1,Average of last 12 months,5.6583,5.3
+2024-03-01,2024-04-01,1,Ridge on recent changes,5.2342,5.2
+2024-03-01,2024-04-01,1,No change (last rate),5.3,5.2
+2024-03-01,2024-04-01,1,Average of last 12 months,5.5083,5.2
+2024-04-01,2024-05-01,1,Ridge on recent changes,5.213,5.2
+2024-04-01,2024-05-01,1,No change (last rate),5.2,5.2
+2024-04-01,2024-05-01,1,Average of last 12 months,5.375,5.2
+2024-05-01,2024-06-01,1,Ridge on recent changes,5.1992,5.1
+2024-05-01,2024-06-01,1,No change (last rate),5.2,5.1
+2024-05-01,2024-06-01,1,Average of last 12 months,5.2833,5.1
+2024-06-01,2024-07-01,1,Ridge on recent changes,5.0336,4.6
+2024-06-01,2024-07-01,1,No change (last rate),5.1,4.6
+2024-06-01,2024-07-01,1,Average of last 12 months,5.2583,4.6
+2024-07-01,2024-08-01,1,Ridge on recent changes,4.4103,4.4
+2024-07-01,2024-08-01,1,No change (last rate),4.6,4.4
+2024-07-01,2024-08-01,1,Average of last 12 months,5.25,4.4
+2024-08-01,2024-09-01,1,Ridge on recent changes,4.3219,3.8
+2024-08-01,2024-09-01,1,No change (last rate),4.4,3.8
+2024-08-01,2024-09-01,1,Average of last 12 months,5.2167,3.8
+2024-09-01,2024-10-01,1,Ridge on recent changes,3.5829,2.8
+2024-09-01,2024-10-01,1,No change (last rate),3.8,2.8
+2024-09-01,2024-10-01,1,Average of last 12 months,5.0833,2.8
+2024-10-01,2024-11-01,1,Ridge on recent changes,2.4288,2.9
+2024-10-01,2024-11-01,1,No change (last rate),2.8,2.9
+2024-10-01,2024-11-01,1,Average of last 12 months,4.825,2.9
+2024-11-01,2024-12-01,1,Ridge on recent changes,2.9504,3.0
+2024-11-01,2024-12-01,1,No change (last rate),2.9,3.0
+2024-11-01,2024-12-01,1,Average of last 12 months,4.6083,3.0
+2024-12-01,2025-01-01,1,Ridge on recent changes,3.0694,3.2
+2024-12-01,2025-01-01,1,No change (last rate),3.0,3.2
+2024-12-01,2025-01-01,1,Average of last 12 months,4.4333,3.2
+2025-01-01,2025-02-01,1,Ridge on recent changes,3.3587,3.2
+2025-01-01,2025-02-01,1,No change (last rate),3.2,3.2
+2025-01-01,2025-02-01,1,Average of last 12 months,4.2583,3.2
+2025-02-01,2025-03-01,1,Ridge on recent changes,3.3326,2.7
+2025-02-01,2025-03-01,1,No change (last rate),3.2,2.7
+2025-02-01,2025-03-01,1,Average of last 12 months,4.0583,2.7
+2025-03-01,2025-04-01,1,Ridge on recent changes,2.6664,2.8
+2025-03-01,2025-04-01,1,No change (last rate),2.7,2.8
+2025-03-01,2025-04-01,1,Average of last 12 months,3.8417,2.8
+2025-04-01,2025-05-01,1,Ridge on recent changes,2.9874,2.8
+2025-04-01,2025-05-01,1,No change (last rate),2.8,2.8
+2025-04-01,2025-05-01,1,Average of last 12 months,3.6417,2.8
+2025-05-01,2025-06-01,1,Ridge on recent changes,2.9038,3.0
+2025-05-01,2025-06-01,1,No change (last rate),2.8,3.0
+2025-05-01,2025-06-01,1,Average of last 12 months,3.4417,3.0
+2025-06-01,2025-07-01,1,Ridge on recent changes,3.1846,3.5
+2025-06-01,2025-07-01,1,No change (last rate),3.0,3.5
+2025-06-01,2025-07-01,1,Average of last 12 months,3.2667,3.5
+2025-07-01,2025-08-01,1,Ridge on recent changes,3.8233,3.3
+2025-07-01,2025-08-01,1,No change (last rate),3.5,3.3
+2025-07-01,2025-08-01,1,Average of last 12 months,3.175,3.3
+2025-08-01,2025-09-01,1,Ridge on recent changes,3.3432,3.4
+2025-08-01,2025-09-01,1,No change (last rate),3.3,3.4
+2025-08-01,2025-09-01,1,Average of last 12 months,3.0833,3.4
+2025-09-01,2025-10-01,1,Ridge on recent changes,3.544,3.6
+2025-09-01,2025-10-01,1,No change (last rate),3.4,3.6
+2025-09-01,2025-10-01,1,Average of last 12 months,3.05,3.6
+2025-10-01,2025-11-01,1,Ridge on recent changes,3.7192,3.5
+2025-10-01,2025-11-01,1,No change (last rate),3.6,3.5
+2025-10-01,2025-11-01,1,Average of last 12 months,3.1167,3.5
+2025-11-01,2025-12-01,1,Ridge on recent changes,3.5121,3.6
+2025-11-01,2025-12-01,1,No change (last rate),3.5,3.6
+2025-11-01,2025-12-01,1,Average of last 12 months,3.1667,3.6
+2025-12-01,2026-01-01,1,Ridge on recent changes,3.6824,3.5
+2025-12-01,2026-01-01,1,No change (last rate),3.6,3.5
+2025-12-01,2026-01-01,1,Average of last 12 months,3.2167,3.5
+2026-01-01,2026-02-01,1,Ridge on recent changes,3.5067,3.0
+2026-01-01,2026-02-01,1,No change (last rate),3.5,3.0
+2026-01-01,2026-02-01,1,Average of last 12 months,3.2417,3.0
+2026-02-01,2026-03-01,1,Ridge on recent changes,2.8965,3.1
+2026-02-01,2026-03-01,1,No change (last rate),3.0,3.1
+2026-02-01,2026-03-01,1,Average of last 12 months,3.225,3.1
+2026-03-01,2026-04-01,1,Ridge on recent changes,3.244,4.0
+2026-03-01,2026-04-01,1,No change (last rate),3.1,4.0
+2026-03-01,2026-04-01,1,Average of last 12 months,3.2583,4.0
+2026-04-01,2026-05-01,1,Ridge on recent changes,4.499,4.5
+2026-04-01,2026-05-01,1,No change (last rate),4.0,4.5
+2026-04-01,2026-05-01,1,Average of last 12 months,3.3583,4.5
+2026-05-01,2026-06-01,1,Ridge on recent changes,4.8656,5.0
+2026-05-01,2026-06-01,1,No change (last rate),4.5,5.0
+2026-05-01,2026-06-01,1,Average of last 12 months,3.5,5.0
+2026-06-01,2026-07-01,1,Ridge on recent changes,5.3617,4.3
+2026-06-01,2026-07-01,1,No change (last rate),5.0,4.3
+2026-06-01,2026-07-01,1,Average of last 12 months,3.6667,4.3
+2026-07-01,2026-08-01,1,Ridge on recent changes,4.1264,4.4
+2026-07-01,2026-08-01,1,No change (last rate),4.3,4.4
+2026-07-01,2026-08-01,1,Average of last 12 months,3.7333,4.4
+2026-08-01,2026-09-01,1,Ridge on recent changes,4.4747,4.5
+2026-08-01,2026-09-01,1,No change (last rate),4.4,4.5
+2026-08-01,2026-09-01,1,Average of last 12 months,3.825,4.5
+2010-01-01,2010-04-01,3,Ridge on recent changes,6.2142,4.8
+2010-01-01,2010-04-01,3,No change (last rate),6.2,4.8
+2010-01-01,2010-04-01,3,Average of last 12 months,6.9833,4.8
+2010-02-01,2010-05-01,3,Ridge on recent changes,5.6684,4.6
+2010-02-01,2010-05-01,3,No change (last rate),5.7,4.6
+2010-02-01,2010-05-01,3,Average of last 12 months,6.7417,4.6
+2010-03-01,2010-06-01,3,Ridge on recent changes,4.8391,4.1
+2010-03-01,2010-06-01,3,No change (last rate),5.1,4.1
+2010-03-01,2010-06-01,3,Average of last 12 months,6.4583,4.1
+2010-04-01,2010-07-01,3,Ridge on recent changes,4.593,3.7
+2010-04-01,2010-07-01,3,No change (last rate),4.8,3.7
+2010-04-01,2010-07-01,3,Average of last 12 months,6.1583,3.7
+2010-05-01,2010-08-01,3,Ridge on recent changes,4.4543,3.5
+2010-05-01,2010-08-01,3,No change (last rate),4.6,3.5
+2010-05-01,2010-08-01,3,Average of last 12 months,5.875,3.5
+2010-06-01,2010-09-01,3,Ridge on recent changes,3.7417,3.2
+2010-06-01,2010-09-01,3,No change (last rate),4.1,3.2
+2010-06-01,2010-09-01,3,Average of last 12 months,5.6417,3.2
+2010-07-01,2010-10-01,3,Ridge on recent changes,3.6088,3.4
+2010-07-01,2010-10-01,3,No change (last rate),3.7,3.4
+2010-07-01,2010-10-01,3,Average of last 12 months,5.3917,3.4
+2010-08-01,2010-11-01,3,Ridge on recent changes,3.4618,3.6
+2010-08-01,2010-11-01,3,No change (last rate),3.5,3.6
+2010-08-01,2010-11-01,3,Average of last 12 months,5.15,3.6
+2010-09-01,2010-12-01,3,Ridge on recent changes,3.2933,3.5
+2010-09-01,2010-12-01,3,No change (last rate),3.2,3.5
+2010-09-01,2010-12-01,3,Average of last 12 months,4.9083,3.5
+2010-10-01,2011-01-01,3,Ridge on recent changes,3.6609,3.7
+2010-10-01,2011-01-01,3,No change (last rate),3.4,3.7
+2010-10-01,2011-01-01,3,Average of last 12 months,4.7,3.7
+2010-11-01,2011-02-01,3,Ridge on recent changes,4.0028,3.7
+2010-11-01,2011-02-01,3,No change (last rate),3.6,3.7
+2010-11-01,2011-02-01,3,Average of last 12 months,4.5167,3.7
+2010-12-01,2011-03-01,3,Ridge on recent changes,3.8988,4.1
+2010-12-01,2011-03-01,3,No change (last rate),3.5,4.1
+2010-12-01,2011-03-01,3,Average of last 12 months,4.2833,4.1
+2011-01-01,2011-04-01,3,Ridge on recent changes,4.3081,4.2
+2011-01-01,2011-04-01,3,No change (last rate),3.7,4.2
+2011-01-01,2011-04-01,3,Average of last 12 months,4.075,4.2
+2011-02-01,2011-05-01,3,Ridge on recent changes,4.1844,4.6
+2011-02-01,2011-05-01,3,No change (last rate),3.7,4.6
+2011-02-01,2011-05-01,3,Average of last 12 months,3.9083,4.6
+2011-03-01,2011-06-01,3,Ridge on recent changes,5.0486,5.0
+2011-03-01,2011-06-01,3,No change (last rate),4.1,5.0
+2011-03-01,2011-06-01,3,Average of last 12 months,3.825,5.0
+2011-04-01,2011-07-01,3,Ridge on recent changes,4.9109,5.3
+2011-04-01,2011-07-01,3,No change (last rate),4.2,5.3
+2011-04-01,2011-07-01,3,Average of last 12 months,3.775,5.3
+2011-05-01,2011-08-01,3,Ridge on recent changes,5.5234,5.3
+2011-05-01,2011-08-01,3,No change (last rate),4.6,5.3
+2011-05-01,2011-08-01,3,Average of last 12 months,3.775,5.3
+2011-06-01,2011-09-01,3,Ridge on recent changes,5.6191,5.7
+2011-06-01,2011-09-01,3,No change (last rate),5.0,5.7
+2011-06-01,2011-09-01,3,Average of last 12 months,3.85,5.7
+2011-07-01,2011-10-01,3,Ridge on recent changes,6.0139,6.0
+2011-07-01,2011-10-01,3,No change (last rate),5.3,6.0
+2011-07-01,2011-10-01,3,Average of last 12 months,3.9833,6.0
+2011-08-01,2011-11-01,3,Ridge on recent changes,5.6018,6.1
+2011-08-01,2011-11-01,3,No change (last rate),5.3,6.1
+2011-08-01,2011-11-01,3,Average of last 12 months,4.1333,6.1
+2011-09-01,2011-12-01,3,Ridge on recent changes,6.0987,6.1
+2011-09-01,2011-12-01,3,No change (last rate),5.7,6.1
+2011-09-01,2011-12-01,3,Average of last 12 months,4.3417,6.1
+2011-10-01,2012-01-01,3,Ridge on recent changes,6.1578,6.3
+2011-10-01,2012-01-01,3,No change (last rate),6.0,6.3
+2011-10-01,2012-01-01,3,Average of last 12 months,4.5583,6.3
+2011-11-01,2012-02-01,3,Ridge on recent changes,6.253,6.1
+2011-11-01,2012-02-01,3,No change (last rate),6.1,6.1
+2011-11-01,2012-02-01,3,Average of last 12 months,4.7667,6.1
+2011-12-01,2012-03-01,3,Ridge on recent changes,5.9749,6.0
+2011-12-01,2012-03-01,3,No change (last rate),6.1,6.0
+2011-12-01,2012-03-01,3,Average of last 12 months,4.9833,6.0
+2012-01-01,2012-04-01,3,Ridge on recent changes,6.2658,6.1
+2012-01-01,2012-04-01,3,No change (last rate),6.3,6.1
+2012-01-01,2012-04-01,3,Average of last 12 months,5.2,6.1
+2012-02-01,2012-05-01,3,Ridge on recent changes,5.8937,5.7
+2012-02-01,2012-05-01,3,No change (last rate),6.1,5.7
+2012-02-01,2012-05-01,3,Average of last 12 months,5.4,5.7
+2012-03-01,2012-06-01,3,Ridge on recent changes,6.0607,5.5
+2012-03-01,2012-06-01,3,No change (last rate),6.0,5.5
+2012-03-01,2012-06-01,3,Average of last 12 months,5.5583,5.5
+2012-04-01,2012-07-01,3,Ridge on recent changes,6.1293,4.9
+2012-04-01,2012-07-01,3,No change (last rate),6.1,4.9
+2012-04-01,2012-07-01,3,Average of last 12 months,5.7167,4.9
+2012-05-01,2012-08-01,3,Ridge on recent changes,5.4785,5.0
+2012-05-01,2012-08-01,3,No change (last rate),5.7,5.0
+2012-05-01,2012-08-01,3,Average of last 12 months,5.8083,5.0
+2012-06-01,2012-09-01,3,Ridge on recent changes,5.1921,5.5
+2012-06-01,2012-09-01,3,No change (last rate),5.5,5.5
+2012-06-01,2012-09-01,3,Average of last 12 months,5.85,5.5
+2012-07-01,2012-10-01,3,Ridge on recent changes,4.1968,5.6
+2012-07-01,2012-10-01,3,No change (last rate),4.9,5.6
+2012-07-01,2012-10-01,3,Average of last 12 months,5.8167,5.6
+2012-08-01,2012-11-01,3,Ridge on recent changes,4.8031,5.6
+2012-08-01,2012-11-01,3,No change (last rate),5.0,5.6
+2012-08-01,2012-11-01,3,Average of last 12 months,5.7917,5.6
+2012-09-01,2012-12-01,3,Ridge on recent changes,5.7417,5.7
+2012-09-01,2012-12-01,3,No change (last rate),5.5,5.7
+2012-09-01,2012-12-01,3,Average of last 12 months,5.775,5.7
+2012-10-01,2013-01-01,3,Ridge on recent changes,6.0707,5.4
+2012-10-01,2013-01-01,3,No change (last rate),5.6,5.4
+2012-10-01,2013-01-01,3,Average of last 12 months,5.7417,5.4
+2012-11-01,2013-02-01,3,Ridge on recent changes,6.0004,5.9
+2012-11-01,2013-02-01,3,No change (last rate),5.6,5.9
+2012-11-01,2013-02-01,3,Average of last 12 months,5.7,5.9
+2012-12-01,2013-03-01,3,Ridge on recent changes,5.8077,5.9
+2012-12-01,2013-03-01,3,No change (last rate),5.7,5.9
+2012-12-01,2013-03-01,3,Average of last 12 months,5.6667,5.9
+2013-01-01,2013-04-01,3,Ridge on recent changes,5.24,5.9
+2013-01-01,2013-04-01,3,No change (last rate),5.4,5.9
+2013-01-01,2013-04-01,3,Average of last 12 months,5.5917,5.9
+2013-02-01,2013-05-01,3,Ridge on recent changes,6.2191,5.6
+2013-02-01,2013-05-01,3,No change (last rate),5.9,5.6
+2013-02-01,2013-05-01,3,Average of last 12 months,5.575,5.6
+2013-03-01,2013-06-01,3,Ridge on recent changes,6.2192,5.5
+2013-03-01,2013-06-01,3,No change (last rate),5.9,5.5
+2013-03-01,2013-06-01,3,Average of last 12 months,5.5667,5.5
+2013-04-01,2013-07-01,3,Ridge on recent changes,6.3357,6.3
+2013-04-01,2013-07-01,3,No change (last rate),5.9,6.3
+2013-04-01,2013-07-01,3,Average of last 12 months,5.55,6.3
+2013-05-01,2013-08-01,3,Ridge on recent changes,5.4089,6.4
+2013-05-01,2013-08-01,3,No change (last rate),5.6,6.4
+2013-05-01,2013-08-01,3,Average of last 12 months,5.5417,6.4
+2013-06-01,2013-09-01,3,Ridge on recent changes,5.1797,6.0
+2013-06-01,2013-09-01,3,No change (last rate),5.5,6.0
+2013-06-01,2013-09-01,3,Average of last 12 months,5.5417,6.0
+2013-07-01,2013-10-01,3,Ridge on recent changes,6.5473,5.5
+2013-07-01,2013-10-01,3,No change (last rate),6.3,5.5
+2013-07-01,2013-10-01,3,Average of last 12 months,5.6583,5.5
+2013-08-01,2013-11-01,3,Ridge on recent changes,6.671,5.3
+2013-08-01,2013-11-01,3,No change (last rate),6.4,5.3
+2013-08-01,2013-11-01,3,Average of last 12 months,5.775,5.3
+2013-09-01,2013-12-01,3,Ridge on recent changes,6.1216,5.4
+2013-09-01,2013-12-01,3,No change (last rate),6.0,5.4
+2013-09-01,2013-12-01,3,Average of last 12 months,5.8167,5.4
+2013-10-01,2014-01-01,3,Ridge on recent changes,5.0327,5.8
+2013-10-01,2014-01-01,3,No change (last rate),5.5,5.8
+2013-10-01,2014-01-01,3,Average of last 12 months,5.8083,5.8
+2013-11-01,2014-02-01,3,Ridge on recent changes,4.8242,5.9
+2013-11-01,2014-02-01,3,No change (last rate),5.3,5.9
+2013-11-01,2014-02-01,3,Average of last 12 months,5.7833,5.9
+2013-12-01,2014-03-01,3,Ridge on recent changes,5.1653,6.0
+2013-12-01,2014-03-01,3,No change (last rate),5.4,6.0
+2013-12-01,2014-03-01,3,Average of last 12 months,5.7583,6.0
+2014-01-01,2014-04-01,3,Ridge on recent changes,5.9803,6.1
+2014-01-01,2014-04-01,3,No change (last rate),5.8,6.1
+2014-01-01,2014-04-01,3,Average of last 12 months,5.7917,6.1
+2014-02-01,2014-05-01,3,Ridge on recent changes,6.2938,6.6
+2014-02-01,2014-05-01,3,No change (last rate),5.9,6.6
+2014-02-01,2014-05-01,3,Average of last 12 months,5.7917,6.6
+2014-03-01,2014-06-01,3,Ridge on recent changes,6.5795,6.6
+2014-03-01,2014-06-01,3,No change (last rate),6.0,6.6
+2014-03-01,2014-06-01,3,Average of last 12 months,5.8,6.6
+2014-04-01,2014-07-01,3,Ridge on recent changes,6.5069,6.3
+2014-04-01,2014-07-01,3,No change (last rate),6.1,6.3
+2014-04-01,2014-07-01,3,Average of last 12 months,5.8167,6.3
+2014-05-01,2014-08-01,3,Ridge on recent changes,6.9676,6.4
+2014-05-01,2014-08-01,3,No change (last rate),6.6,6.4
+2014-05-01,2014-08-01,3,Average of last 12 months,5.9,6.4
+2014-06-01,2014-09-01,3,Ridge on recent changes,6.5466,5.9
+2014-06-01,2014-09-01,3,No change (last rate),6.6,5.9
+2014-06-01,2014-09-01,3,Average of last 12 months,5.9917,5.9
+2014-07-01,2014-10-01,3,Ridge on recent changes,6.1822,5.9
+2014-07-01,2014-10-01,3,No change (last rate),6.3,5.9
+2014-07-01,2014-10-01,3,Average of last 12 months,5.9917,5.9
+2014-08-01,2014-11-01,3,Ridge on recent changes,6.3168,5.8
+2014-08-01,2014-11-01,3,No change (last rate),6.4,5.8
+2014-08-01,2014-11-01,3,Average of last 12 months,5.9917,5.8
+2014-09-01,2014-12-01,3,Ridge on recent changes,5.4496,5.3
+2014-09-01,2014-12-01,3,No change (last rate),5.9,5.3
+2014-09-01,2014-12-01,3,Average of last 12 months,5.9833,5.3
+2014-10-01,2015-01-01,3,Ridge on recent changes,5.5564,4.4
+2014-10-01,2015-01-01,3,No change (last rate),5.9,4.4
+2014-10-01,2015-01-01,3,Average of last 12 months,6.0167,4.4
+2014-11-01,2015-02-01,3,Ridge on recent changes,5.265,3.9
+2014-11-01,2015-02-01,3,No change (last rate),5.8,3.9
+2014-11-01,2015-02-01,3,Average of last 12 months,6.0583,3.9
+2014-12-01,2015-03-01,3,Ridge on recent changes,4.7399,4.0
+2014-12-01,2015-03-01,3,No change (last rate),5.3,4.0
+2014-12-01,2015-03-01,3,Average of last 12 months,6.05,4.0
+2015-01-01,2015-04-01,3,Ridge on recent changes,3.5081,4.5
+2015-01-01,2015-04-01,3,No change (last rate),4.4,4.5
+2015-01-01,2015-04-01,3,Average of last 12 months,5.9333,4.5
+2015-02-01,2015-05-01,3,Ridge on recent changes,3.24,4.6
+2015-02-01,2015-05-01,3,No change (last rate),3.9,4.6
+2015-02-01,2015-05-01,3,Average of last 12 months,5.7667,4.6
+2015-03-01,2015-06-01,3,Ridge on recent changes,4.0818,4.7
+2015-03-01,2015-06-01,3,No change (last rate),4.0,4.7
+2015-03-01,2015-06-01,3,Average of last 12 months,5.6,4.7
+2015-04-01,2015-07-01,3,Ridge on recent changes,5.4184,5.0
+2015-04-01,2015-07-01,3,No change (last rate),4.5,5.0
+2015-04-01,2015-07-01,3,Average of last 12 months,5.4667,5.0
+2015-05-01,2015-08-01,3,Ridge on recent changes,5.5193,4.6
+2015-05-01,2015-08-01,3,No change (last rate),4.6,4.6
+2015-05-01,2015-08-01,3,Average of last 12 months,5.3,4.6
+2015-06-01,2015-09-01,3,Ridge on recent changes,5.3273,4.6
+2015-06-01,2015-09-01,3,No change (last rate),4.7,4.6
+2015-06-01,2015-09-01,3,Average of last 12 months,5.1417,4.6
+2015-07-01,2015-10-01,3,Ridge on recent changes,5.5752,4.7
+2015-07-01,2015-10-01,3,No change (last rate),5.0,4.7
+2015-07-01,2015-10-01,3,Average of last 12 months,5.0333,4.7
+2015-08-01,2015-11-01,3,Ridge on recent changes,4.7704,4.8
+2015-08-01,2015-11-01,3,No change (last rate),4.6,4.8
+2015-08-01,2015-11-01,3,Average of last 12 months,4.8833,4.8
+2015-09-01,2015-12-01,3,Ridge on recent changes,4.7863,5.2
+2015-09-01,2015-12-01,3,No change (last rate),4.6,5.2
+2015-09-01,2015-12-01,3,Average of last 12 months,4.775,5.2
+2015-10-01,2016-01-01,3,Ridge on recent changes,4.6559,6.2
+2015-10-01,2016-01-01,3,No change (last rate),4.7,6.2
+2015-10-01,2016-01-01,3,Average of last 12 months,4.675,6.2
+2015-11-01,2016-02-01,3,Ridge on recent changes,4.9057,7.0
+2015-11-01,2016-02-01,3,No change (last rate),4.8,7.0
+2015-11-01,2016-02-01,3,Average of last 12 months,4.5917,7.0
+2015-12-01,2016-03-01,3,Ridge on recent changes,5.4786,6.3
+2015-12-01,2016-03-01,3,No change (last rate),5.2,6.3
+2015-12-01,2016-03-01,3,Average of last 12 months,4.5833,6.3
+2016-01-01,2016-04-01,3,Ridge on recent changes,6.9008,6.2
+2016-01-01,2016-04-01,3,No change (last rate),6.2,6.2
+2016-01-01,2016-04-01,3,Average of last 12 months,4.7333,6.2
+2016-02-01,2016-05-01,3,Ridge on recent changes,7.9462,6.1
+2016-02-01,2016-05-01,3,No change (last rate),7.0,6.1
+2016-02-01,2016-05-01,3,Average of last 12 months,4.9917,6.1
+2016-03-01,2016-06-01,3,Ridge on recent changes,6.5687,6.3
+2016-03-01,2016-06-01,3,No change (last rate),6.3,6.3
+2016-03-01,2016-06-01,3,Average of last 12 months,5.1833,6.3
+2016-04-01,2016-07-01,3,Ridge on recent changes,6.3275,6.0
+2016-04-01,2016-07-01,3,No change (last rate),6.2,6.0
+2016-04-01,2016-07-01,3,Average of last 12 months,5.325,6.0
+2016-05-01,2016-08-01,3,Ridge on recent changes,5.7217,5.9
+2016-05-01,2016-08-01,3,No change (last rate),6.1,5.9
+2016-05-01,2016-08-01,3,Average of last 12 months,5.45,5.9
+2016-06-01,2016-09-01,3,Ridge on recent changes,6.2746,6.1
+2016-06-01,2016-09-01,3,No change (last rate),6.3,6.1
+2016-06-01,2016-09-01,3,Average of last 12 months,5.5833,6.1
+2016-07-01,2016-10-01,3,Ridge on recent changes,5.798,6.4
+2016-07-01,2016-10-01,3,No change (last rate),6.0,6.4
+2016-07-01,2016-10-01,3,Average of last 12 months,5.6667,6.4
+2016-08-01,2016-11-01,3,Ridge on recent changes,5.7277,6.6
+2016-08-01,2016-11-01,3,No change (last rate),5.9,6.6
+2016-08-01,2016-11-01,3,Average of last 12 months,5.775,6.6
+2016-09-01,2016-12-01,3,Ridge on recent changes,5.9078,6.8
+2016-09-01,2016-12-01,3,No change (last rate),6.1,6.8
+2016-09-01,2016-12-01,3,Average of last 12 months,5.9,6.8
+2016-10-01,2017-01-01,3,Ridge on recent changes,6.3149,6.6
+2016-10-01,2017-01-01,3,No change (last rate),6.4,6.6
+2016-10-01,2017-01-01,3,Average of last 12 months,6.0417,6.6
+2016-11-01,2017-02-01,3,Ridge on recent changes,6.6514,6.3
+2016-11-01,2017-02-01,3,No change (last rate),6.6,6.3
+2016-11-01,2017-02-01,3,Average of last 12 months,6.1917,6.3
+2016-12-01,2017-03-01,3,Ridge on recent changes,6.8506,6.1
+2016-12-01,2017-03-01,3,No change (last rate),6.8,6.1
+2016-12-01,2017-03-01,3,Average of last 12 months,6.325,6.1
+2017-01-01,2017-04-01,3,Ridge on recent changes,6.4593,5.3
+2017-01-01,2017-04-01,3,No change (last rate),6.6,5.3
+2017-01-01,2017-04-01,3,Average of last 12 months,6.3583,5.3
+2017-02-01,2017-05-01,3,Ridge on recent changes,6.1405,5.4
+2017-02-01,2017-05-01,3,No change (last rate),6.3,5.4
+2017-02-01,2017-05-01,3,Average of last 12 months,6.3,5.4
+2017-03-01,2017-06-01,3,Ridge on recent changes,5.9398,5.1
+2017-03-01,2017-06-01,3,No change (last rate),6.1,5.1
+2017-03-01,2017-06-01,3,Average of last 12 months,6.2833,5.1
+2017-04-01,2017-07-01,3,Ridge on recent changes,4.7537,4.6
+2017-04-01,2017-07-01,3,No change (last rate),5.3,4.6
+2017-04-01,2017-07-01,3,Average of last 12 months,6.2083,4.6
+2017-05-01,2017-08-01,3,Ridge on recent changes,5.1611,4.8
+2017-05-01,2017-08-01,3,No change (last rate),5.4,4.8
+2017-05-01,2017-08-01,3,Average of last 12 months,6.15,4.8
+2017-06-01,2017-09-01,3,Ridge on recent changes,4.675,5.1
+2017-06-01,2017-09-01,3,No change (last rate),5.1,5.1
+2017-06-01,2017-09-01,3,Average of last 12 months,6.05,5.1
+2017-07-01,2017-10-01,3,Ridge on recent changes,4.3597,4.8
+2017-07-01,2017-10-01,3,No change (last rate),4.6,4.8
+2017-07-01,2017-10-01,3,Average of last 12 months,5.9333,4.8
+2017-08-01,2017-11-01,3,Ridge on recent changes,4.7795,4.6
+2017-08-01,2017-11-01,3,No change (last rate),4.8,4.6
+2017-08-01,2017-11-01,3,Average of last 12 months,5.8417,4.6
+2017-09-01,2017-12-01,3,Ridge on recent changes,5.2936,4.7
+2017-09-01,2017-12-01,3,No change (last rate),5.1,4.7
+2017-09-01,2017-12-01,3,Average of last 12 months,5.7583,4.7
+2017-10-01,2018-01-01,3,Ridge on recent changes,4.9259,4.4
+2017-10-01,2018-01-01,3,No change (last rate),4.8,4.4
+2017-10-01,2018-01-01,3,Average of last 12 months,5.625,4.4
+2017-11-01,2018-02-01,3,Ridge on recent changes,4.6709,4.0
+2017-11-01,2018-02-01,3,No change (last rate),4.6,4.0
+2017-11-01,2018-02-01,3,Average of last 12 months,5.4583,4.0
+2017-12-01,2018-03-01,3,Ridge on recent changes,4.7856,3.8
+2017-12-01,2018-03-01,3,No change (last rate),4.7,3.8
+2017-12-01,2018-03-01,3,Average of last 12 months,5.2833,3.8
+2018-01-01,2018-04-01,3,Ridge on recent changes,4.4007,4.5
+2018-01-01,2018-04-01,3,No change (last rate),4.4,4.5
+2018-01-01,2018-04-01,3,Average of last 12 months,5.1,4.5
+2018-02-01,2018-05-01,3,Ridge on recent changes,4.0926,4.4
+2018-02-01,2018-05-01,3,No change (last rate),4.0,4.4
+2018-02-01,2018-05-01,3,Average of last 12 months,4.9083,4.4
+2018-03-01,2018-06-01,3,Ridge on recent changes,3.8701,4.6
+2018-03-01,2018-06-01,3,No change (last rate),3.8,4.6
+2018-03-01,2018-06-01,3,Average of last 12 months,4.7167,4.6
+2018-04-01,2018-07-01,3,Ridge on recent changes,5.1617,5.1
+2018-04-01,2018-07-01,3,No change (last rate),4.5,5.1
+2018-04-01,2018-07-01,3,Average of last 12 months,4.65,5.1
+2018-05-01,2018-08-01,3,Ridge on recent changes,4.7834,4.9
+2018-05-01,2018-08-01,3,No change (last rate),4.4,4.9
+2018-05-01,2018-08-01,3,Average of last 12 months,4.5667,4.9
+2018-06-01,2018-09-01,3,Ridge on recent changes,5.2034,4.9
+2018-06-01,2018-09-01,3,No change (last rate),4.6,4.9
+2018-06-01,2018-09-01,3,Average of last 12 months,4.525,4.9
+2018-07-01,2018-10-01,3,Ridge on recent changes,5.6314,5.1
+2018-07-01,2018-10-01,3,No change (last rate),5.1,5.1
+2018-07-01,2018-10-01,3,Average of last 12 months,4.5667,5.1
+2018-08-01,2018-11-01,3,Ridge on recent changes,5.1501,5.2
+2018-08-01,2018-11-01,3,No change (last rate),4.9,5.2
+2018-08-01,2018-11-01,3,Average of last 12 months,4.575,5.2
+2018-09-01,2018-12-01,3,Ridge on recent changes,5.1568,4.5
+2018-09-01,2018-12-01,3,No change (last rate),4.9,4.5
+2018-09-01,2018-12-01,3,Average of last 12 months,4.5583,4.5
+2018-10-01,2019-01-01,3,Ridge on recent changes,5.189,4.0
+2018-10-01,2019-01-01,3,No change (last rate),5.1,4.0
+2018-10-01,2019-01-01,3,Average of last 12 months,4.5833,4.0
+2018-11-01,2019-02-01,3,Ridge on recent changes,5.3791,4.1
+2018-11-01,2019-02-01,3,No change (last rate),5.2,4.1
+2018-11-01,2019-02-01,3,Average of last 12 months,4.6333,4.1
+2018-12-01,2019-03-01,3,Ridge on recent changes,4.2164,4.5
+2018-12-01,2019-03-01,3,No change (last rate),4.5,4.5
+2018-12-01,2019-03-01,3,Average of last 12 months,4.6167,4.5
+2019-01-01,2019-04-01,3,Ridge on recent changes,3.4977,4.4
+2019-01-01,2019-04-01,3,No change (last rate),4.0,4.4
+2019-01-01,2019-04-01,3,Average of last 12 months,4.5833,4.4
+2019-02-01,2019-05-01,3,Ridge on recent changes,3.8832,4.5
+2019-02-01,2019-05-01,3,No change (last rate),4.1,4.5
+2019-02-01,2019-05-01,3,Average of last 12 months,4.5917,4.5
+2019-03-01,2019-06-01,3,Ridge on recent changes,4.8734,4.5
+2019-03-01,2019-06-01,3,No change (last rate),4.5,4.5
+2019-03-01,2019-06-01,3,Average of last 12 months,4.65,4.5
+2019-04-01,2019-07-01,3,Ridge on recent changes,4.9436,4.0
+2019-04-01,2019-07-01,3,No change (last rate),4.4,4.0
+2019-04-01,2019-07-01,3,Average of last 12 months,4.6417,4.0
+2019-05-01,2019-08-01,3,Ridge on recent changes,5.0095,4.3
+2019-05-01,2019-08-01,3,No change (last rate),4.5,4.3
+2019-05-01,2019-08-01,3,Average of last 12 months,4.65,4.3
+2019-06-01,2019-09-01,3,Ridge on recent changes,4.7386,4.1
+2019-06-01,2019-09-01,3,No change (last rate),4.5,4.1
+2019-06-01,2019-09-01,3,Average of last 12 months,4.6417,4.1
+2019-07-01,2019-10-01,3,Ridge on recent changes,4.0018,3.7
+2019-07-01,2019-10-01,3,No change (last rate),4.0,3.7
+2019-07-01,2019-10-01,3,Average of last 12 months,4.55,3.7
+2019-08-01,2019-11-01,3,Ridge on recent changes,4.5698,3.6
+2019-08-01,2019-11-01,3,No change (last rate),4.3,3.6
+2019-08-01,2019-11-01,3,Average of last 12 months,4.5,3.6
+2019-09-01,2019-12-01,3,Ridge on recent changes,4.1232,4.0
+2019-09-01,2019-12-01,3,No change (last rate),4.1,4.0
+2019-09-01,2019-12-01,3,Average of last 12 months,4.4333,4.0
+2019-10-01,2020-01-01,3,Ridge on recent changes,3.7403,4.5
+2019-10-01,2020-01-01,3,No change (last rate),3.7,4.5
+2019-10-01,2020-01-01,3,Average of last 12 months,4.3167,4.5
+2019-11-01,2020-02-01,3,Ridge on recent changes,3.5807,4.6
+2019-11-01,2020-02-01,3,No change (last rate),3.6,4.6
+2019-11-01,2020-02-01,3,Average of last 12 months,4.1833,4.6
+2019-12-01,2020-03-01,3,Ridge on recent changes,4.2717,4.1
+2019-12-01,2020-03-01,3,No change (last rate),4.0,4.1
+2019-12-01,2020-03-01,3,Average of last 12 months,4.1417,4.1
+2020-01-01,2020-04-01,3,Ridge on recent changes,5.0644,3.0
+2020-01-01,2020-04-01,3,No change (last rate),4.5,3.0
+2020-01-01,2020-04-01,3,Average of last 12 months,4.1833,3.0
+2020-02-01,2020-05-01,3,Ridge on recent changes,5.2155,2.1
+2020-02-01,2020-05-01,3,No change (last rate),4.6,2.1
+2020-02-01,2020-05-01,3,Average of last 12 months,4.225,2.1
+2020-03-01,2020-06-01,3,Ridge on recent changes,4.3397,2.2
+2020-03-01,2020-06-01,3,No change (last rate),4.1,2.2
+2020-03-01,2020-06-01,3,Average of last 12 months,4.1917,2.2
+2020-04-01,2020-07-01,3,Ridge on recent changes,2.5744,3.2
+2020-04-01,2020-07-01,3,No change (last rate),3.0,3.2
+2020-04-01,2020-07-01,3,Average of last 12 months,4.075,3.2
+2020-05-01,2020-08-01,3,Ridge on recent changes,1.3056,3.1
+2020-05-01,2020-08-01,3,No change (last rate),2.1,3.1
+2020-05-01,2020-08-01,3,Average of last 12 months,3.875,3.1
+2020-06-01,2020-09-01,3,Ridge on recent changes,1.9768,3.0
+2020-06-01,2020-09-01,3,No change (last rate),2.2,3.0
+2020-06-01,2020-09-01,3,Average of last 12 months,3.6833,3.0
+2020-07-01,2020-10-01,3,Ridge on recent changes,4.0576,3.3
+2020-07-01,2020-10-01,3,No change (last rate),3.2,3.3
+2020-07-01,2020-10-01,3,Average of last 12 months,3.6167,3.3
+2020-08-01,2020-11-01,3,Ridge on recent changes,4.0443,3.2
+2020-08-01,2020-11-01,3,No change (last rate),3.1,3.2
+2020-08-01,2020-11-01,3,Average of last 12 months,3.5167,3.2
+2020-09-01,2020-12-01,3,Ridge on recent changes,3.8055,3.1
+2020-09-01,2020-12-01,3,No change (last rate),3.0,3.1
+2020-09-01,2020-12-01,3,Average of last 12 months,3.425,3.1
+2020-10-01,2021-01-01,3,Ridge on recent changes,3.7749,3.2
+2020-10-01,2021-01-01,3,No change (last rate),3.3,3.2
+2020-10-01,2021-01-01,3,Average of last 12 months,3.3917,3.2
+2020-11-01,2021-02-01,3,Ridge on recent changes,3.5074,2.9
+2020-11-01,2021-02-01,3,No change (last rate),3.2,2.9
+2020-11-01,2021-02-01,3,Average of last 12 months,3.3583,2.9
+2020-12-01,2021-03-01,3,Ridge on recent changes,3.4349,3.2
+2020-12-01,2021-03-01,3,No change (last rate),3.1,3.2
+2020-12-01,2021-03-01,3,Average of last 12 months,3.2833,3.2
+2021-01-01,2021-04-01,3,Ridge on recent changes,3.5703,4.4
+2021-01-01,2021-04-01,3,No change (last rate),3.2,4.4
+2021-01-01,2021-04-01,3,Average of last 12 months,3.175,4.4
+2021-02-01,2021-05-01,3,Ridge on recent changes,3.2229,5.2
+2021-02-01,2021-05-01,3,No change (last rate),2.9,5.2
+2021-02-01,2021-05-01,3,Average of last 12 months,3.0333,5.2
+2021-03-01,2021-06-01,3,Ridge on recent changes,3.8862,4.9
+2021-03-01,2021-06-01,3,No change (last rate),3.2,4.9
+2021-03-01,2021-06-01,3,Average of last 12 months,2.9583,4.9
+2021-04-01,2021-07-01,3,Ridge on recent changes,5.4888,4.6
+2021-04-01,2021-07-01,3,No change (last rate),4.4,4.6
+2021-04-01,2021-07-01,3,Average of last 12 months,3.075,4.6
+2021-05-01,2021-08-01,3,Ridge on recent changes,6.204,4.9
+2021-05-01,2021-08-01,3,No change (last rate),5.2,4.9
+2021-05-01,2021-08-01,3,Average of last 12 months,3.3333,4.9
+2021-06-01,2021-09-01,3,Ridge on recent changes,5.286,5.0
+2021-06-01,2021-09-01,3,No change (last rate),4.9,5.0
+2021-06-01,2021-09-01,3,Average of last 12 months,3.5583,5.0
+2021-07-01,2021-10-01,3,Ridge on recent changes,4.7241,5.0
+2021-07-01,2021-10-01,3,No change (last rate),4.6,5.0
+2021-07-01,2021-10-01,3,Average of last 12 months,3.675,5.0
+2021-08-01,2021-11-01,3,Ridge on recent changes,5.0444,5.5
+2021-08-01,2021-11-01,3,No change (last rate),4.9,5.5
+2021-08-01,2021-11-01,3,Average of last 12 months,3.825,5.5
+2021-09-01,2021-12-01,3,Ridge on recent changes,5.1926,5.9
+2021-09-01,2021-12-01,3,No change (last rate),5.0,5.9
+2021-09-01,2021-12-01,3,Average of last 12 months,3.9917,5.9
+2021-10-01,2022-01-01,3,Ridge on recent changes,5.1019,5.7
+2021-10-01,2022-01-01,3,No change (last rate),5.0,5.7
+2021-10-01,2022-01-01,3,Average of last 12 months,4.1333,5.7
+2021-11-01,2022-02-01,3,Ridge on recent changes,5.7204,5.7
+2021-11-01,2022-02-01,3,No change (last rate),5.5,5.7
+2021-11-01,2022-02-01,3,Average of last 12 months,4.325,5.7
+2021-12-01,2022-03-01,3,Ridge on recent changes,6.1489,5.9
+2021-12-01,2022-03-01,3,No change (last rate),5.9,5.9
+2021-12-01,2022-03-01,3,Average of last 12 months,4.5583,5.9
+2022-01-01,2022-04-01,3,Ridge on recent changes,5.7104,5.9
+2022-01-01,2022-04-01,3,No change (last rate),5.7,5.9
+2022-01-01,2022-04-01,3,Average of last 12 months,4.7667,5.9
+2022-02-01,2022-05-01,3,Ridge on recent changes,5.6687,6.5
+2022-02-01,2022-05-01,3,No change (last rate),5.7,6.5
+2022-02-01,2022-05-01,3,Average of last 12 months,5.0,6.5
+2022-03-01,2022-06-01,3,Ridge on recent changes,5.9276,7.4
+2022-03-01,2022-06-01,3,No change (last rate),5.9,7.4
+2022-03-01,2022-06-01,3,Average of last 12 months,5.225,7.4
+2022-04-01,2022-07-01,3,Ridge on recent changes,6.0155,7.8
+2022-04-01,2022-07-01,3,No change (last rate),5.9,7.8
+2022-04-01,2022-07-01,3,Average of last 12 months,5.35,7.8
+2022-05-01,2022-08-01,3,Ridge on recent changes,6.9064,7.6
+2022-05-01,2022-08-01,3,No change (last rate),6.5,7.6
+2022-05-01,2022-08-01,3,Average of last 12 months,5.4583,7.6
+2022-06-01,2022-09-01,3,Ridge on recent changes,7.9289,7.5
+2022-06-01,2022-09-01,3,No change (last rate),7.4,7.5
+2022-06-01,2022-09-01,3,Average of last 12 months,5.6667,7.5
+2022-07-01,2022-10-01,3,Ridge on recent changes,8.3717,7.6
+2022-07-01,2022-10-01,3,No change (last rate),7.8,7.6
+2022-07-01,2022-10-01,3,Average of last 12 months,5.9333,7.6
+2022-08-01,2022-11-01,3,Ridge on recent changes,7.6886,7.4
+2022-08-01,2022-11-01,3,No change (last rate),7.6,7.4
+2022-08-01,2022-11-01,3,Average of last 12 months,6.1583,7.4
+2022-09-01,2022-12-01,3,Ridge on recent changes,7.1432,7.2
+2022-09-01,2022-12-01,3,No change (last rate),7.5,7.2
+2022-09-01,2022-12-01,3,Average of last 12 months,6.3667,7.2
+2022-10-01,2023-01-01,3,Ridge on recent changes,6.9711,6.9
+2022-10-01,2023-01-01,3,No change (last rate),7.6,6.9
+2022-10-01,2023-01-01,3,Average of last 12 months,6.5833,6.9
+2022-11-01,2023-02-01,3,Ridge on recent changes,6.7421,7.0
+2022-11-01,2023-02-01,3,No change (last rate),7.4,7.0
+2022-11-01,2023-02-01,3,Average of last 12 months,6.7417,7.0
+2022-12-01,2023-03-01,3,Ridge on recent changes,6.6126,7.1
+2022-12-01,2023-03-01,3,No change (last rate),7.2,7.1
+2022-12-01,2023-03-01,3,Average of last 12 months,6.85,7.1
+2023-01-01,2023-04-01,3,Ridge on recent changes,6.1422,6.8
+2023-01-01,2023-04-01,3,No change (last rate),6.9,6.8
+2023-01-01,2023-04-01,3,Average of last 12 months,6.95,6.8
+2023-02-01,2023-05-01,3,Ridge on recent changes,6.5341,6.3
+2023-02-01,2023-05-01,3,No change (last rate),7.0,6.3
+2023-02-01,2023-05-01,3,Average of last 12 months,7.0583,6.3
+2023-03-01,2023-06-01,3,Ridge on recent changes,6.8545,5.4
+2023-03-01,2023-06-01,3,No change (last rate),7.1,5.4
+2023-03-01,2023-06-01,3,Average of last 12 months,7.1583,5.4
+2023-04-01,2023-07-01,3,Ridge on recent changes,6.5725,4.7
+2023-04-01,2023-07-01,3,No change (last rate),6.8,4.7
+2023-04-01,2023-07-01,3,Average of last 12 months,7.2333,4.7
+2023-05-01,2023-08-01,3,Ridge on recent changes,5.8478,4.8
+2023-05-01,2023-08-01,3,No change (last rate),6.3,4.8
+2023-05-01,2023-08-01,3,Average of last 12 months,7.2167,4.8
+2023-06-01,2023-09-01,3,Ridge on recent changes,4.5733,5.4
+2023-06-01,2023-09-01,3,No change (last rate),5.4,5.4
+2023-06-01,2023-09-01,3,Average of last 12 months,7.05,5.4
+2023-07-01,2023-10-01,3,Ridge on recent changes,4.0842,5.9
+2023-07-01,2023-10-01,3,No change (last rate),4.7,5.9
+2023-07-01,2023-10-01,3,Average of last 12 months,6.7917,5.9
+2023-08-01,2023-11-01,3,Ridge on recent changes,4.6286,5.5
+2023-08-01,2023-11-01,3,No change (last rate),4.8,5.5
+2023-08-01,2023-11-01,3,Average of last 12 months,6.5583,5.5
+2023-09-01,2023-12-01,3,Ridge on recent changes,5.7779,5.1
+2023-09-01,2023-12-01,3,No change (last rate),5.4,5.1
+2023-09-01,2023-12-01,3,Average of last 12 months,6.3833,5.1
+2023-10-01,2024-01-01,3,Ridge on recent changes,6.4827,5.3
+2023-10-01,2024-01-01,3,No change (last rate),5.9,5.3
+2023-10-01,2024-01-01,3,Average of last 12 months,6.2417,5.3
+2023-11-01,2024-02-01,3,Ridge on recent changes,5.6258,5.6
+2023-11-01,2024-02-01,3,No change (last rate),5.5,5.6
+2023-11-01,2024-02-01,3,Average of last 12 months,6.0833,5.6
+2023-12-01,2024-03-01,3,Ridge on recent changes,4.9233,5.3
+2023-12-01,2024-03-01,3,No change (last rate),5.1,5.3
+2023-12-01,2024-03-01,3,Average of last 12 months,5.9083,5.3
+2024-01-01,2024-04-01,3,Ridge on recent changes,5.0337,5.2
+2024-01-01,2024-04-01,3,No change (last rate),5.3,5.2
+2024-01-01,2024-04-01,3,Average of last 12 months,5.775,5.2
+2024-02-01,2024-05-01,3,Ridge on recent changes,5.6882,5.2
+2024-02-01,2024-05-01,3,No change (last rate),5.6,5.2
+2024-02-01,2024-05-01,3,Average of last 12 months,5.6583,5.2
+2024-03-01,2024-06-01,3,Ridge on recent changes,5.4449,5.1
+2024-03-01,2024-06-01,3,No change (last rate),5.3,5.1
+2024-03-01,2024-06-01,3,Average of last 12 months,5.5083,5.1
+2024-04-01,2024-07-01,3,Ridge on recent changes,5.375,4.6
+2024-04-01,2024-07-01,3,No change (last rate),5.2,4.6
+2024-04-01,2024-07-01,3,Average of last 12 months,5.375,4.6
+2024-05-01,2024-08-01,3,Ridge on recent changes,5.1726,4.4
+2024-05-01,2024-08-01,3,No change (last rate),5.2,4.4
+2024-05-01,2024-08-01,3,Average of last 12 months,5.2833,4.4
+2024-06-01,2024-09-01,3,Ridge on recent changes,4.9544,3.8
+2024-06-01,2024-09-01,3,No change (last rate),5.1,3.8
+2024-06-01,2024-09-01,3,Average of last 12 months,5.2583,3.8
+2024-07-01,2024-10-01,3,Ridge on recent changes,4.3521,2.8
+2024-07-01,2024-10-01,3,No change (last rate),4.6,2.8
+2024-07-01,2024-10-01,3,Average of last 12 months,5.25,2.8
+2024-08-01,2024-11-01,3,Ridge on recent changes,4.2305,2.9
+2024-08-01,2024-11-01,3,No change (last rate),4.4,2.9
+2024-08-01,2024-11-01,3,Average of last 12 months,5.2167,2.9
+2024-09-01,2024-12-01,3,Ridge on recent changes,3.5016,3.0
+2024-09-01,2024-12-01,3,No change (last rate),3.8,3.0
+2024-09-01,2024-12-01,3,Average of last 12 months,5.0833,3.0
+2024-10-01,2025-01-01,3,Ridge on recent changes,2.3531,3.2
+2024-10-01,2025-01-01,3,No change (last rate),2.8,3.2
+2024-10-01,2025-01-01,3,Average of last 12 months,4.825,3.2
+2024-11-01,2025-02-01,3,Ridge on recent changes,2.8687,3.2
+2024-11-01,2025-02-01,3,No change (last rate),2.9,3.2
+2024-11-01,2025-02-01,3,Average of last 12 months,4.6083,3.2
+2024-12-01,2025-03-01,3,Ridge on recent changes,3.1194,2.7
+2024-12-01,2025-03-01,3,No change (last rate),3.0,2.7
+2024-12-01,2025-03-01,3,Average of last 12 months,4.4333,2.7
+2025-01-01,2025-04-01,3,Ridge on recent changes,3.7127,2.8
+2025-01-01,2025-04-01,3,No change (last rate),3.2,2.8
+2025-01-01,2025-04-01,3,Average of last 12 months,4.2583,2.8
+2025-02-01,2025-05-01,3,Ridge on recent changes,3.8059,2.8
+2025-02-01,2025-05-01,3,No change (last rate),3.2,2.8
+2025-02-01,2025-05-01,3,Average of last 12 months,4.0583,2.8
+2025-03-01,2025-06-01,3,Ridge on recent changes,3.1425,3.0
+2025-03-01,2025-06-01,3,No change (last rate),2.7,3.0
+2025-03-01,2025-06-01,3,Average of last 12 months,3.8417,3.0
+2025-04-01,2025-07-01,3,Ridge on recent changes,3.402,3.5
+2025-04-01,2025-07-01,3,No change (last rate),2.8,3.5
+2025-04-01,2025-07-01,3,Average of last 12 months,3.6417,3.5
+2025-05-01,2025-08-01,3,Ridge on recent changes,3.2091,3.3
+2025-05-01,2025-08-01,3,No change (last rate),2.8,3.3
+2025-05-01,2025-08-01,3,Average of last 12 months,3.4417,3.3
+2025-06-01,2025-09-01,3,Ridge on recent changes,3.5899,3.4
+2025-06-01,2025-09-01,3,No change (last rate),3.0,3.4
+2025-06-01,2025-09-01,3,Average of last 12 months,3.2667,3.4
+2025-07-01,2025-10-01,3,Ridge on recent changes,4.3014,3.6
+2025-07-01,2025-10-01,3,No change (last rate),3.5,3.6
+2025-07-01,2025-10-01,3,Average of last 12 months,3.175,3.6
+2025-08-01,2025-11-01,3,Ridge on recent changes,3.7792,3.5
+2025-08-01,2025-11-01,3,No change (last rate),3.3,3.5
+2025-08-01,2025-11-01,3,Average of last 12 months,3.0833,3.5
+2025-09-01,2025-12-01,3,Ridge on recent changes,3.9066,3.6
+2025-09-01,2025-12-01,3,No change (last rate),3.4,3.6
+2025-09-01,2025-12-01,3,Average of last 12 months,3.05,3.6
+2025-10-01,2026-01-01,3,Ridge on recent changes,3.837,3.5
+2025-10-01,2026-01-01,3,No change (last rate),3.6,3.5
+2025-10-01,2026-01-01,3,Average of last 12 months,3.1167,3.5
+2025-11-01,2026-02-01,3,Ridge on recent changes,3.6777,3.0
+2025-11-01,2026-02-01,3,No change (last rate),3.5,3.0
+2025-11-01,2026-02-01,3,Average of last 12 months,3.1667,3.0
+2025-12-01,2026-03-01,3,Ridge on recent changes,3.8255,3.1
+2025-12-01,2026-03-01,3,No change (last rate),3.6,3.1
+2025-12-01,2026-03-01,3,Average of last 12 months,3.2167,3.1
+2026-01-01,2026-04-01,3,Ridge on recent changes,3.6203,4.0
+2026-01-01,2026-04-01,3,No change (last rate),3.5,4.0
+2026-01-01,2026-04-01,3,Average of last 12 months,3.2417,4.0
+2026-02-01,2026-05-01,3,Ridge on recent changes,3.0855,4.5
+2026-02-01,2026-05-01,3,No change (last rate),3.0,4.5
+2026-02-01,2026-05-01,3,Average of last 12 months,3.225,4.5
+2026-03-01,2026-06-01,3,Ridge on recent changes,3.4489,5.0
+2026-03-01,2026-06-01,3,No change (last rate),3.1,5.0
+2026-03-01,2026-06-01,3,Average of last 12 months,3.2583,5.0
+2026-04-01,2026-07-01,3,Ridge on recent changes,4.899,4.3
+2026-04-01,2026-07-01,3,No change (last rate),4.0,4.3
+2026-04-01,2026-07-01,3,Average of last 12 months,3.3583,4.3
+2026-05-01,2026-08-01,3,Ridge on recent changes,5.4638,4.4
+2026-05-01,2026-08-01,3,No change (last rate),4.5,4.4
+2026-05-01,2026-08-01,3,Average of last 12 months,3.5,4.4
+2026-06-01,2026-09-01,3,Ridge on recent changes,6.0024,4.5
+2026-06-01,2026-09-01,3,No change (last rate),5.0,4.5
+2026-06-01,2026-09-01,3,Average of last 12 months,3.6667,4.5
+2010-01-01,2010-07-01,6,Ridge on recent changes,6.4092,3.7
+2010-01-01,2010-07-01,6,No change (last rate),6.2,3.7
+2010-01-01,2010-07-01,6,Average of last 12 months,6.9833,3.7
+2010-02-01,2010-08-01,6,Ridge on recent changes,5.778,3.5
+2010-02-01,2010-08-01,6,No change (last rate),5.7,3.5
+2010-02-01,2010-08-01,6,Average of last 12 months,6.7417,3.5
+2010-03-01,2010-09-01,6,Ridge on recent changes,4.8095,3.2
+2010-03-01,2010-09-01,6,No change (last rate),5.1,3.2
+2010-03-01,2010-09-01,6,Average of last 12 months,6.4583,3.2
+2010-04-01,2010-10-01,6,Ridge on recent changes,4.7299,3.4
+2010-04-01,2010-10-01,6,No change (last rate),4.8,3.4
+2010-04-01,2010-10-01,6,Average of last 12 months,6.1583,3.4
+2010-05-01,2010-11-01,6,Ridge on recent changes,4.7225,3.6
+2010-05-01,2010-11-01,6,No change (last rate),4.6,3.6
+2010-05-01,2010-11-01,6,Average of last 12 months,5.875,3.6
+2010-06-01,2010-12-01,6,Ridge on recent changes,3.923,3.5
+2010-06-01,2010-12-01,6,No change (last rate),4.1,3.5
+2010-06-01,2010-12-01,6,Average of last 12 months,5.6417,3.5
+2010-07-01,2011-01-01,6,Ridge on recent changes,3.9534,3.7
+2010-07-01,2011-01-01,6,No change (last rate),3.7,3.7
+2010-07-01,2011-01-01,6,Average of last 12 months,5.3917,3.7
+2010-08-01,2011-02-01,6,Ridge on recent changes,3.9059,3.7
+2010-08-01,2011-02-01,6,No change (last rate),3.5,3.7
+2010-08-01,2011-02-01,6,Average of last 12 months,5.15,3.7
+2010-09-01,2011-03-01,6,Ridge on recent changes,3.7879,4.1
+2010-09-01,2011-03-01,6,No change (last rate),3.2,4.1
+2010-09-01,2011-03-01,6,Average of last 12 months,4.9083,4.1
+2010-10-01,2011-04-01,6,Ridge on recent changes,4.3299,4.2
+2010-10-01,2011-04-01,6,No change (last rate),3.4,4.2
+2010-10-01,2011-04-01,6,Average of last 12 months,4.7,4.2
+2010-11-01,2011-05-01,6,Ridge on recent changes,4.6714,4.6
+2010-11-01,2011-05-01,6,No change (last rate),3.6,4.6
+2010-11-01,2011-05-01,6,Average of last 12 months,4.5167,4.6
+2010-12-01,2011-06-01,6,Ridge on recent changes,4.5143,5.0
+2010-12-01,2011-06-01,6,No change (last rate),3.5,5.0
+2010-12-01,2011-06-01,6,Average of last 12 months,4.2833,5.0
+2011-01-01,2011-07-01,6,Ridge on recent changes,5.0319,5.3
+2011-01-01,2011-07-01,6,No change (last rate),3.7,5.3
+2011-01-01,2011-07-01,6,Average of last 12 months,4.075,5.3
+2011-02-01,2011-08-01,6,Ridge on recent changes,4.7758,5.3
+2011-02-01,2011-08-01,6,No change (last rate),3.7,5.3
+2011-02-01,2011-08-01,6,Average of last 12 months,3.9083,5.3
+2011-03-01,2011-09-01,6,Ridge on recent changes,5.8181,5.7
+2011-03-01,2011-09-01,6,No change (last rate),4.1,5.7
+2011-03-01,2011-09-01,6,Average of last 12 months,3.825,5.7
+2011-04-01,2011-10-01,6,Ridge on recent changes,5.4725,6.0
+2011-04-01,2011-10-01,6,No change (last rate),4.2,6.0
+2011-04-01,2011-10-01,6,Average of last 12 months,3.775,6.0
+2011-05-01,2011-11-01,6,Ridge on recent changes,6.1643,6.1
+2011-05-01,2011-11-01,6,No change (last rate),4.6,6.1
+2011-05-01,2011-11-01,6,Average of last 12 months,3.775,6.1
+2011-06-01,2011-12-01,6,Ridge on recent changes,6.0719,6.1
+2011-06-01,2011-12-01,6,No change (last rate),5.0,6.1
+2011-06-01,2011-12-01,6,Average of last 12 months,3.85,6.1
+2011-07-01,2012-01-01,6,Ridge on recent changes,6.381,6.3
+2011-07-01,2012-01-01,6,No change (last rate),5.3,6.3
+2011-07-01,2012-01-01,6,Average of last 12 months,3.9833,6.3
+2011-08-01,2012-02-01,6,Ridge on recent changes,5.7329,6.1
+2011-08-01,2012-02-01,6,No change (last rate),5.3,6.1
+2011-08-01,2012-02-01,6,Average of last 12 months,4.1333,6.1
+2011-09-01,2012-03-01,6,Ridge on recent changes,6.2882,6.0
+2011-09-01,2012-03-01,6,No change (last rate),5.7,6.0
+2011-09-01,2012-03-01,6,Average of last 12 months,4.3417,6.0
+2011-10-01,2012-04-01,6,Ridge on recent changes,6.1969,6.1
+2011-10-01,2012-04-01,6,No change (last rate),6.0,6.1
+2011-10-01,2012-04-01,6,Average of last 12 months,4.5583,6.1
+2011-11-01,2012-05-01,6,Ridge on recent changes,6.2075,5.7
+2011-11-01,2012-05-01,6,No change (last rate),6.1,5.7
+2011-11-01,2012-05-01,6,Average of last 12 months,4.7667,5.7
+2011-12-01,2012-06-01,6,Ridge on recent changes,5.7925,5.5
+2011-12-01,2012-06-01,6,No change (last rate),6.1,5.5
+2011-12-01,2012-06-01,6,Average of last 12 months,4.9833,5.5
+2012-01-01,2012-07-01,6,Ridge on recent changes,6.1334,4.9
+2012-01-01,2012-07-01,6,No change (last rate),6.3,4.9
+2012-01-01,2012-07-01,6,Average of last 12 months,5.2,4.9
+2012-02-01,2012-08-01,6,Ridge on recent changes,5.6109,5.0
+2012-02-01,2012-08-01,6,No change (last rate),6.1,5.0
+2012-02-01,2012-08-01,6,Average of last 12 months,5.4,5.0
+2012-03-01,2012-09-01,6,Ridge on recent changes,5.9164,5.5
+2012-03-01,2012-09-01,6,No change (last rate),6.0,5.5
+2012-03-01,2012-09-01,6,Average of last 12 months,5.5583,5.5
+2012-04-01,2012-10-01,6,Ridge on recent changes,6.0226,5.6
+2012-04-01,2012-10-01,6,No change (last rate),6.1,5.6
+2012-04-01,2012-10-01,6,Average of last 12 months,5.7167,5.6
+2012-05-01,2012-11-01,6,Ridge on recent changes,5.2296,5.6
+2012-05-01,2012-11-01,6,No change (last rate),5.7,5.6
+2012-05-01,2012-11-01,6,Average of last 12 months,5.8083,5.6
+2012-06-01,2012-12-01,6,Ridge on recent changes,5.0447,5.7
+2012-06-01,2012-12-01,6,No change (last rate),5.5,5.7
+2012-06-01,2012-12-01,6,Average of last 12 months,5.85,5.7
+2012-07-01,2013-01-01,6,Ridge on recent changes,3.9097,5.4
+2012-07-01,2013-01-01,6,No change (last rate),4.9,5.4
+2012-07-01,2013-01-01,6,Average of last 12 months,5.8167,5.4
+2012-08-01,2013-02-01,6,Ridge on recent changes,4.898,5.9
+2012-08-01,2013-02-01,6,No change (last rate),5.0,5.9
+2012-08-01,2013-02-01,6,Average of last 12 months,5.7917,5.9
+2012-09-01,2013-03-01,6,Ridge on recent changes,6.0374,5.9
+2012-09-01,2013-03-01,6,No change (last rate),5.5,5.9
+2012-09-01,2013-03-01,6,Average of last 12 months,5.775,5.9
+2012-10-01,2013-04-01,6,Ridge on recent changes,6.3213,5.9
+2012-10-01,2013-04-01,6,No change (last rate),5.6,5.9
+2012-10-01,2013-04-01,6,Average of last 12 months,5.7417,5.9
+2012-11-01,2013-05-01,6,Ridge on recent changes,6.1979,5.6
+2012-11-01,2013-05-01,6,No change (last rate),5.6,5.6
+2012-11-01,2013-05-01,6,Average of last 12 months,5.7,5.6
+2012-12-01,2013-06-01,6,Ridge on recent changes,5.8905,5.5
+2012-12-01,2013-06-01,6,No change (last rate),5.7,5.5
+2012-12-01,2013-06-01,6,Average of last 12 months,5.6667,5.5
+2013-01-01,2013-07-01,6,Ridge on recent changes,5.1883,6.3
+2013-01-01,2013-07-01,6,No change (last rate),5.4,6.3
+2013-01-01,2013-07-01,6,Average of last 12 months,5.5917,6.3
+2013-02-01,2013-08-01,6,Ridge on recent changes,6.4878,6.4
+2013-02-01,2013-08-01,6,No change (last rate),5.9,6.4
+2013-02-01,2013-08-01,6,Average of last 12 months,5.575,6.4
+2013-03-01,2013-09-01,6,Ridge on recent changes,6.3528,6.0
+2013-03-01,2013-09-01,6,No change (last rate),5.9,6.0
+2013-03-01,2013-09-01,6,Average of last 12 months,5.5667,6.0
+2013-04-01,2013-10-01,6,Ridge on recent changes,6.5107,5.5
+2013-04-01,2013-10-01,6,No change (last rate),5.9,5.5
+2013-04-01,2013-10-01,6,Average of last 12 months,5.55,5.5
+2013-05-01,2013-11-01,6,Ridge on recent changes,5.2778,5.3
+2013-05-01,2013-11-01,6,No change (last rate),5.6,5.3
+2013-05-01,2013-11-01,6,Average of last 12 months,5.5417,5.3
+2013-06-01,2013-12-01,6,Ridge on recent changes,5.0525,5.4
+2013-06-01,2013-12-01,6,No change (last rate),5.5,5.4
+2013-06-01,2013-12-01,6,Average of last 12 months,5.5417,5.4
+2013-07-01,2014-01-01,6,Ridge on recent changes,6.7402,5.8
+2013-07-01,2014-01-01,6,No change (last rate),6.3,5.8
+2013-07-01,2014-01-01,6,Average of last 12 months,5.6583,5.8
+2013-08-01,2014-02-01,6,Ridge on recent changes,6.6527,5.9
+2013-08-01,2014-02-01,6,No change (last rate),6.4,5.9
+2013-08-01,2014-02-01,6,Average of last 12 months,5.775,5.9
+2013-09-01,2014-03-01,6,Ridge on recent changes,5.9956,6.0
+2013-09-01,2014-03-01,6,No change (last rate),6.0,6.0
+2013-09-01,2014-03-01,6,Average of last 12 months,5.8167,6.0
+2013-10-01,2014-04-01,6,Ridge on recent changes,4.7356,6.1
+2013-10-01,2014-04-01,6,No change (last rate),5.5,6.1
+2013-10-01,2014-04-01,6,Average of last 12 months,5.8083,6.1
+2013-11-01,2014-05-01,6,Ridge on recent changes,4.6758,6.6
+2013-11-01,2014-05-01,6,No change (last rate),5.3,6.6
+2013-11-01,2014-05-01,6,Average of last 12 months,5.7833,6.6
+2013-12-01,2014-06-01,6,Ridge on recent changes,5.1918,6.6
+2013-12-01,2014-06-01,6,No change (last rate),5.4,6.6
+2013-12-01,2014-06-01,6,Average of last 12 months,5.7583,6.6
+2014-01-01,2014-07-01,6,Ridge on recent changes,6.1514,6.3
+2014-01-01,2014-07-01,6,No change (last rate),5.8,6.3
+2014-01-01,2014-07-01,6,Average of last 12 months,5.7917,6.3
+2014-02-01,2014-08-01,6,Ridge on recent changes,6.462,6.4
+2014-02-01,2014-08-01,6,No change (last rate),5.9,6.4
+2014-02-01,2014-08-01,6,Average of last 12 months,5.7917,6.4
+2014-03-01,2014-09-01,6,Ridge on recent changes,6.8192,5.9
+2014-03-01,2014-09-01,6,No change (last rate),6.0,5.9
+2014-03-01,2014-09-01,6,Average of last 12 months,5.8,5.9
+2014-04-01,2014-10-01,6,Ridge on recent changes,6.6625,5.9
+2014-04-01,2014-10-01,6,No change (last rate),6.1,5.9
+2014-04-01,2014-10-01,6,Average of last 12 months,5.8167,5.9
+2014-05-01,2014-11-01,6,Ridge on recent changes,7.0911,5.8
+2014-05-01,2014-11-01,6,No change (last rate),6.6,5.8
+2014-05-01,2014-11-01,6,Average of last 12 months,5.9,5.8
+2014-06-01,2014-12-01,6,Ridge on recent changes,6.346,5.3
+2014-06-01,2014-12-01,6,No change (last rate),6.6,5.3
+2014-06-01,2014-12-01,6,Average of last 12 months,5.9917,5.3
+2014-07-01,2015-01-01,6,Ridge on recent changes,5.9702,4.4
+2014-07-01,2015-01-01,6,No change (last rate),6.3,4.4
+2014-07-01,2015-01-01,6,Average of last 12 months,5.9917,4.4
+2014-08-01,2015-02-01,6,Ridge on recent changes,6.2393,3.9
+2014-08-01,2015-02-01,6,No change (last rate),6.4,3.9
+2014-08-01,2015-02-01,6,Average of last 12 months,5.9917,3.9
+2014-09-01,2015-03-01,6,Ridge on recent changes,5.1218,4.0
+2014-09-01,2015-03-01,6,No change (last rate),5.9,4.0
+2014-09-01,2015-03-01,6,Average of last 12 months,5.9833,4.0
+2014-10-01,2015-04-01,6,Ridge on recent changes,5.4156,4.5
+2014-10-01,2015-04-01,6,No change (last rate),5.9,4.5
+2014-10-01,2015-04-01,6,Average of last 12 months,6.0167,4.5
+2014-11-01,2015-05-01,6,Ridge on recent changes,5.0324,4.6
+2014-11-01,2015-05-01,6,No change (last rate),5.8,4.6
+2014-11-01,2015-05-01,6,Average of last 12 months,6.0583,4.6
+2014-12-01,2015-06-01,6,Ridge on recent changes,4.4628,4.7
+2014-12-01,2015-06-01,6,No change (last rate),5.3,4.7
+2014-12-01,2015-06-01,6,Average of last 12 months,6.05,4.7
+2015-01-01,2015-07-01,6,Ridge on recent changes,3.1808,5.0
+2015-01-01,2015-07-01,6,No change (last rate),4.4,5.0
+2015-01-01,2015-07-01,6,Average of last 12 months,5.9333,5.0
+2015-02-01,2015-08-01,6,Ridge on recent changes,3.233,4.6
+2015-02-01,2015-08-01,6,No change (last rate),3.9,4.6
+2015-02-01,2015-08-01,6,Average of last 12 months,5.7667,4.6
+2015-03-01,2015-09-01,6,Ridge on recent changes,4.4709,4.6
+2015-03-01,2015-09-01,6,No change (last rate),4.0,4.6
+2015-03-01,2015-09-01,6,Average of last 12 months,5.6,4.6
+2015-04-01,2015-10-01,6,Ridge on recent changes,6.1391,4.7
+2015-04-01,2015-10-01,6,No change (last rate),4.5,4.7
+2015-04-01,2015-10-01,6,Average of last 12 months,5.4667,4.7
+2015-05-01,2015-11-01,6,Ridge on recent changes,6.1175,4.8
+2015-05-01,2015-11-01,6,No change (last rate),4.6,4.8
+2015-05-01,2015-11-01,6,Average of last 12 months,5.3,4.8
+2015-06-01,2015-12-01,6,Ridge on recent changes,5.8292,5.2
+2015-06-01,2015-12-01,6,No change (last rate),4.7,5.2
+2015-06-01,2015-12-01,6,Average of last 12 months,5.1417,5.2
+2015-07-01,2016-01-01,6,Ridge on recent changes,6.0463,6.2
+2015-07-01,2016-01-01,6,No change (last rate),5.0,6.2
+2015-07-01,2016-01-01,6,Average of last 12 months,5.0333,6.2
+2015-08-01,2016-02-01,6,Ridge on recent changes,4.9776,7.0
+2015-08-01,2016-02-01,6,No change (last rate),4.6,7.0
+2015-08-01,2016-02-01,6,Average of last 12 months,4.8833,7.0
+2015-09-01,2016-03-01,6,Ridge on recent changes,5.1127,6.3
+2015-09-01,2016-03-01,6,No change (last rate),4.6,6.3
+2015-09-01,2016-03-01,6,Average of last 12 months,4.775,6.3
+2015-10-01,2016-04-01,6,Ridge on recent changes,4.9367,6.2
+2015-10-01,2016-04-01,6,No change (last rate),4.7,6.2
+2015-10-01,2016-04-01,6,Average of last 12 months,4.675,6.2
+2015-11-01,2016-05-01,6,Ridge on recent changes,5.2444,6.1
+2015-11-01,2016-05-01,6,No change (last rate),4.8,6.1
+2015-11-01,2016-05-01,6,Average of last 12 months,4.5917,6.1
+2015-12-01,2016-06-01,6,Ridge on recent changes,5.8696,6.3
+2015-12-01,2016-06-01,6,No change (last rate),5.2,6.3
+2015-12-01,2016-06-01,6,Average of last 12 months,4.5833,6.3
+2016-01-01,2016-07-01,6,Ridge on recent changes,7.3597,6.0
+2016-01-01,2016-07-01,6,No change (last rate),6.2,6.0
+2016-01-01,2016-07-01,6,Average of last 12 months,4.7333,6.0
+2016-02-01,2016-08-01,6,Ridge on recent changes,8.2108,5.9
+2016-02-01,2016-08-01,6,No change (last rate),7.0,5.9
+2016-02-01,2016-08-01,6,Average of last 12 months,4.9917,5.9
+2016-03-01,2016-09-01,6,Ridge on recent changes,6.3189,6.1
+2016-03-01,2016-09-01,6,No change (last rate),6.3,6.1
+2016-03-01,2016-09-01,6,Average of last 12 months,5.1833,6.1
+2016-04-01,2016-10-01,6,Ridge on recent changes,6.1679,6.4
+2016-04-01,2016-10-01,6,No change (last rate),6.2,6.4
+2016-04-01,2016-10-01,6,Average of last 12 months,5.325,6.4
+2016-05-01,2016-11-01,6,Ridge on recent changes,5.3924,6.6
+2016-05-01,2016-11-01,6,No change (last rate),6.1,6.6
+2016-05-01,2016-11-01,6,Average of last 12 months,5.45,6.6
+2016-06-01,2016-12-01,6,Ridge on recent changes,6.1765,6.8
+2016-06-01,2016-12-01,6,No change (last rate),6.3,6.8
+2016-06-01,2016-12-01,6,Average of last 12 months,5.5833,6.8
+2016-07-01,2017-01-01,6,Ridge on recent changes,5.5673,6.6
+2016-07-01,2017-01-01,6,No change (last rate),6.0,6.6
+2016-07-01,2017-01-01,6,Average of last 12 months,5.6667,6.6
+2016-08-01,2017-02-01,6,Ridge on recent changes,5.557,6.3
+2016-08-01,2017-02-01,6,No change (last rate),5.9,6.3
+2016-08-01,2017-02-01,6,Average of last 12 months,5.775,6.3
+2016-09-01,2017-03-01,6,Ridge on recent changes,5.7713,6.1
+2016-09-01,2017-03-01,6,No change (last rate),6.1,6.1
+2016-09-01,2017-03-01,6,Average of last 12 months,5.9,6.1
+2016-10-01,2017-04-01,6,Ridge on recent changes,6.2076,5.3
+2016-10-01,2017-04-01,6,No change (last rate),6.4,5.3
+2016-10-01,2017-04-01,6,Average of last 12 months,6.0417,5.3
+2016-11-01,2017-05-01,6,Ridge on recent changes,6.5262,5.4
+2016-11-01,2017-05-01,6,No change (last rate),6.6,5.4
+2016-11-01,2017-05-01,6,Average of last 12 months,6.1917,5.4
+2016-12-01,2017-06-01,6,Ridge on recent changes,6.6929,5.1
+2016-12-01,2017-06-01,6,No change (last rate),6.8,5.1
+2016-12-01,2017-06-01,6,Average of last 12 months,6.325,5.1
+2017-01-01,2017-07-01,6,Ridge on recent changes,6.203,4.6
+2017-01-01,2017-07-01,6,No change (last rate),6.6,4.6
+2017-01-01,2017-07-01,6,Average of last 12 months,6.3583,4.6
+2017-02-01,2017-08-01,6,Ridge on recent changes,5.9456,4.8
+2017-02-01,2017-08-01,6,No change (last rate),6.3,4.8
+2017-02-01,2017-08-01,6,Average of last 12 months,6.3,4.8
+2017-03-01,2017-09-01,6,Ridge on recent changes,5.7747,5.1
+2017-03-01,2017-09-01,6,No change (last rate),6.1,5.1
+2017-03-01,2017-09-01,6,Average of last 12 months,6.2833,5.1
+2017-04-01,2017-10-01,6,Ridge on recent changes,4.4572,4.8
+2017-04-01,2017-10-01,6,No change (last rate),5.3,4.8
+2017-04-01,2017-10-01,6,Average of last 12 months,6.2083,4.8
+2017-05-01,2017-11-01,6,Ridge on recent changes,5.1708,4.6
+2017-05-01,2017-11-01,6,No change (last rate),5.4,4.6
+2017-05-01,2017-11-01,6,Average of last 12 months,6.15,4.6
+2017-06-01,2017-12-01,6,Ridge on recent changes,4.5793,4.7
+2017-06-01,2017-12-01,6,No change (last rate),5.1,4.7
+2017-06-01,2017-12-01,6,Average of last 12 months,6.05,4.7
+2017-07-01,2018-01-01,6,Ridge on recent changes,4.3844,4.4
+2017-07-01,2018-01-01,6,No change (last rate),4.6,4.4
+2017-07-01,2018-01-01,6,Average of last 12 months,5.9333,4.4
+2017-08-01,2018-02-01,6,Ridge on recent changes,5.0024,4.0
+2017-08-01,2018-02-01,6,No change (last rate),4.8,4.0
+2017-08-01,2018-02-01,6,Average of last 12 months,5.8417,4.0
+2017-09-01,2018-03-01,6,Ridge on recent changes,5.5645,3.8
+2017-09-01,2018-03-01,6,No change (last rate),5.1,3.8
+2017-09-01,2018-03-01,6,Average of last 12 months,5.7583,3.8
+2017-10-01,2018-04-01,6,Ridge on recent changes,5.0924,4.5
+2017-10-01,2018-04-01,6,No change (last rate),4.8,4.5
+2017-10-01,2018-04-01,6,Average of last 12 months,5.625,4.5
+2017-11-01,2018-05-01,6,Ridge on recent changes,4.8911,4.4
+2017-11-01,2018-05-01,6,No change (last rate),4.6,4.4
+2017-11-01,2018-05-01,6,Average of last 12 months,5.4583,4.4
+2017-12-01,2018-06-01,6,Ridge on recent changes,5.0791,4.6
+2017-12-01,2018-06-01,6,No change (last rate),4.7,4.6
+2017-12-01,2018-06-01,6,Average of last 12 months,5.2833,4.6
+2018-01-01,2018-07-01,6,Ridge on recent changes,4.6234,5.1
+2018-01-01,2018-07-01,6,No change (last rate),4.4,5.1
+2018-01-01,2018-07-01,6,Average of last 12 months,5.1,5.1
+2018-02-01,2018-08-01,6,Ridge on recent changes,4.4203,4.9
+2018-02-01,2018-08-01,6,No change (last rate),4.0,4.9
+2018-02-01,2018-08-01,6,Average of last 12 months,4.9083,4.9
+2018-03-01,2018-09-01,6,Ridge on recent changes,4.264,4.9
+2018-03-01,2018-09-01,6,No change (last rate),3.8,4.9
+2018-03-01,2018-09-01,6,Average of last 12 months,4.7167,4.9
+2018-04-01,2018-10-01,6,Ridge on recent changes,5.8309,5.1
+2018-04-01,2018-10-01,6,No change (last rate),4.5,5.1
+2018-04-01,2018-10-01,6,Average of last 12 months,4.65,5.1
+2018-05-01,2018-11-01,6,Ridge on recent changes,5.1573,5.2
+2018-05-01,2018-11-01,6,No change (last rate),4.4,5.2
+2018-05-01,2018-11-01,6,Average of last 12 months,4.5667,5.2
+2018-06-01,2018-12-01,6,Ridge on recent changes,5.6782,4.5
+2018-06-01,2018-12-01,6,No change (last rate),4.6,4.5
+2018-06-01,2018-12-01,6,Average of last 12 months,4.525,4.5
+2018-07-01,2019-01-01,6,Ridge on recent changes,6.0314,4.0
+2018-07-01,2019-01-01,6,No change (last rate),5.1,4.0
+2018-07-01,2019-01-01,6,Average of last 12 months,4.5667,4.0
+2018-08-01,2019-02-01,6,Ridge on recent changes,5.324,4.1
+2018-08-01,2019-02-01,6,No change (last rate),4.9,4.1
+2018-08-01,2019-02-01,6,Average of last 12 months,4.575,4.1
+2018-09-01,2019-03-01,6,Ridge on recent changes,5.3938,4.5
+2018-09-01,2019-03-01,6,No change (last rate),4.9,4.5
+2018-09-01,2019-03-01,6,Average of last 12 months,4.5583,4.5
+2018-10-01,2019-04-01,6,Ridge on recent changes,5.3393,4.4
+2018-10-01,2019-04-01,6,No change (last rate),5.1,4.4
+2018-10-01,2019-04-01,6,Average of last 12 months,4.5833,4.4
+2018-11-01,2019-05-01,6,Ridge on recent changes,5.5243,4.5
+2018-11-01,2019-05-01,6,No change (last rate),5.2,4.5
+2018-11-01,2019-05-01,6,Average of last 12 months,4.6333,4.5
+2018-12-01,2019-06-01,6,Ridge on recent changes,4.1341,4.5
+2018-12-01,2019-06-01,6,No change (last rate),4.5,4.5
+2018-12-01,2019-06-01,6,Average of last 12 months,4.6167,4.5
+2019-01-01,2019-07-01,6,Ridge on recent changes,3.4459,4.0
+2019-01-01,2019-07-01,6,No change (last rate),4.0,4.0
+2019-01-01,2019-07-01,6,Average of last 12 months,4.5833,4.0
+2019-02-01,2019-08-01,6,Ridge on recent changes,4.0596,4.3
+2019-02-01,2019-08-01,6,No change (last rate),4.1,4.3
+2019-02-01,2019-08-01,6,Average of last 12 months,4.5917,4.3
+2019-03-01,2019-09-01,6,Ridge on recent changes,5.2799,4.1
+2019-03-01,2019-09-01,6,No change (last rate),4.5,4.1
+2019-03-01,2019-09-01,6,Average of last 12 months,4.65,4.1
+2019-04-01,2019-10-01,6,Ridge on recent changes,5.3664,3.7
+2019-04-01,2019-10-01,6,No change (last rate),4.4,3.7
+2019-04-01,2019-10-01,6,Average of last 12 months,4.6417,3.7
+2019-05-01,2019-11-01,6,Ridge on recent changes,5.4166,3.6
+2019-05-01,2019-11-01,6,No change (last rate),4.5,3.6
+2019-05-01,2019-11-01,6,Average of last 12 months,4.65,3.6
+2019-06-01,2019-12-01,6,Ridge on recent changes,5.009,4.0
+2019-06-01,2019-12-01,6,No change (last rate),4.5,4.0
+2019-06-01,2019-12-01,6,Average of last 12 months,4.6417,4.0
+2019-07-01,2020-01-01,6,Ridge on recent changes,4.1982,4.5
+2019-07-01,2020-01-01,6,No change (last rate),4.0,4.5
+2019-07-01,2020-01-01,6,Average of last 12 months,4.55,4.5
+2019-08-01,2020-02-01,6,Ridge on recent changes,4.9759,4.6
+2019-08-01,2020-02-01,6,No change (last rate),4.3,4.6
+2019-08-01,2020-02-01,6,Average of last 12 months,4.5,4.6
+2019-09-01,2020-03-01,6,Ridge on recent changes,4.3554,4.1
+2019-09-01,2020-03-01,6,No change (last rate),4.1,4.1
+2019-09-01,2020-03-01,6,Average of last 12 months,4.4333,4.1
+2019-10-01,2020-04-01,6,Ridge on recent changes,4.0126,3.0
+2019-10-01,2020-04-01,6,No change (last rate),3.7,3.0
+2019-10-01,2020-04-01,6,Average of last 12 months,4.3167,3.0
+2019-11-01,2020-05-01,6,Ridge on recent changes,3.9082,2.1
+2019-11-01,2020-05-01,6,No change (last rate),3.6,2.1
+2019-11-01,2020-05-01,6,Average of last 12 months,4.1833,2.1
+2019-12-01,2020-06-01,6,Ridge on recent changes,4.714,2.2
+2019-12-01,2020-06-01,6,No change (last rate),4.0,2.2
+2019-12-01,2020-06-01,6,Average of last 12 months,4.1417,2.2
+2020-01-01,2020-07-01,6,Ridge on recent changes,5.5279,3.2
+2020-01-01,2020-07-01,6,No change (last rate),4.5,3.2
+2020-01-01,2020-07-01,6,Average of last 12 months,4.1833,3.2
+2020-02-01,2020-08-01,6,Ridge on recent changes,5.6095,3.1
+2020-02-01,2020-08-01,6,No change (last rate),4.6,3.1
+2020-02-01,2020-08-01,6,Average of last 12 months,4.225,3.1
+2020-03-01,2020-09-01,6,Ridge on recent changes,4.5748,3.0
+2020-03-01,2020-09-01,6,No change (last rate),4.1,3.0
+2020-03-01,2020-09-01,6,Average of last 12 months,4.1917,3.0
+2020-04-01,2020-10-01,6,Ridge on recent changes,2.5783,3.3
+2020-04-01,2020-10-01,6,No change (last rate),3.0,3.3
+2020-04-01,2020-10-01,6,Average of last 12 months,4.075,3.3
+2020-05-01,2020-11-01,6,Ridge on recent changes,1.3463,3.2
+2020-05-01,2020-11-01,6,No change (last rate),2.1,3.2
+2020-05-01,2020-11-01,6,Average of last 12 months,3.875,3.2
+2020-06-01,2020-12-01,6,Ridge on recent changes,2.4045,3.1
+2020-06-01,2020-12-01,6,No change (last rate),2.2,3.1
+2020-06-01,2020-12-01,6,Average of last 12 months,3.6833,3.1
+2020-07-01,2021-01-01,6,Ridge on recent changes,4.9587,3.2
+2020-07-01,2021-01-01,6,No change (last rate),3.2,3.2
+2020-07-01,2021-01-01,6,Average of last 12 months,3.6167,3.2
+2020-08-01,2021-02-01,6,Ridge on recent changes,4.9004,2.9
+2020-08-01,2021-02-01,6,No change (last rate),3.1,2.9
+2020-08-01,2021-02-01,6,Average of last 12 months,3.5167,2.9
+2020-09-01,2021-03-01,6,Ridge on recent changes,4.5533,3.2
+2020-09-01,2021-03-01,6,No change (last rate),3.0,3.2
+2020-09-01,2021-03-01,6,Average of last 12 months,3.425,3.2
+2020-10-01,2021-04-01,6,Ridge on recent changes,4.3036,4.4
+2020-10-01,2021-04-01,6,No change (last rate),3.3,4.4
+2020-10-01,2021-04-01,6,Average of last 12 months,3.3917,4.4
+2020-11-01,2021-05-01,6,Ridge on recent changes,3.9267,5.2
+2020-11-01,2021-05-01,6,No change (last rate),3.2,5.2
+2020-11-01,2021-05-01,6,Average of last 12 months,3.3583,5.2
+2020-12-01,2021-06-01,6,Ridge on recent changes,3.9177,4.9
+2020-12-01,2021-06-01,6,No change (last rate),3.1,4.9
+2020-12-01,2021-06-01,6,Average of last 12 months,3.2833,4.9
+2021-01-01,2021-07-01,6,Ridge on recent changes,4.1035,4.6
+2021-01-01,2021-07-01,6,No change (last rate),3.2,4.6
+2021-01-01,2021-07-01,6,Average of last 12 months,3.175,4.6
+2021-02-01,2021-08-01,6,Ridge on recent changes,3.7668,4.9
+2021-02-01,2021-08-01,6,No change (last rate),2.9,4.9
+2021-02-01,2021-08-01,6,Average of last 12 months,3.0333,4.9
+2021-03-01,2021-09-01,6,Ridge on recent changes,4.6176,5.0
+2021-03-01,2021-09-01,6,No change (last rate),3.2,5.0
+2021-03-01,2021-09-01,6,Average of last 12 months,2.9583,5.0
+2021-04-01,2021-10-01,6,Ridge on recent changes,6.2661,5.0
+2021-04-01,2021-10-01,6,No change (last rate),4.4,5.0
+2021-04-01,2021-10-01,6,Average of last 12 months,3.075,5.0
+2021-05-01,2021-11-01,6,Ridge on recent changes,6.6968,5.5
+2021-05-01,2021-11-01,6,No change (last rate),5.2,5.5
+2021-05-01,2021-11-01,6,Average of last 12 months,3.3333,5.5
+2021-06-01,2021-12-01,6,Ridge on recent changes,5.389,5.9
+2021-06-01,2021-12-01,6,No change (last rate),4.9,5.9
+2021-06-01,2021-12-01,6,Average of last 12 months,3.5583,5.9
+2021-07-01,2022-01-01,6,Ridge on recent changes,4.7805,5.7
+2021-07-01,2022-01-01,6,No change (last rate),4.6,5.7
+2021-07-01,2022-01-01,6,Average of last 12 months,3.675,5.7
+2021-08-01,2022-02-01,6,Ridge on recent changes,5.1568,5.7
+2021-08-01,2022-02-01,6,No change (last rate),4.9,5.7
+2021-08-01,2022-02-01,6,Average of last 12 months,3.825,5.7
+2021-09-01,2022-03-01,6,Ridge on recent changes,5.2896,5.9
+2021-09-01,2022-03-01,6,No change (last rate),5.0,5.9
+2021-09-01,2022-03-01,6,Average of last 12 months,3.9917,5.9
+2021-10-01,2022-04-01,6,Ridge on recent changes,5.1511,5.9
+2021-10-01,2022-04-01,6,No change (last rate),5.0,5.9
+2021-10-01,2022-04-01,6,Average of last 12 months,4.1333,5.9
+2021-11-01,2022-05-01,6,Ridge on recent changes,5.7853,6.5
+2021-11-01,2022-05-01,6,No change (last rate),5.5,6.5
+2021-11-01,2022-05-01,6,Average of last 12 months,4.325,6.5
+2021-12-01,2022-06-01,6,Ridge on recent changes,6.1505,7.4
+2021-12-01,2022-06-01,6,No change (last rate),5.9,7.4
+2021-12-01,2022-06-01,6,Average of last 12 months,4.5583,7.4
+2022-01-01,2022-07-01,6,Ridge on recent changes,5.5659,7.8
+2022-01-01,2022-07-01,6,No change (last rate),5.7,7.8
+2022-01-01,2022-07-01,6,Average of last 12 months,4.7667,7.8
+2022-02-01,2022-08-01,6,Ridge on recent changes,5.4964,7.6
+2022-02-01,2022-08-01,6,No change (last rate),5.7,7.6
+2022-02-01,2022-08-01,6,Average of last 12 months,5.0,7.6
+2022-03-01,2022-09-01,6,Ridge on recent changes,5.7852,7.5
+2022-03-01,2022-09-01,6,No change (last rate),5.9,7.5
+2022-03-01,2022-09-01,6,Average of last 12 months,5.225,7.5
+2022-04-01,2022-10-01,6,Ridge on recent changes,5.9515,7.6
+2022-04-01,2022-10-01,6,No change (last rate),5.9,7.6
+2022-04-01,2022-10-01,6,Average of last 12 months,5.35,7.6
+2022-05-01,2022-11-01,6,Ridge on recent changes,6.9947,7.4
+2022-05-01,2022-11-01,6,No change (last rate),6.5,7.4
+2022-05-01,2022-11-01,6,Average of last 12 months,5.4583,7.4
+2022-06-01,2022-12-01,6,Ridge on recent changes,7.9609,7.2
+2022-06-01,2022-12-01,6,No change (last rate),7.4,7.2
+2022-06-01,2022-12-01,6,Average of last 12 months,5.6667,7.2
+2022-07-01,2023-01-01,6,Ridge on recent changes,8.2731,6.9
+2022-07-01,2023-01-01,6,No change (last rate),7.8,6.9
+2022-07-01,2023-01-01,6,Average of last 12 months,5.9333,6.9
+2022-08-01,2023-02-01,6,Ridge on recent changes,7.3261,7.0
+2022-08-01,2023-02-01,6,No change (last rate),7.6,7.0
+2022-08-01,2023-02-01,6,Average of last 12 months,6.1583,7.0
+2022-09-01,2023-03-01,6,Ridge on recent changes,6.5909,7.1
+2022-09-01,2023-03-01,6,No change (last rate),7.5,7.1
+2022-09-01,2023-03-01,6,Average of last 12 months,6.3667,7.1
+2022-10-01,2023-04-01,6,Ridge on recent changes,6.3095,6.8
+2022-10-01,2023-04-01,6,No change (last rate),7.6,6.8
+2022-10-01,2023-04-01,6,Average of last 12 months,6.5833,6.8
+2022-11-01,2023-05-01,6,Ridge on recent changes,6.0912,6.3
+2022-11-01,2023-05-01,6,No change (last rate),7.4,6.3
+2022-11-01,2023-05-01,6,Average of last 12 months,6.7417,6.3
+2022-12-01,2023-06-01,6,Ridge on recent changes,6.0335,5.4
+2022-12-01,2023-06-01,6,No change (last rate),7.2,5.4
+2022-12-01,2023-06-01,6,Average of last 12 months,6.85,5.4
+2023-01-01,2023-07-01,6,Ridge on recent changes,5.5063,4.7
+2023-01-01,2023-07-01,6,No change (last rate),6.9,4.7
+2023-01-01,2023-07-01,6,Average of last 12 months,6.95,4.7
+2023-02-01,2023-08-01,6,Ridge on recent changes,6.058,4.8
+2023-02-01,2023-08-01,6,No change (last rate),7.0,4.8
+2023-02-01,2023-08-01,6,Average of last 12 months,7.0583,4.8
+2023-03-01,2023-09-01,6,Ridge on recent changes,6.4709,5.4
+2023-03-01,2023-09-01,6,No change (last rate),7.1,5.4
+2023-03-01,2023-09-01,6,Average of last 12 months,7.1583,5.4
+2023-04-01,2023-10-01,6,Ridge on recent changes,6.2015,5.9
+2023-04-01,2023-10-01,6,No change (last rate),6.8,5.9
+2023-04-01,2023-10-01,6,Average of last 12 months,7.2333,5.9
+2023-05-01,2023-11-01,6,Ridge on recent changes,5.4421,5.5
+2023-05-01,2023-11-01,6,No change (last rate),6.3,5.5
+2023-05-01,2023-11-01,6,Average of last 12 months,7.2167,5.5
+2023-06-01,2023-12-01,6,Ridge on recent changes,4.112,5.1
+2023-06-01,2023-12-01,6,No change (last rate),5.4,5.1
+2023-06-01,2023-12-01,6,Average of last 12 months,7.05,5.1
+2023-07-01,2024-01-01,6,Ridge on recent changes,3.8789,5.3
+2023-07-01,2024-01-01,6,No change (last rate),4.7,5.3
+2023-07-01,2024-01-01,6,Average of last 12 months,6.7917,5.3
+2023-08-01,2024-02-01,6,Ridge on recent changes,4.7071,5.6
+2023-08-01,2024-02-01,6,No change (last rate),4.8,5.6
+2023-08-01,2024-02-01,6,Average of last 12 months,6.5583,5.6
+2023-09-01,2024-03-01,6,Ridge on recent changes,6.1035,5.3
+2023-09-01,2024-03-01,6,No change (last rate),5.4,5.3
+2023-09-01,2024-03-01,6,Average of last 12 months,6.3833,5.3
+2023-10-01,2024-04-01,6,Ridge on recent changes,6.873,5.2
+2023-10-01,2024-04-01,6,No change (last rate),5.9,5.2
+2023-10-01,2024-04-01,6,Average of last 12 months,6.2417,5.2
+2023-11-01,2024-05-01,6,Ridge on recent changes,5.764,5.2
+2023-11-01,2024-05-01,6,No change (last rate),5.5,5.2
+2023-11-01,2024-05-01,6,Average of last 12 months,6.0833,5.2
+2023-12-01,2024-06-01,6,Ridge on recent changes,4.9226,5.1
+2023-12-01,2024-06-01,6,No change (last rate),5.1,5.1
+2023-12-01,2024-06-01,6,Average of last 12 months,5.9083,5.1
+2024-01-01,2024-07-01,6,Ridge on recent changes,4.99,4.6
+2024-01-01,2024-07-01,6,No change (last rate),5.3,4.6
+2024-01-01,2024-07-01,6,Average of last 12 months,5.775,4.6
+2024-02-01,2024-08-01,6,Ridge on recent changes,5.8172,4.4
+2024-02-01,2024-08-01,6,No change (last rate),5.6,4.4
+2024-02-01,2024-08-01,6,Average of last 12 months,5.6583,4.4
+2024-03-01,2024-09-01,6,Ridge on recent changes,5.603,3.8
+2024-03-01,2024-09-01,6,No change (last rate),5.3,3.8
+2024-03-01,2024-09-01,6,Average of last 12 months,5.5083,3.8
+2024-04-01,2024-10-01,6,Ridge on recent changes,5.5448,2.8
+2024-04-01,2024-10-01,6,No change (last rate),5.2,2.8
+2024-04-01,2024-10-01,6,Average of last 12 months,5.375,2.8
+2024-05-01,2024-11-01,6,Ridge on recent changes,5.2194,2.9
+2024-05-01,2024-11-01,6,No change (last rate),5.2,2.9
+2024-05-01,2024-11-01,6,Average of last 12 months,5.2833,2.9
+2024-06-01,2024-12-01,6,Ridge on recent changes,4.9307,3.0
+2024-06-01,2024-12-01,6,No change (last rate),5.1,3.0
+2024-06-01,2024-12-01,6,Average of last 12 months,5.2583,3.0
+2024-07-01,2025-01-01,6,Ridge on recent changes,4.2919,3.2
+2024-07-01,2025-01-01,6,No change (last rate),4.6,3.2
+2024-07-01,2025-01-01,6,Average of last 12 months,5.25,3.2
+2024-08-01,2025-02-01,6,Ridge on recent changes,4.2595,3.2
+2024-08-01,2025-02-01,6,No change (last rate),4.4,3.2
+2024-08-01,2025-02-01,6,Average of last 12 months,5.2167,3.2
+2024-09-01,2025-03-01,6,Ridge on recent changes,3.5454,2.7
+2024-09-01,2025-03-01,6,No change (last rate),3.8,2.7
+2024-09-01,2025-03-01,6,Average of last 12 months,5.0833,2.7
+2024-10-01,2025-04-01,6,Ridge on recent changes,2.4719,2.8
+2024-10-01,2025-04-01,6,No change (last rate),2.8,2.8
+2024-10-01,2025-04-01,6,Average of last 12 months,4.825,2.8
+2024-11-01,2025-05-01,6,Ridge on recent changes,3.2557,2.8
+2024-11-01,2025-05-01,6,No change (last rate),2.9,2.8
+2024-11-01,2025-05-01,6,Average of last 12 months,4.6083,2.8
+2024-12-01,2025-06-01,6,Ridge on recent changes,3.5734,3.0
+2024-12-01,2025-06-01,6,No change (last rate),3.0,3.0
+2024-12-01,2025-06-01,6,Average of last 12 months,4.4333,3.0
+2025-01-01,2025-07-01,6,Ridge on recent changes,4.3704,3.5
+2025-01-01,2025-07-01,6,No change (last rate),3.2,3.5
+2025-01-01,2025-07-01,6,Average of last 12 months,4.2583,3.5
+2025-02-01,2025-08-01,6,Ridge on recent changes,4.4882,3.3
+2025-02-01,2025-08-01,6,No change (last rate),3.2,3.3
+2025-02-01,2025-08-01,6,Average of last 12 months,4.0583,3.3
+2025-03-01,2025-09-01,6,Ridge on recent changes,3.7486,3.4
+2025-03-01,2025-09-01,6,No change (last rate),2.7,3.4
+2025-03-01,2025-09-01,6,Average of last 12 months,3.8417,3.4
+2025-04-01,2025-10-01,6,Ridge on recent changes,4.1183,3.6
+2025-04-01,2025-10-01,6,No change (last rate),2.8,3.6
+2025-04-01,2025-10-01,6,Average of last 12 months,3.6417,3.6
+2025-05-01,2025-11-01,6,Ridge on recent changes,3.839,3.5
+2025-05-01,2025-11-01,6,No change (last rate),2.8,3.5
+2025-05-01,2025-11-01,6,Average of last 12 months,3.4417,3.5
+2025-06-01,2025-12-01,6,Ridge on recent changes,4.3216,3.6
+2025-06-01,2025-12-01,6,No change (last rate),3.0,3.6
+2025-06-01,2025-12-01,6,Average of last 12 months,3.2667,3.6
+2025-07-01,2026-01-01,6,Ridge on recent changes,5.065,3.5
+2025-07-01,2026-01-01,6,No change (last rate),3.5,3.5
+2025-07-01,2026-01-01,6,Average of last 12 months,3.175,3.5
+2025-08-01,2026-02-01,6,Ridge on recent changes,4.3467,3.0
+2025-08-01,2026-02-01,6,No change (last rate),3.3,3.0
+2025-08-01,2026-02-01,6,Average of last 12 months,3.0833,3.0
+2025-09-01,2026-03-01,6,Ridge on recent changes,4.4683,3.1
+2025-09-01,2026-03-01,6,No change (last rate),3.4,3.1
+2025-09-01,2026-03-01,6,Average of last 12 months,3.05,3.1
+2025-10-01,2026-04-01,6,Ridge on recent changes,4.206,4.0
+2025-10-01,2026-04-01,6,No change (last rate),3.6,4.0
+2025-10-01,2026-04-01,6,Average of last 12 months,3.1167,4.0
+2025-11-01,2026-05-01,6,Ridge on recent changes,4.0219,4.5
+2025-11-01,2026-05-01,6,No change (last rate),3.5,4.5
+2025-11-01,2026-05-01,6,Average of last 12 months,3.1667,4.5
+2025-12-01,2026-06-01,6,Ridge on recent changes,4.1921,5.0
+2025-12-01,2026-06-01,6,No change (last rate),3.6,5.0
+2025-12-01,2026-06-01,6,Average of last 12 months,3.2167,5.0
+2026-01-01,2026-07-01,6,Ridge on recent changes,3.924,4.3
+2026-01-01,2026-07-01,6,No change (last rate),3.5,4.3
+2026-01-01,2026-07-01,6,Average of last 12 months,3.2417,4.3
+2026-02-01,2026-08-01,6,Ridge on recent changes,3.3974,4.4
+2026-02-01,2026-08-01,6,No change (last rate),3.0,4.4
+2026-02-01,2026-08-01,6,Average of last 12 months,3.225,4.4
+2026-03-01,2026-09-01,6,Ridge on recent changes,3.8919,4.5
+2026-03-01,2026-09-01,6,No change (last rate),3.1,4.5
+2026-03-01,2026-09-01,6,Average of last 12 months,3.2583,4.5
+2010-01-01,2011-01-01,12,Ridge on recent changes,6.1453,3.7
+2010-01-01,2011-01-01,12,No change (last rate),6.2,3.7
+2010-01-01,2011-01-01,12,Average of last 12 months,6.9833,3.7
+2010-02-01,2011-02-01,12,Ridge on recent changes,6.1181,3.7
+2010-02-01,2011-02-01,12,No change (last rate),5.7,3.7
+2010-02-01,2011-02-01,12,Average of last 12 months,6.7417,3.7
+2010-03-01,2011-03-01,12,Ridge on recent changes,6.0047,4.1
+2010-03-01,2011-03-01,12,No change (last rate),5.1,4.1
+2010-03-01,2011-03-01,12,Average of last 12 months,6.4583,4.1
+2010-04-01,2011-04-01,12,Ridge on recent changes,6.0253,4.2
+2010-04-01,2011-04-01,12,No change (last rate),4.8,4.2
+2010-04-01,2011-04-01,12,Average of last 12 months,6.1583,4.2
+2010-05-01,2011-05-01,12,Ridge on recent changes,5.8938,4.6
+2010-05-01,2011-05-01,12,No change (last rate),4.6,4.6
+2010-05-01,2011-05-01,12,Average of last 12 months,5.875,4.6
+2010-06-01,2011-06-01,12,Ridge on recent changes,5.2726,5.0
+2010-06-01,2011-06-01,12,No change (last rate),4.1,5.0
+2010-06-01,2011-06-01,12,Average of last 12 months,5.6417,5.0
+2010-07-01,2011-07-01,12,Ridge on recent changes,5.5033,5.3
+2010-07-01,2011-07-01,12,No change (last rate),3.7,5.3
+2010-07-01,2011-07-01,12,Average of last 12 months,5.3917,5.3
+2010-08-01,2011-08-01,12,Ridge on recent changes,5.5167,5.3
+2010-08-01,2011-08-01,12,No change (last rate),3.5,5.3
+2010-08-01,2011-08-01,12,Average of last 12 months,5.15,5.3
+2010-09-01,2011-09-01,12,Ridge on recent changes,5.4682,5.7
+2010-09-01,2011-09-01,12,No change (last rate),3.2,5.7
+2010-09-01,2011-09-01,12,Average of last 12 months,4.9083,5.7
+2010-10-01,2011-10-01,12,Ridge on recent changes,5.64,6.0
+2010-10-01,2011-10-01,12,No change (last rate),3.4,6.0
+2010-10-01,2011-10-01,12,Average of last 12 months,4.7,6.0
+2010-11-01,2011-11-01,12,Ridge on recent changes,5.7054,6.1
+2010-11-01,2011-11-01,12,No change (last rate),3.6,6.1
+2010-11-01,2011-11-01,12,Average of last 12 months,4.5167,6.1
+2010-12-01,2011-12-01,12,Ridge on recent changes,5.4664,6.1
+2010-12-01,2011-12-01,12,No change (last rate),3.5,6.1
+2010-12-01,2011-12-01,12,Average of last 12 months,4.2833,6.1
+2011-01-01,2012-01-01,12,Ridge on recent changes,5.8717,6.3
+2011-01-01,2012-01-01,12,No change (last rate),3.7,6.3
+2011-01-01,2012-01-01,12,Average of last 12 months,4.075,6.3
+2011-02-01,2012-02-01,12,Ridge on recent changes,5.7851,6.1
+2011-02-01,2012-02-01,12,No change (last rate),3.7,6.1
+2011-02-01,2012-02-01,12,Average of last 12 months,3.9083,6.1
+2011-03-01,2012-03-01,12,Ridge on recent changes,6.5039,6.0
+2011-03-01,2012-03-01,12,No change (last rate),4.1,6.0
+2011-03-01,2012-03-01,12,Average of last 12 months,3.825,6.0
+2011-04-01,2012-04-01,12,Ridge on recent changes,6.1837,6.1
+2011-04-01,2012-04-01,12,No change (last rate),4.2,6.1
+2011-04-01,2012-04-01,12,Average of last 12 months,3.775,6.1
+2011-05-01,2012-05-01,12,Ridge on recent changes,6.5037,5.7
+2011-05-01,2012-05-01,12,No change (last rate),4.6,5.7
+2011-05-01,2012-05-01,12,Average of last 12 months,3.775,5.7
+2011-06-01,2012-06-01,12,Ridge on recent changes,6.1842,5.5
+2011-06-01,2012-06-01,12,No change (last rate),5.0,5.5
+2011-06-01,2012-06-01,12,Average of last 12 months,3.85,5.5
+2011-07-01,2012-07-01,12,Ridge on recent changes,6.3715,4.9
+2011-07-01,2012-07-01,12,No change (last rate),5.3,4.9
+2011-07-01,2012-07-01,12,Average of last 12 months,3.9833,4.9
+2011-08-01,2012-08-01,12,Ridge on recent changes,5.8921,5.0
+2011-08-01,2012-08-01,12,No change (last rate),5.3,5.0
+2011-08-01,2012-08-01,12,Average of last 12 months,4.1333,5.0
+2011-09-01,2012-09-01,12,Ridge on recent changes,6.2597,5.5
+2011-09-01,2012-09-01,12,No change (last rate),5.7,5.5
+2011-09-01,2012-09-01,12,Average of last 12 months,4.3417,5.5
+2011-10-01,2012-10-01,12,Ridge on recent changes,5.9671,5.6
+2011-10-01,2012-10-01,12,No change (last rate),6.0,5.6
+2011-10-01,2012-10-01,12,Average of last 12 months,4.5583,5.6
+2011-11-01,2012-11-01,12,Ridge on recent changes,5.9188,5.6
+2011-11-01,2012-11-01,12,No change (last rate),6.1,5.6
+2011-11-01,2012-11-01,12,Average of last 12 months,4.7667,5.6
+2011-12-01,2012-12-01,12,Ridge on recent changes,5.6779,5.7
+2011-12-01,2012-12-01,12,No change (last rate),6.1,5.7
+2011-12-01,2012-12-01,12,Average of last 12 months,4.9833,5.7
+2012-01-01,2013-01-01,12,Ridge on recent changes,5.9653,5.4
+2012-01-01,2013-01-01,12,No change (last rate),6.3,5.4
+2012-01-01,2013-01-01,12,Average of last 12 months,5.2,5.4
+2012-02-01,2013-02-01,12,Ridge on recent changes,5.7326,5.9
+2012-02-01,2013-02-01,12,No change (last rate),6.1,5.9
+2012-02-01,2013-02-01,12,Average of last 12 months,5.4,5.9
+2012-03-01,2013-03-01,12,Ridge on recent changes,6.1634,5.9
+2012-03-01,2013-03-01,12,No change (last rate),6.0,5.9
+2012-03-01,2013-03-01,12,Average of last 12 months,5.5583,5.9
+2012-04-01,2013-04-01,12,Ridge on recent changes,6.2174,5.9
+2012-04-01,2013-04-01,12,No change (last rate),6.1,5.9
+2012-04-01,2013-04-01,12,Average of last 12 months,5.7167,5.9
+2012-05-01,2013-05-01,12,Ridge on recent changes,5.6859,5.6
+2012-05-01,2013-05-01,12,No change (last rate),5.7,5.6
+2012-05-01,2013-05-01,12,Average of last 12 months,5.8083,5.6
+2012-06-01,2013-06-01,12,Ridge on recent changes,5.5179,5.5
+2012-06-01,2013-06-01,12,No change (last rate),5.5,5.5
+2012-06-01,2013-06-01,12,Average of last 12 months,5.85,5.5
+2012-07-01,2013-07-01,12,Ridge on recent changes,4.9556,6.3
+2012-07-01,2013-07-01,12,No change (last rate),4.9,6.3
+2012-07-01,2013-07-01,12,Average of last 12 months,5.8167,6.3
+2012-08-01,2013-08-01,12,Ridge on recent changes,5.6162,6.4
+2012-08-01,2013-08-01,12,No change (last rate),5.0,6.4
+2012-08-01,2013-08-01,12,Average of last 12 months,5.7917,6.4
+2012-09-01,2013-09-01,12,Ridge on recent changes,6.1613,6.0
+2012-09-01,2013-09-01,12,No change (last rate),5.5,6.0
+2012-09-01,2013-09-01,12,Average of last 12 months,5.775,6.0
+2012-10-01,2013-10-01,12,Ridge on recent changes,6.1465,5.5
+2012-10-01,2013-10-01,12,No change (last rate),5.6,5.5
+2012-10-01,2013-10-01,12,Average of last 12 months,5.7417,5.5
+2012-11-01,2013-11-01,12,Ridge on recent changes,6.0664,5.3
+2012-11-01,2013-11-01,12,No change (last rate),5.6,5.3
+2012-11-01,2013-11-01,12,Average of last 12 months,5.7,5.3
+2012-12-01,2013-12-01,12,Ridge on recent changes,5.8152,5.4
+2012-12-01,2013-12-01,12,No change (last rate),5.7,5.4
+2012-12-01,2013-12-01,12,Average of last 12 months,5.6667,5.4
+2013-01-01,2014-01-01,12,Ridge on recent changes,5.4278,5.8
+2013-01-01,2014-01-01,12,No change (last rate),5.4,5.8
+2013-01-01,2014-01-01,12,Average of last 12 months,5.5917,5.8
+2013-02-01,2014-02-01,12,Ridge on recent changes,6.2411,5.9
+2013-02-01,2014-02-01,12,No change (last rate),5.9,5.9
+2013-02-01,2014-02-01,12,Average of last 12 months,5.575,5.9
+2013-03-01,2014-03-01,12,Ridge on recent changes,6.331,6.0
+2013-03-01,2014-03-01,12,No change (last rate),5.9,6.0
+2013-03-01,2014-03-01,12,Average of last 12 months,5.5667,6.0
+2013-04-01,2014-04-01,12,Ridge on recent changes,6.3428,6.1
+2013-04-01,2014-04-01,12,No change (last rate),5.9,6.1
+2013-04-01,2014-04-01,12,Average of last 12 months,5.55,6.1
+2013-05-01,2014-05-01,12,Ridge on recent changes,5.5577,6.6
+2013-05-01,2014-05-01,12,No change (last rate),5.6,6.6
+2013-05-01,2014-05-01,12,Average of last 12 months,5.5417,6.6
+2013-06-01,2014-06-01,12,Ridge on recent changes,5.3307,6.6
+2013-06-01,2014-06-01,12,No change (last rate),5.5,6.6
+2013-06-01,2014-06-01,12,Average of last 12 months,5.5417,6.6
+2013-07-01,2014-07-01,12,Ridge on recent changes,6.2989,6.3
+2013-07-01,2014-07-01,12,No change (last rate),6.3,6.3
+2013-07-01,2014-07-01,12,Average of last 12 months,5.6583,6.3
+2013-08-01,2014-08-01,12,Ridge on recent changes,6.1317,6.4
+2013-08-01,2014-08-01,12,No change (last rate),6.4,6.4
+2013-08-01,2014-08-01,12,Average of last 12 months,5.775,6.4
+2013-09-01,2014-09-01,12,Ridge on recent changes,5.8327,5.9
+2013-09-01,2014-09-01,12,No change (last rate),6.0,5.9
+2013-09-01,2014-09-01,12,Average of last 12 months,5.8167,5.9
+2013-10-01,2014-10-01,12,Ridge on recent changes,5.3239,5.9
+2013-10-01,2014-10-01,12,No change (last rate),5.5,5.9
+2013-10-01,2014-10-01,12,Average of last 12 months,5.8083,5.9
+2013-11-01,2014-11-01,12,Ridge on recent changes,5.4417,5.8
+2013-11-01,2014-11-01,12,No change (last rate),5.3,5.8
+2013-11-01,2014-11-01,12,Average of last 12 months,5.7833,5.8
+2013-12-01,2014-12-01,12,Ridge on recent changes,5.6018,5.3
+2013-12-01,2014-12-01,12,No change (last rate),5.4,5.3
+2013-12-01,2014-12-01,12,Average of last 12 months,5.7583,5.3
+2014-01-01,2015-01-01,12,Ridge on recent changes,5.9974,4.4
+2014-01-01,2015-01-01,12,No change (last rate),5.8,4.4
+2014-01-01,2015-01-01,12,Average of last 12 months,5.7917,4.4
+2014-02-01,2015-02-01,12,Ridge on recent changes,6.2236,3.9
+2014-02-01,2015-02-01,12,No change (last rate),5.9,3.9
+2014-02-01,2015-02-01,12,Average of last 12 months,5.7917,3.9
+2014-03-01,2015-03-01,12,Ridge on recent changes,6.6531,4.0
+2014-03-01,2015-03-01,12,No change (last rate),6.0,4.0
+2014-03-01,2015-03-01,12,Average of last 12 months,5.8,4.0
+2014-04-01,2015-04-01,12,Ridge on recent changes,6.558,4.5
+2014-04-01,2015-04-01,12,No change (last rate),6.1,4.5
+2014-04-01,2015-04-01,12,Average of last 12 months,5.8167,4.5
+2014-05-01,2015-05-01,12,Ridge on recent changes,6.4267,4.6
+2014-05-01,2015-05-01,12,No change (last rate),6.6,4.6
+2014-05-01,2015-05-01,12,Average of last 12 months,5.9,4.6
+2014-06-01,2015-06-01,12,Ridge on recent changes,5.6784,4.7
+2014-06-01,2015-06-01,12,No change (last rate),6.6,4.7
+2014-06-01,2015-06-01,12,Average of last 12 months,5.9917,4.7
+2014-07-01,2015-07-01,12,Ridge on recent changes,5.6392,5.0
+2014-07-01,2015-07-01,12,No change (last rate),6.3,5.0
+2014-07-01,2015-07-01,12,Average of last 12 months,5.9917,5.0
+2014-08-01,2015-08-01,12,Ridge on recent changes,6.0303,4.6
+2014-08-01,2015-08-01,12,No change (last rate),6.4,4.6
+2014-08-01,2015-08-01,12,Average of last 12 months,5.9917,4.6
+2014-09-01,2015-09-01,12,Ridge on recent changes,5.4567,4.6
+2014-09-01,2015-09-01,12,No change (last rate),5.9,4.6
+2014-09-01,2015-09-01,12,Average of last 12 months,5.9833,4.6
+2014-10-01,2015-10-01,12,Ridge on recent changes,5.4907,4.7
+2014-10-01,2015-10-01,12,No change (last rate),5.9,4.7
+2014-10-01,2015-10-01,12,Average of last 12 months,6.0167,4.7
+2014-11-01,2015-11-01,12,Ridge on recent changes,5.2238,4.8
+2014-11-01,2015-11-01,12,No change (last rate),5.8,4.8
+2014-11-01,2015-11-01,12,Average of last 12 months,6.0583,4.8
+2014-12-01,2015-12-01,12,Ridge on recent changes,4.94,5.2
+2014-12-01,2015-12-01,12,No change (last rate),5.3,5.2
+2014-12-01,2015-12-01,12,Average of last 12 months,6.05,5.2
+2015-01-01,2016-01-01,12,Ridge on recent changes,4.481,6.2
+2015-01-01,2016-01-01,12,No change (last rate),4.4,6.2
+2015-01-01,2016-01-01,12,Average of last 12 months,5.9333,6.2
+2015-02-01,2016-02-01,12,Ridge on recent changes,4.9832,7.0
+2015-02-01,2016-02-01,12,No change (last rate),3.9,7.0
+2015-02-01,2016-02-01,12,Average of last 12 months,5.7667,7.0
+2015-03-01,2016-03-01,12,Ridge on recent changes,5.9524,6.3
+2015-03-01,2016-03-01,12,No change (last rate),4.0,6.3
+2015-03-01,2016-03-01,12,Average of last 12 months,5.6,6.3
+2015-04-01,2016-04-01,12,Ridge on recent changes,6.7419,6.2
+2015-04-01,2016-04-01,12,No change (last rate),4.5,6.2
+2015-04-01,2016-04-01,12,Average of last 12 months,5.4667,6.2
+2015-05-01,2016-05-01,12,Ridge on recent changes,6.3715,6.1
+2015-05-01,2016-05-01,12,No change (last rate),4.6,6.1
+2015-05-01,2016-05-01,12,Average of last 12 months,5.3,6.1
+2015-06-01,2016-06-01,12,Ridge on recent changes,5.9565,6.3
+2015-06-01,2016-06-01,12,No change (last rate),4.7,6.3
+2015-06-01,2016-06-01,12,Average of last 12 months,5.1417,6.3
+2015-07-01,2016-07-01,12,Ridge on recent changes,6.1376,6.0
+2015-07-01,2016-07-01,12,No change (last rate),5.0,6.0
+2015-07-01,2016-07-01,12,Average of last 12 months,5.0333,6.0
+2015-08-01,2016-08-01,12,Ridge on recent changes,5.5095,5.9
+2015-08-01,2016-08-01,12,No change (last rate),4.6,5.9
+2015-08-01,2016-08-01,12,Average of last 12 months,4.8833,5.9
+2015-09-01,2016-09-01,12,Ridge on recent changes,5.6608,6.1
+2015-09-01,2016-09-01,12,No change (last rate),4.6,6.1
+2015-09-01,2016-09-01,12,Average of last 12 months,4.775,6.1
+2015-10-01,2016-10-01,12,Ridge on recent changes,5.432,6.4
+2015-10-01,2016-10-01,12,No change (last rate),4.7,6.4
+2015-10-01,2016-10-01,12,Average of last 12 months,4.675,6.4
+2015-11-01,2016-11-01,12,Ridge on recent changes,5.4528,6.6
+2015-11-01,2016-11-01,12,No change (last rate),4.8,6.6
+2015-11-01,2016-11-01,12,Average of last 12 months,4.5917,6.6
+2015-12-01,2016-12-01,12,Ridge on recent changes,5.745,6.8
+2015-12-01,2016-12-01,12,No change (last rate),5.2,6.8
+2015-12-01,2016-12-01,12,Average of last 12 months,4.5833,6.8
+2016-01-01,2017-01-01,12,Ridge on recent changes,6.4414,6.6
+2016-01-01,2017-01-01,12,No change (last rate),6.2,6.6
+2016-01-01,2017-01-01,12,Average of last 12 months,4.7333,6.6
+2016-02-01,2017-02-01,12,Ridge on recent changes,6.8002,6.3
+2016-02-01,2017-02-01,12,No change (last rate),7.0,6.3
+2016-02-01,2017-02-01,12,Average of last 12 months,4.9917,6.3
+2016-03-01,2017-03-01,12,Ridge on recent changes,5.9938,6.1
+2016-03-01,2017-03-01,12,No change (last rate),6.3,6.1
+2016-03-01,2017-03-01,12,Average of last 12 months,5.1833,6.1
+2016-04-01,2017-04-01,12,Ridge on recent changes,6.3133,5.3
+2016-04-01,2017-04-01,12,No change (last rate),6.2,5.3
+2016-04-01,2017-04-01,12,Average of last 12 months,5.325,5.3
+2016-05-01,2017-05-01,12,Ridge on recent changes,5.8711,5.4
+2016-05-01,2017-05-01,12,No change (last rate),6.1,5.4
+2016-05-01,2017-05-01,12,Average of last 12 months,5.45,5.4
+2016-06-01,2017-06-01,12,Ridge on recent changes,6.0497,5.1
+2016-06-01,2017-06-01,12,No change (last rate),6.3,5.1
+2016-06-01,2017-06-01,12,Average of last 12 months,5.5833,5.1
+2016-07-01,2017-07-01,12,Ridge on recent changes,5.701,4.6
+2016-07-01,2017-07-01,12,No change (last rate),6.0,4.6
+2016-07-01,2017-07-01,12,Average of last 12 months,5.6667,4.6
+2016-08-01,2017-08-01,12,Ridge on recent changes,5.7328,4.8
+2016-08-01,2017-08-01,12,No change (last rate),5.9,4.8
+2016-08-01,2017-08-01,12,Average of last 12 months,5.775,4.8
+2016-09-01,2017-09-01,12,Ridge on recent changes,5.7726,5.1
+2016-09-01,2017-09-01,12,No change (last rate),6.1,5.1
+2016-09-01,2017-09-01,12,Average of last 12 months,5.9,5.1
+2016-10-01,2017-10-01,12,Ridge on recent changes,5.7233,4.8
+2016-10-01,2017-10-01,12,No change (last rate),6.4,4.8
+2016-10-01,2017-10-01,12,Average of last 12 months,6.0417,4.8
+2016-11-01,2017-11-01,12,Ridge on recent changes,5.8861,4.6
+2016-11-01,2017-11-01,12,No change (last rate),6.6,4.6
+2016-11-01,2017-11-01,12,Average of last 12 months,6.1917,4.6
+2016-12-01,2017-12-01,12,Ridge on recent changes,5.9433,4.7
+2016-12-01,2017-12-01,12,No change (last rate),6.8,4.7
+2016-12-01,2017-12-01,12,Average of last 12 months,6.325,4.7
+2017-01-01,2018-01-01,12,Ridge on recent changes,5.7274,4.4
+2017-01-01,2018-01-01,12,No change (last rate),6.6,4.4
+2017-01-01,2018-01-01,12,Average of last 12 months,6.3583,4.4
+2017-02-01,2018-02-01,12,Ridge on recent changes,5.8082,4.0
+2017-02-01,2018-02-01,12,No change (last rate),6.3,4.0
+2017-02-01,2018-02-01,12,Average of last 12 months,6.3,4.0
+2017-03-01,2018-03-01,12,Ridge on recent changes,6.0093,3.8
+2017-03-01,2018-03-01,12,No change (last rate),6.1,3.8
+2017-03-01,2018-03-01,12,Average of last 12 months,6.2833,3.8
+2017-04-01,2018-04-01,12,Ridge on recent changes,5.3073,4.5
+2017-04-01,2018-04-01,12,No change (last rate),5.3,4.5
+2017-04-01,2018-04-01,12,Average of last 12 months,6.2083,4.5
+2017-05-01,2018-05-01,12,Ridge on recent changes,5.6946,4.4
+2017-05-01,2018-05-01,12,No change (last rate),5.4,4.4
+2017-05-01,2018-05-01,12,Average of last 12 months,6.15,4.4
+2017-06-01,2018-06-01,12,Ridge on recent changes,5.281,4.6
+2017-06-01,2018-06-01,12,No change (last rate),5.1,4.6
+2017-06-01,2018-06-01,12,Average of last 12 months,6.05,4.6
+2017-07-01,2018-07-01,12,Ridge on recent changes,5.2477,5.1
+2017-07-01,2018-07-01,12,No change (last rate),4.6,5.1
+2017-07-01,2018-07-01,12,Average of last 12 months,5.9333,5.1
+2017-08-01,2018-08-01,12,Ridge on recent changes,5.6724,4.9
+2017-08-01,2018-08-01,12,No change (last rate),4.8,4.9
+2017-08-01,2018-08-01,12,Average of last 12 months,5.8417,4.9
+2017-09-01,2018-09-01,12,Ridge on recent changes,5.8162,4.9
+2017-09-01,2018-09-01,12,No change (last rate),5.1,4.9
+2017-09-01,2018-09-01,12,Average of last 12 months,5.7583,4.9
+2017-10-01,2018-10-01,12,Ridge on recent changes,5.4214,5.1
+2017-10-01,2018-10-01,12,No change (last rate),4.8,5.1
+2017-10-01,2018-10-01,12,Average of last 12 months,5.625,5.1
+2017-11-01,2018-11-01,12,Ridge on recent changes,5.4489,5.2
+2017-11-01,2018-11-01,12,No change (last rate),4.6,5.2
+2017-11-01,2018-11-01,12,Average of last 12 months,5.4583,5.2
+2017-12-01,2018-12-01,12,Ridge on recent changes,5.6228,4.5
+2017-12-01,2018-12-01,12,No change (last rate),4.7,4.5
+2017-12-01,2018-12-01,12,Average of last 12 months,5.2833,4.5
+2018-01-01,2019-01-01,12,Ridge on recent changes,5.3556,4.0
+2018-01-01,2019-01-01,12,No change (last rate),4.4,4.0
+2018-01-01,2019-01-01,12,Average of last 12 months,5.1,4.0
+2018-02-01,2019-02-01,12,Ridge on recent changes,5.5048,4.1
+2018-02-01,2019-02-01,12,No change (last rate),4.0,4.1
+2018-02-01,2019-02-01,12,Average of last 12 months,4.9083,4.1
+2018-03-01,2019-03-01,12,Ridge on recent changes,5.5485,4.5
+2018-03-01,2019-03-01,12,No change (last rate),3.8,4.5
+2018-03-01,2019-03-01,12,Average of last 12 months,4.7167,4.5
+2018-04-01,2019-04-01,12,Ridge on recent changes,6.4013,4.4
+2018-04-01,2019-04-01,12,No change (last rate),4.5,4.4
+2018-04-01,2019-04-01,12,Average of last 12 months,4.65,4.4
+2018-05-01,2019-05-01,12,Ridge on recent changes,5.6613,4.5
+2018-05-01,2019-05-01,12,No change (last rate),4.4,4.5
+2018-05-01,2019-05-01,12,Average of last 12 months,4.5667,4.5
+2018-06-01,2019-06-01,12,Ridge on recent changes,5.9345,4.5
+2018-06-01,2019-06-01,12,No change (last rate),4.6,4.5
+2018-06-01,2019-06-01,12,Average of last 12 months,4.525,4.5
+2018-07-01,2019-07-01,12,Ridge on recent changes,6.1637,4.0
+2018-07-01,2019-07-01,12,No change (last rate),5.1,4.0
+2018-07-01,2019-07-01,12,Average of last 12 months,4.5667,4.0
+2018-08-01,2019-08-01,12,Ridge on recent changes,5.6014,4.3
+2018-08-01,2019-08-01,12,No change (last rate),4.9,4.3
+2018-08-01,2019-08-01,12,Average of last 12 months,4.575,4.3
+2018-09-01,2019-09-01,12,Ridge on recent changes,5.7084,4.1
+2018-09-01,2019-09-01,12,No change (last rate),4.9,4.1
+2018-09-01,2019-09-01,12,Average of last 12 months,4.5583,4.1
+2018-10-01,2019-10-01,12,Ridge on recent changes,5.6888,3.7
+2018-10-01,2019-10-01,12,No change (last rate),5.1,3.7
+2018-10-01,2019-10-01,12,Average of last 12 months,4.5833,3.7
+2018-11-01,2019-11-01,12,Ridge on recent changes,5.7322,3.6
+2018-11-01,2019-11-01,12,No change (last rate),5.2,3.6
+2018-11-01,2019-11-01,12,Average of last 12 months,4.6333,3.6
+2018-12-01,2019-12-01,12,Ridge on recent changes,4.9799,4.0
+2018-12-01,2019-12-01,12,No change (last rate),4.5,4.0
+2018-12-01,2019-12-01,12,Average of last 12 months,4.6167,4.0
+2019-01-01,2020-01-01,12,Ridge on recent changes,4.8005,4.5
+2019-01-01,2020-01-01,12,No change (last rate),4.0,4.5
+2019-01-01,2020-01-01,12,Average of last 12 months,4.5833,4.5
+2019-02-01,2020-02-01,12,Ridge on recent changes,5.4034,4.6
+2019-02-01,2020-02-01,12,No change (last rate),4.1,4.6
+2019-02-01,2020-02-01,12,Average of last 12 months,4.5917,4.6
+2019-03-01,2020-03-01,12,Ridge on recent changes,6.0156,4.1
+2019-03-01,2020-03-01,12,No change (last rate),4.5,4.1
+2019-03-01,2020-03-01,12,Average of last 12 months,4.65,4.1
+2019-04-01,2020-04-01,12,Ridge on recent changes,5.9453,3.0
+2019-04-01,2020-04-01,12,No change (last rate),4.4,3.0
+2019-04-01,2020-04-01,12,Average of last 12 months,4.6417,3.0
+2019-05-01,2020-05-01,12,Ridge on recent changes,5.9405,2.1
+2019-05-01,2020-05-01,12,No change (last rate),4.5,2.1
+2019-05-01,2020-05-01,12,Average of last 12 months,4.65,2.1
+2019-06-01,2020-06-01,12,Ridge on recent changes,5.6661,2.2
+2019-06-01,2020-06-01,12,No change (last rate),4.5,2.2
+2019-06-01,2020-06-01,12,Average of last 12 months,4.6417,2.2
+2019-07-01,2020-07-01,12,Ridge on recent changes,5.214,3.2
+2019-07-01,2020-07-01,12,No change (last rate),4.0,3.2
+2019-07-01,2020-07-01,12,Average of last 12 months,4.55,3.2
+2019-08-01,2020-08-01,12,Ridge on recent changes,5.7338,3.1
+2019-08-01,2020-08-01,12,No change (last rate),4.3,3.1
+2019-08-01,2020-08-01,12,Average of last 12 months,4.5,3.1
+2019-09-01,2020-09-01,12,Ridge on recent changes,5.3075,3.0
+2019-09-01,2020-09-01,12,No change (last rate),4.1,3.0
+2019-09-01,2020-09-01,12,Average of last 12 months,4.4333,3.0
+2019-10-01,2020-10-01,12,Ridge on recent changes,5.0886,3.3
+2019-10-01,2020-10-01,12,No change (last rate),3.7,3.3
+2019-10-01,2020-10-01,12,Average of last 12 months,4.3167,3.3
+2019-11-01,2020-11-01,12,Ridge on recent changes,5.1509,3.2
+2019-11-01,2020-11-01,12,No change (last rate),3.6,3.2
+2019-11-01,2020-11-01,12,Average of last 12 months,4.1833,3.2
+2019-12-01,2020-12-01,12,Ridge on recent changes,5.5606,3.1
+2019-12-01,2020-12-01,12,No change (last rate),4.0,3.1
+2019-12-01,2020-12-01,12,Average of last 12 months,4.1417,3.1
+2020-01-01,2021-01-01,12,Ridge on recent changes,5.8205,3.2
+2020-01-01,2021-01-01,12,No change (last rate),4.5,3.2
+2020-01-01,2021-01-01,12,Average of last 12 months,4.1833,3.2
+2020-02-01,2021-02-01,12,Ridge on recent changes,5.8294,2.9
+2020-02-01,2021-02-01,12,No change (last rate),4.6,2.9
+2020-02-01,2021-02-01,12,Average of last 12 months,4.225,2.9
+2020-03-01,2021-03-01,12,Ridge on recent changes,5.4091,3.2
+2020-03-01,2021-03-01,12,No change (last rate),4.1,3.2
+2020-03-01,2021-03-01,12,Average of last 12 months,4.1917,3.2
+2020-04-01,2021-04-01,12,Ridge on recent changes,4.5539,4.4
+2020-04-01,2021-04-01,12,No change (last rate),3.0,4.4
+2020-04-01,2021-04-01,12,Average of last 12 months,4.075,4.4
+2020-05-01,2021-05-01,12,Ridge on recent changes,4.0788,5.2
+2020-05-01,2021-05-01,12,No change (last rate),2.1,5.2
+2020-05-01,2021-05-01,12,Average of last 12 months,3.875,5.2
+2020-06-01,2021-06-01,12,Ridge on recent changes,4.8232,4.9
+2020-06-01,2021-06-01,12,No change (last rate),2.2,4.9
+2020-06-01,2021-06-01,12,Average of last 12 months,3.6833,4.9
+2020-07-01,2021-07-01,12,Ridge on recent changes,6.1141,4.6
+2020-07-01,2021-07-01,12,No change (last rate),3.2,4.6
+2020-07-01,2021-07-01,12,Average of last 12 months,3.6167,4.6
+2020-08-01,2021-08-01,12,Ridge on recent changes,5.738,4.9
+2020-08-01,2021-08-01,12,No change (last rate),3.1,4.9
+2020-08-01,2021-08-01,12,Average of last 12 months,3.5167,4.9
+2020-09-01,2021-09-01,12,Ridge on recent changes,5.549,5.0
+2020-09-01,2021-09-01,12,No change (last rate),3.0,5.0
+2020-09-01,2021-09-01,12,Average of last 12 months,3.425,5.0
+2020-10-01,2021-10-01,12,Ridge on recent changes,5.4469,5.0
+2020-10-01,2021-10-01,12,No change (last rate),3.3,5.0
+2020-10-01,2021-10-01,12,Average of last 12 months,3.3917,5.0
+2020-11-01,2021-11-01,12,Ridge on recent changes,5.088,5.5
+2020-11-01,2021-11-01,12,No change (last rate),3.2,5.5
+2020-11-01,2021-11-01,12,Average of last 12 months,3.3583,5.5
+2020-12-01,2021-12-01,12,Ridge on recent changes,5.0653,5.9
+2020-12-01,2021-12-01,12,No change (last rate),3.1,5.9
+2020-12-01,2021-12-01,12,Average of last 12 months,3.2833,5.9
+2021-01-01,2022-01-01,12,Ridge on recent changes,5.2338,5.7
+2021-01-01,2022-01-01,12,No change (last rate),3.2,5.7
+2021-01-01,2022-01-01,12,Average of last 12 months,3.175,5.7
+2021-02-01,2022-02-01,12,Ridge on recent changes,5.1412,5.7
+2021-02-01,2022-02-01,12,No change (last rate),2.9,5.7
+2021-02-01,2022-02-01,12,Average of last 12 months,3.0333,5.7
+2021-03-01,2022-03-01,12,Ridge on recent changes,5.7475,5.9
+2021-03-01,2022-03-01,12,No change (last rate),3.2,5.9
+2021-03-01,2022-03-01,12,Average of last 12 months,2.9583,5.9
+2021-04-01,2022-04-01,12,Ridge on recent changes,6.4943,5.9
+2021-04-01,2022-04-01,12,No change (last rate),4.4,5.9
+2021-04-01,2022-04-01,12,Average of last 12 months,3.075,5.9
+2021-05-01,2022-05-01,12,Ridge on recent changes,6.1627,6.5
+2021-05-01,2022-05-01,12,No change (last rate),5.2,6.5
+2021-05-01,2022-05-01,12,Average of last 12 months,3.3333,6.5
+2021-06-01,2022-06-01,12,Ridge on recent changes,5.1944,7.4
+2021-06-01,2022-06-01,12,No change (last rate),4.9,7.4
+2021-06-01,2022-06-01,12,Average of last 12 months,3.5583,7.4
+2021-07-01,2022-07-01,12,Ridge on recent changes,5.2867,7.8
+2021-07-01,2022-07-01,12,No change (last rate),4.6,7.8
+2021-07-01,2022-07-01,12,Average of last 12 months,3.675,7.8
+2021-08-01,2022-08-01,12,Ridge on recent changes,5.7134,7.6
+2021-08-01,2022-08-01,12,No change (last rate),4.9,7.6
+2021-08-01,2022-08-01,12,Average of last 12 months,3.825,7.6
+2021-09-01,2022-09-01,12,Ridge on recent changes,5.6506,7.5
+2021-09-01,2022-09-01,12,No change (last rate),5.0,7.5
+2021-09-01,2022-09-01,12,Average of last 12 months,3.9917,7.5
+2021-10-01,2022-10-01,12,Ridge on recent changes,5.3419,7.6
+2021-10-01,2022-10-01,12,No change (last rate),5.0,7.6
+2021-10-01,2022-10-01,12,Average of last 12 months,4.1333,7.6
+2021-11-01,2022-11-01,12,Ridge on recent changes,5.7006,7.4
+2021-11-01,2022-11-01,12,No change (last rate),5.5,7.4
+2021-11-01,2022-11-01,12,Average of last 12 months,4.325,7.4
+2021-12-01,2022-12-01,12,Ridge on recent changes,5.7887,7.2
+2021-12-01,2022-12-01,12,No change (last rate),5.9,7.2
+2021-12-01,2022-12-01,12,Average of last 12 months,4.5583,7.2
+2022-01-01,2023-01-01,12,Ridge on recent changes,5.3504,6.9
+2022-01-01,2023-01-01,12,No change (last rate),5.7,6.9
+2022-01-01,2023-01-01,12,Average of last 12 months,4.7667,6.9
+2022-02-01,2023-02-01,12,Ridge on recent changes,5.5126,7.0
+2022-02-01,2023-02-01,12,No change (last rate),5.7,7.0
+2022-02-01,2023-02-01,12,Average of last 12 months,5.0,7.0
+2022-03-01,2023-03-01,12,Ridge on recent changes,5.7794,7.1
+2022-03-01,2023-03-01,12,No change (last rate),5.9,7.1
+2022-03-01,2023-03-01,12,Average of last 12 months,5.225,7.1
+2022-04-01,2023-04-01,12,Ridge on recent changes,5.7808,6.8
+2022-04-01,2023-04-01,12,No change (last rate),5.9,6.8
+2022-04-01,2023-04-01,12,Average of last 12 months,5.35,6.8
+2022-05-01,2023-05-01,12,Ridge on recent changes,6.2651,6.3
+2022-05-01,2023-05-01,12,No change (last rate),6.5,6.3
+2022-05-01,2023-05-01,12,Average of last 12 months,5.4583,6.3
+2022-06-01,2023-06-01,12,Ridge on recent changes,6.5658,5.4
+2022-06-01,2023-06-01,12,No change (last rate),7.4,5.4
+2022-06-01,2023-06-01,12,Average of last 12 months,5.6667,5.4
+2022-07-01,2023-07-01,12,Ridge on recent changes,6.6175,4.7
+2022-07-01,2023-07-01,12,No change (last rate),7.8,4.7
+2022-07-01,2023-07-01,12,Average of last 12 months,5.9333,4.7
+2022-08-01,2023-08-01,12,Ridge on recent changes,6.048,4.8
+2022-08-01,2023-08-01,12,No change (last rate),7.6,4.8
+2022-08-01,2023-08-01,12,Average of last 12 months,6.1583,4.8
+2022-09-01,2023-09-01,12,Ridge on recent changes,5.6955,5.4
+2022-09-01,2023-09-01,12,No change (last rate),7.5,5.4
+2022-09-01,2023-09-01,12,Average of last 12 months,6.3667,5.4
+2022-10-01,2023-10-01,12,Ridge on recent changes,5.4493,5.9
+2022-10-01,2023-10-01,12,No change (last rate),7.6,5.9
+2022-10-01,2023-10-01,12,Average of last 12 months,6.5833,5.9
+2022-11-01,2023-11-01,12,Ridge on recent changes,5.3083,5.5
+2022-11-01,2023-11-01,12,No change (last rate),7.4,5.5
+2022-11-01,2023-11-01,12,Average of last 12 months,6.7417,5.5
+2022-12-01,2023-12-01,12,Ridge on recent changes,5.3588,5.1
+2022-12-01,2023-12-01,12,No change (last rate),7.2,5.1
+2022-12-01,2023-12-01,12,Average of last 12 months,6.85,5.1
+2023-01-01,2024-01-01,12,Ridge on recent changes,5.1339,5.3
+2023-01-01,2024-01-01,12,No change (last rate),6.9,5.3
+2023-01-01,2024-01-01,12,Average of last 12 months,6.95,5.3
+2023-02-01,2024-02-01,12,Ridge on recent changes,5.5281,5.6
+2023-02-01,2024-02-01,12,No change (last rate),7.0,5.6
+2023-02-01,2024-02-01,12,Average of last 12 months,7.0583,5.6
+2023-03-01,2024-03-01,12,Ridge on recent changes,5.7887,5.3
+2023-03-01,2024-03-01,12,No change (last rate),7.1,5.3
+2023-03-01,2024-03-01,12,Average of last 12 months,7.1583,5.3
+2023-04-01,2024-04-01,12,Ridge on recent changes,5.6871,5.2
+2023-04-01,2024-04-01,12,No change (last rate),6.8,5.2
+2023-04-01,2024-04-01,12,Average of last 12 months,7.2333,5.2
+2023-05-01,2024-05-01,12,Ridge on recent changes,5.3149,5.2
+2023-05-01,2024-05-01,12,No change (last rate),6.3,5.2
+2023-05-01,2024-05-01,12,Average of last 12 months,7.2167,5.2
+2023-06-01,2024-06-01,12,Ridge on recent changes,4.6849,5.1
+2023-06-01,2024-06-01,12,No change (last rate),5.4,5.1
+2023-06-01,2024-06-01,12,Average of last 12 months,7.05,5.1
+2023-07-01,2024-07-01,12,Ridge on recent changes,4.8902,4.6
+2023-07-01,2024-07-01,12,No change (last rate),4.7,4.6
+2023-07-01,2024-07-01,12,Average of last 12 months,6.7917,4.6
+2023-08-01,2024-08-01,12,Ridge on recent changes,5.4376,4.4
+2023-08-01,2024-08-01,12,No change (last rate),4.8,4.4
+2023-08-01,2024-08-01,12,Average of last 12 months,6.5583,4.4
+2023-09-01,2024-09-01,12,Ridge on recent changes,5.9905,3.8
+2023-09-01,2024-09-01,12,No change (last rate),5.4,3.8
+2023-09-01,2024-09-01,12,Average of last 12 months,6.3833,3.8
+2023-10-01,2024-10-01,12,Ridge on recent changes,6.0645,2.8
+2023-10-01,2024-10-01,12,No change (last rate),5.9,2.8
+2023-10-01,2024-10-01,12,Average of last 12 months,6.2417,2.8
+2023-11-01,2024-11-01,12,Ridge on recent changes,5.3604,2.9
+2023-11-01,2024-11-01,12,No change (last rate),5.5,2.9
+2023-11-01,2024-11-01,12,Average of last 12 months,6.0833,2.9
+2023-12-01,2024-12-01,12,Ridge on recent changes,5.0928,3.0
+2023-12-01,2024-12-01,12,No change (last rate),5.1,3.0
+2023-12-01,2024-12-01,12,Average of last 12 months,5.9083,3.0
+2024-01-01,2025-01-01,12,Ridge on recent changes,5.2087,3.2
+2024-01-01,2025-01-01,12,No change (last rate),5.3,3.2
+2024-01-01,2025-01-01,12,Average of last 12 months,5.775,3.2
+2024-02-01,2025-02-01,12,Ridge on recent changes,5.6181,3.2
+2024-02-01,2025-02-01,12,No change (last rate),5.6,3.2
+2024-02-01,2025-02-01,12,Average of last 12 months,5.6583,3.2
+2024-03-01,2025-03-01,12,Ridge on recent changes,5.4922,2.7
+2024-03-01,2025-03-01,12,No change (last rate),5.3,2.7
+2024-03-01,2025-03-01,12,Average of last 12 months,5.5083,2.7
+2024-04-01,2025-04-01,12,Ridge on recent changes,5.6169,2.8
+2024-04-01,2025-04-01,12,No change (last rate),5.2,2.8
+2024-04-01,2025-04-01,12,Average of last 12 months,5.375,2.8
+2024-05-01,2025-05-01,12,Ridge on recent changes,5.4538,2.8
+2024-05-01,2025-05-01,12,No change (last rate),5.2,2.8
+2024-05-01,2025-05-01,12,Average of last 12 months,5.2833,2.8
+2024-06-01,2025-06-01,12,Ridge on recent changes,5.2234,3.0
+2024-06-01,2025-06-01,12,No change (last rate),5.1,3.0
+2024-06-01,2025-06-01,12,Average of last 12 months,5.2583,3.0
+2024-07-01,2025-07-01,12,Ridge on recent changes,5.0075,3.5
+2024-07-01,2025-07-01,12,No change (last rate),4.6,3.5
+2024-07-01,2025-07-01,12,Average of last 12 months,5.25,3.5
+2024-08-01,2025-08-01,12,Ridge on recent changes,5.126,3.3
+2024-08-01,2025-08-01,12,No change (last rate),4.4,3.3
+2024-08-01,2025-08-01,12,Average of last 12 months,5.2167,3.3
+2024-09-01,2025-09-01,12,Ridge on recent changes,4.8166,3.4
+2024-09-01,2025-09-01,12,No change (last rate),3.8,3.4
+2024-09-01,2025-09-01,12,Average of last 12 months,5.0833,3.4
+2024-10-01,2025-10-01,12,Ridge on recent changes,4.3759,3.6
+2024-10-01,2025-10-01,12,No change (last rate),2.8,3.6
+2024-10-01,2025-10-01,12,Average of last 12 months,4.825,3.6
+2024-11-01,2025-11-01,12,Ridge on recent changes,4.9999,3.5
+2024-11-01,2025-11-01,12,No change (last rate),2.9,3.5
+2024-11-01,2025-11-01,12,Average of last 12 months,4.6083,3.5
+2024-12-01,2025-12-01,12,Ridge on recent changes,5.0503,3.6
+2024-12-01,2025-12-01,12,No change (last rate),3.0,3.6
+2024-12-01,2025-12-01,12,Average of last 12 months,4.4333,3.6
+2025-01-01,2026-01-01,12,Ridge on recent changes,5.2606,3.5
+2025-01-01,2026-01-01,12,No change (last rate),3.2,3.5
+2025-01-01,2026-01-01,12,Average of last 12 months,4.2583,3.5
+2025-02-01,2026-02-01,12,Ridge on recent changes,5.4002,3.0
+2025-02-01,2026-02-01,12,No change (last rate),3.2,3.0
+2025-02-01,2026-02-01,12,Average of last 12 months,4.0583,3.0
+2025-03-01,2026-03-01,12,Ridge on recent changes,5.1601,3.1
+2025-03-01,2026-03-01,12,No change (last rate),2.7,3.1
+2025-03-01,2026-03-01,12,Average of last 12 months,3.8417,3.1
+2025-04-01,2026-04-01,12,Ridge on recent changes,5.4921,4.0
+2025-04-01,2026-04-01,12,No change (last rate),2.8,4.0
+2025-04-01,2026-04-01,12,Average of last 12 months,3.6417,4.0
+2025-05-01,2026-05-01,12,Ridge on recent changes,5.2097,4.5
+2025-05-01,2026-05-01,12,No change (last rate),2.8,4.5
+2025-05-01,2026-05-01,12,Average of last 12 months,3.4417,4.5
+2025-06-01,2026-06-01,12,Ridge on recent changes,5.3266,5.0
+2025-06-01,2026-06-01,12,No change (last rate),3.0,5.0
+2025-06-01,2026-06-01,12,Average of last 12 months,3.2667,5.0
+2025-07-01,2026-07-01,12,Ridge on recent changes,5.7426,4.3
+2025-07-01,2026-07-01,12,No change (last rate),3.5,4.3
+2025-07-01,2026-07-01,12,Average of last 12 months,3.175,4.3
+2025-08-01,2026-08-01,12,Ridge on recent changes,5.2235,4.4
+2025-08-01,2026-08-01,12,No change (last rate),3.3,4.4
+2025-08-01,2026-08-01,12,Average of last 12 months,3.0833,4.4
+2025-09-01,2026-09-01,12,Ridge on recent changes,5.3916,4.5
+2025-09-01,2026-09-01,12,No change (last rate),3.4,4.5
+2025-09-01,2026-09-01,12,Average of last 12 months,3.05,4.5

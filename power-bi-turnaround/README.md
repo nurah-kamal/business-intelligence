@@ -2,7 +2,7 @@
 
 **The SA Turnaround analysis rebuilt as a Power BI model: a star schema, a date table that knows every South African public holiday, and 23 measures that count turnaround in working days. Every figure on the report matches the SQL version to the request.**
 
-The original project, with the working-day library and the SQL, is at [reporting-and-bi/sa-turnaround](https://github.com/nurah-kamal/reporting-and-bi/tree/main/sa-turnaround). This one asks the same question in the tool most BI teams use.
+The original project, with the working-day library and the SQL, is at [reporting/sa-turnaround](https://github.com/nurah-kamal/reporting/tree/main/sa-turnaround). This one asks the same question in the tool most BI teams use.
 
 ![The headline page: five cards (5,706 closed requests, 1,183 late by calendar days, 1,060 late by working days, 283 wrongly called late, 160 late but missed), a bar chart of how the two counts agree, and a late rate by quarter that switches between working days and calendar days](docs/img/headline.png)
 

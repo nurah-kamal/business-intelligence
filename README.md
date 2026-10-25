@@ -16,6 +16,8 @@ The report itself, with the working-day library and the SQL behind it, is in [re
 - **Each project has its own checks** in `.github/workflows/<project>.yml`, running only when that folder changes. `secrets.yml` scans the whole history.
 - **History came with the projects.** Each one was moved in from its earlier repo with its commits kept.
 
+The calls behind this layout, and why each was made, are in [DECISIONS.md](DECISIONS.md).
+
 ## Data
 
 Everything here runs on invented or public data. No work data is in this repository.

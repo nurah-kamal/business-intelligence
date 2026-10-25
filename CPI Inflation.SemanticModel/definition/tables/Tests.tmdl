@@ -1,0 +1,29 @@
+/// Diebold-Mariano p-value per horizon: is the Ridge model's error really different from the no-change forecast's?
+table Tests
+	lineageTag: 99d23187-3f6c-4a23-bc5c-1e20ef0513c4
+
+	column Horizon
+		dataType: int64
+		isHidden
+		lineageTag: 32313e77-dde7-4e7e-9bd0-fc284623ee2f
+		summarizeBy: none
+		sourceColumn: Horizon
+
+	column 'P Value'
+		dataType: double
+		isHidden
+		lineageTag: 94202018-fd8b-4a32-8d2f-bab515c2a9bf
+		summarizeBy: none
+		sourceColumn: P Value
+
+	partition Tests = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "tests.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Renamed = Table.RenameColumns(Promoted, {{"horizon", "Horizon"}, {"p_ridge_vs_no_change", "P Value"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Horizon", Int64.Type}, {"P Value", type number}}, "en-US")
+				in
+				    Typed
+

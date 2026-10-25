@@ -1,0 +1,25 @@
+relationship 'CPI month'
+	fromColumn: CPI.Month
+	toColumn: Date.Month
+
+relationship 'Forecast target month'
+	fromColumn: Forecasts.'Target Month'
+	toColumn: Date.Month
+
+relationship 'Forecast origin'
+	isActive: false
+	fromColumn: Forecasts.Origin
+	toColumn: Date.Month
+
+relationship 'Forecast method'
+	fromColumn: Forecasts.Method
+	toColumn: Method.Method
+
+relationship 'Forecast horizon'
+	fromColumn: Forecasts.Horizon
+	toColumn: Horizon.Horizon
+
+relationship 'Test horizon'
+	fromColumn: Tests.Horizon
+	toColumn: Horizon.Horizon
+

@@ -1,0 +1,195 @@
+/// Every backtest forecast: made at the end of Origin, for Target Month, by one method, with the official rate that came in.
+table Forecasts
+	lineageTag: 5d8478e4-17e0-47fb-aad2-17112a2390cb
+
+	/// Forecasts whose target month is in the period.
+	measure 'Forecasts Count' = COUNTROWS ( Forecasts )
+		formatString: #,0
+		displayFolder: 2 Backtest
+		lineageTag: 9c13dd83-4f6e-467a-8684-bf696d97e7bb
+
+	/// Forecasts made in the period, whichever month they were for. Switches on the inactive Origin relationship.
+	measure 'Forecasts Made in Period' = CALCULATE ( COUNTROWS ( Forecasts ), USERELATIONSHIP ( Forecasts[Origin], 'Date'[Month] ) )
+		formatString: #,0
+		displayFolder: 2 Backtest
+		lineageTag: 67160ac0-407d-4762-a560-31bcedc4130e
+
+	/// Average size of the miss, in percentage points of inflation.
+	measure 'Mean Absolute Error' = AVERAGEX ( Forecasts, ABS ( Forecasts[Forecast] - Forecasts[Actual] ) )
+		formatString: 0.00
+		displayFolder: 2 Backtest
+		lineageTag: 0bd9092b-7ade-4dc7-adfd-8769c4772091
+
+	/// Average miss with its sign: above zero means the forecasts ran too high.
+	measure 'Mean Error' = AVERAGEX ( Forecasts, Forecasts[Forecast] - Forecasts[Actual] )
+		formatString: +0.00;-0.00;0.00
+		displayFolder: 2 Backtest
+		lineageTag: 5c78a3d8-85e1-4195-ab7a-b5e94c0711b7
+
+	/// Mean absolute error of the no-change forecast for the same horizons and months, whatever method is selected.
+	measure 'No-Change MAE' = CALCULATE ( [Mean Absolute Error], REMOVEFILTERS ( Method ), Method[Method] = "No change (last rate)" )
+		formatString: 0.00
+		displayFolder: 2 Backtest
+		lineageTag: 650d7297-e1a0-4683-bae0-f26de04e2e4a
+
+	/// How much smaller the error is than the no-change forecast's. Above zero is better; below zero is worse than doing nothing.
+	measure 'Skill vs No Change' = IF ( NOT ISBLANK ( [Mean Absolute Error] ), 1 - DIVIDE ( [Mean Absolute Error], [No-Change MAE] ) )
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 2 Backtest
+		lineageTag: 1c965711-d03b-4309-8e37-f2651bbc6a3f
+
+	/// The biggest single miss in the period, in percentage points.
+	measure 'Largest Miss' = MAXX ( Forecasts, ABS ( Forecasts[Forecast] - Forecasts[Actual] ) )
+		formatString: 0.00
+		displayFolder: 2 Backtest
+		lineageTag: 3b841cd3-504a-4197-a302-32d684e9ec03
+
+	/// The month the biggest miss was for.
+	measure 'Largest Miss Month' = MAXX ( TOPN ( 1, Forecasts, ABS ( Forecasts[Forecast] - Forecasts[Actual] ), DESC ), Forecasts[Target Month] )
+		formatString: mmm yyyy
+		displayFolder: 2 Backtest
+		lineageTag: 941bdd9e-7844-4deb-8880-c38ca142eb49
+
+	/// Diebold-Mariano test for one horizon: below 0.05 would mean the Ridge model's error really differs from no change. Blank unless one horizon is selected.
+	measure 'P Value (Ridge vs No Change)' = IF ( HASONEVALUE ( Horizon[Horizon] ), MIN ( Tests[P Value] ) )
+		formatString: 0.00
+		displayFolder: 2 Backtest
+		lineageTag: b1421c13-5031-4db0-8a6a-61538250a8fd
+
+	/// The horizon the forecast lines use: the one selected, or 3 months if none or several are.
+	measure 'Horizon Shown' = SELECTEDVALUE ( Horizon[Horizon], 3 )
+		formatString: 0
+		isHidden
+		displayFolder: 3 Forecast lines
+		lineageTag: 8f5273ba-b704-4ce1-a35e-60d38751e5e4
+
+	/// The official rate in the target month, for the forecast lines.
+	measure 'Actual Rate' =
+			VAR _h = [Horizon Shown]
+			RETURN
+			    CALCULATE ( AVERAGE ( Forecasts[Actual] ), REMOVEFILTERS ( Horizon ), Horizon[Horizon] = _h )
+		formatString: 0.0"%"
+		displayFolder: 3 Forecast lines
+		lineageTag: 7d0f491c-7dec-42fd-94f7-ae376f120d0f
+
+	/// What the Ridge model forecast for the target month, made Horizon Shown months earlier.
+	measure 'Ridge Forecast' =
+			VAR _h = [Horizon Shown]
+			RETURN
+			    CALCULATE ( AVERAGE ( Forecasts[Forecast] ), REMOVEFILTERS ( Horizon ), Horizon[Horizon] = _h, REMOVEFILTERS ( Method ), Method[Method] = "Ridge on recent changes" )
+		formatString: 0.0"%"
+		displayFolder: 3 Forecast lines
+		lineageTag: f578e81a-b56d-4927-8c82-e8a716eec1ea
+
+	/// The no-change forecast for the target month: the rate known Horizon Shown months earlier.
+	measure 'No-Change Forecast' =
+			VAR _h = [Horizon Shown]
+			RETURN
+			    CALCULATE ( AVERAGE ( Forecasts[Forecast] ), REMOVEFILTERS ( Horizon ), Horizon[Horizon] = _h, REMOVEFILTERS ( Method ), Method[Method] = "No change (last rate)" )
+		formatString: 0.0"%"
+		displayFolder: 3 Forecast lines
+		lineageTag: 7c57a079-0905-476e-8cf2-44e06509aac0
+
+	/// The 12-month-average forecast for the target month.
+	measure 'Average Forecast' =
+			VAR _h = [Horizon Shown]
+			RETURN
+			    CALCULATE ( AVERAGE ( Forecasts[Forecast] ), REMOVEFILTERS ( Horizon ), Horizon[Horizon] = _h, REMOVEFILTERS ( Method ), Method[Method] = "Average of last 12 months" )
+		formatString: 0.0"%"
+		displayFolder: 3 Forecast lines
+		lineageTag: 6b390a0e-596f-455f-ae4c-e6bda8dda011
+
+	/// The Ridge model's mean absolute error at the horizon shown.
+	measure 'Ridge MAE (Shown)' =
+			VAR _h = [Horizon Shown]
+			RETURN
+			    CALCULATE ( [Mean Absolute Error], REMOVEFILTERS ( Horizon ), Horizon[Horizon] = _h, REMOVEFILTERS ( Method ), Method[Method] = "Ridge on recent changes" )
+		formatString: 0.00
+		displayFolder: 3 Forecast lines
+		lineageTag: 7271839c-ccfa-44a0-8091-c6546121f48e
+
+	/// The no-change forecast's mean absolute error at the horizon shown.
+	measure 'No-Change MAE (Shown)' =
+			VAR _h = [Horizon Shown]
+			RETURN
+			    CALCULATE ( [Mean Absolute Error], REMOVEFILTERS ( Horizon ), Horizon[Horizon] = _h, REMOVEFILTERS ( Method ), Method[Method] = "No change (last rate)" )
+		formatString: 0.00
+		displayFolder: 3 Forecast lines
+		lineageTag: 363b4499-27fc-49cc-b754-efc63d37ada5
+
+	/// Diebold-Mariano p-value at the horizon shown (Ridge against no change).
+	measure 'P Value (Shown)' =
+			VAR _h = [Horizon Shown]
+			RETURN
+			    CALCULATE ( MIN ( Tests[P Value] ), REMOVEFILTERS ( Horizon ), Horizon[Horizon] = _h )
+		formatString: 0.00
+		displayFolder: 3 Forecast lines
+		lineageTag: 56d7e840-10f6-4874-b015-c98083ca8582
+
+	/// The forecast; over several forecasts, their average.
+	measure 'Forecast Value' = AVERAGE ( Forecasts[Forecast] )
+		formatString: 0.00"%"
+		displayFolder: 2 Backtest
+		lineageTag: 5602ab82-1e85-40a9-99ab-964bdc07f797
+
+	/// The official rate the forecasts were for.
+	measure 'Actual Value' = AVERAGE ( Forecasts[Actual] )
+		formatString: 0.0"%"
+		displayFolder: 2 Backtest
+		lineageTag: 0ddea969-d08b-4d89-9ce9-2d9beaf50518
+
+	column Origin
+		dataType: dateTime
+		isHidden
+		formatString: yyyy-mm
+		lineageTag: 60fd4111-7c93-40fa-9af5-c906f1738ff8
+		summarizeBy: none
+		sourceColumn: Origin
+
+	column 'Target Month'
+		dataType: dateTime
+		isHidden
+		formatString: yyyy-mm
+		lineageTag: 73683fba-b709-4b2a-a791-c0c3dfd80bdb
+		summarizeBy: none
+		sourceColumn: Target Month
+
+	column Horizon
+		dataType: int64
+		isHidden
+		lineageTag: 5dd19501-e6be-4bd7-b391-bea65b26bf80
+		summarizeBy: none
+		sourceColumn: Horizon
+
+	column Method
+		dataType: string
+		isHidden
+		lineageTag: fb19d02b-3a11-471c-9710-a009e25f8467
+		summarizeBy: none
+		sourceColumn: Method
+
+	column Forecast
+		dataType: double
+		isHidden
+		lineageTag: 218ff7c9-eaaf-4475-ae6c-426cb1fc8d8c
+		summarizeBy: none
+		sourceColumn: Forecast
+
+	column Actual
+		dataType: double
+		isHidden
+		lineageTag: ef94267c-9a18-4267-8663-be29c4ea38ba
+		summarizeBy: none
+		sourceColumn: Actual
+
+	partition Forecasts = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "forecasts.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Renamed = Table.RenameColumns(Promoted, {{"origin", "Origin"}, {"target_month", "Target Month"}, {"horizon", "Horizon"}, {"method", "Method"}, {"forecast", "Forecast"}, {"actual", "Actual"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Origin", type date}, {"Target Month", type date}, {"Horizon", Int64.Type}, {"Method", type text}, {"Forecast", type number}, {"Actual", type number}}, "en-US")
+				in
+				    Typed
+

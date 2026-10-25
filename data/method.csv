@@ -1,0 +1,4 @@
+method,short_name,sort_order
+Ridge on recent changes,Ridge,1
+No change (last rate),No change,2
+Average of last 12 months,12-month average,3

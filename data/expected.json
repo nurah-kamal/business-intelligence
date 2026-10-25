@@ -1,0 +1,37 @@
+{
+  "forecasts": 2346,
+  "forecasts_per_horizon": {
+    "1": 200,
+    "3": 198,
+    "6": 195,
+    "12": 189
+  },
+  "mae": {
+    "1": {
+      "Ridge on recent changes": 0.293,
+      "No change (last rate)": 0.296,
+      "Average of last 12 months": 0.776
+    },
+    "3": {
+      "Ridge on recent changes": 0.662,
+      "No change (last rate)": 0.597,
+      "Average of last 12 months": 0.949
+    },
+    "6": {
+      "Ridge on recent changes": 0.892,
+      "No change (last rate)": 0.87,
+      "Average of last 12 months": 1.133
+    },
+    "12": {
+      "Ridge on recent changes": 1.11,
+      "No change (last rate)": 1.277,
+      "Average of last 12 months": 1.356
+    }
+  },
+  "p_ridge_vs_no_change": {
+    "1": 0.7625,
+    "3": 0.0998,
+    "6": 0.7962,
+    "12": 0.4114
+  }
+}

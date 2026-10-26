@@ -1,0 +1,9 @@
+department,manager_email,department_sort
+Executive,executive.manager@example.com,1
+HR,hr.manager@example.com,2
+IT,it.manager@example.com,3
+Sales,sales.manager@example.com,4
+Marketing,marketing.manager@example.com,5
+Finance,finance.manager@example.com,6
+Operations,operations.manager@example.com,7
+Customer Service,customer.service.manager@example.com,8

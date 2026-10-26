@@ -1,0 +1,6 @@
+/// A manager sees only their own department: the Department table is filtered to the row whose Manager Email matches the signed-in user.
+role 'Department manager'
+	modelPermission: read
+
+	tablePermission Department = [Manager Email] = USERPRINCIPALNAME ()
+

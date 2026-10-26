@@ -1,0 +1,43 @@
+/// One row per job title, with its Employment Equity occupational level.
+table Job
+	lineageTag: bdbca04a-f974-400c-b435-27793adf98b8
+
+	column 'Job Title'
+		dataType: string
+		lineageTag: 8cf0457d-1421-4945-a8b3-deb7fee68175
+		summarizeBy: none
+		sourceColumn: Job Title
+
+	column 'Job Department'
+		dataType: string
+		isHidden
+		lineageTag: 508ef7b3-72bf-40bb-8baa-a36041aa82bb
+		summarizeBy: none
+		sourceColumn: Job Department
+
+	/// Employment Equity Act occupational level.
+	column 'EE Level'
+		dataType: string
+		lineageTag: 722b8077-ac16-4956-a33a-e62cf9bc9500
+		summarizeBy: none
+		sourceColumn: EE Level
+		sortByColumn: 'Level Sort'
+
+	column 'Level Sort'
+		dataType: int64
+		isHidden
+		lineageTag: 623ab077-13d5-4ef6-ae5e-28e141b68914
+		summarizeBy: none
+		sourceColumn: Level Sort
+
+	partition Job = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "job.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Renamed = Table.RenameColumns(Promoted, {{"job_title", "Job Title"}, {"department", "Job Department"}, {"ee_level", "EE Level"}, {"level_sort", "Level Sort"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"Job Title", type text}, {"Job Department", type text}, {"EE Level", type text}, {"Level Sort", Int64.Type}})
+				in
+				    Typed
+

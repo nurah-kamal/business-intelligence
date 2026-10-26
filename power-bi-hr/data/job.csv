@@ -1,0 +1,33 @@
+job_title,department,ee_level,level_sort
+Executive Director,Executive,Top management,1
+General Manager,Executive,Top management,1
+Head of Division,Executive,Top management,1
+Regional Executive,Executive,Top management,1
+HR Manager,HR,Senior management,2
+HR Officer,HR,Professionally qualified,3
+Recruitment Consultant,HR,Skilled technical,4
+HR Assistant,HR,Semi-skilled,5
+IT Manager,IT,Senior management,2
+Software Engineer,IT,Professionally qualified,3
+System Administrator,IT,Skilled technical,4
+IT Support Technician,IT,Semi-skilled,5
+Sales Executive,Sales,Senior management,2
+Business Development Manager,Sales,Professionally qualified,3
+Account Manager,Sales,Professionally qualified,3
+Sales Consultant,Sales,Skilled technical,4
+Marketing Director,Marketing,Senior management,2
+Social Media Manager,Marketing,Professionally qualified,3
+Content Strategist,Marketing,Skilled technical,4
+Digital Marketer,Marketing,Skilled technical,4
+Financial Manager,Finance,Senior management,2
+Financial Analyst,Finance,Professionally qualified,3
+Accountant,Finance,Professionally qualified,3
+Payroll Officer,Finance,Skilled technical,4
+Operations Manager,Operations,Senior management,2
+Supply Chain Analyst,Operations,Professionally qualified,3
+Warehouse Supervisor,Operations,Skilled technical,4
+Logistics Coordinator,Operations,Skilled technical,4
+Customer Service Manager,Customer Service,Senior management,2
+Support Specialist,Customer Service,Skilled technical,4
+Call Centre Agent,Customer Service,Semi-skilled,5
+Help Desk Assistant,Customer Service,Semi-skilled,5

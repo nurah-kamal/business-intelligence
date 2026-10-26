@@ -1,0 +1,27 @@
+{
+  "people_ever_employed": 10214,
+  "headcount_as_of": 5929,
+  "headcount_by_department": {
+    "Executive": 31,
+    "HR": 144,
+    "IT": 980,
+    "Sales": 1317,
+    "Marketing": 471,
+    "Finance": 385,
+    "Operations": 1501,
+    "Customer Service": 1100
+  },
+  "attrition_12m_as_of": 12.5,
+  "call_centre_agent_attrition_12m": {
+    "to_2025-06-30": 8.5,
+    "to_2026-06-30": 21.0
+  },
+  "it_attrition_12m_as_of": {
+    "Female": 16.8,
+    "Male": 13.8
+  },
+  "designated_share_pct": {
+    "all_current": 84.6,
+    "top_and_senior_current": 37.4
+  }
+}

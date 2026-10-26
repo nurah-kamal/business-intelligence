@@ -1,0 +1,32 @@
+table Compare
+
+	/// Switches every measure on the page between the period in view, the same period a year earlier, and the change.
+	calculationGroup
+		precedence: 1
+
+		calculationItem 'This period' = SELECTEDMEASURE ()
+			ordinal: 0
+
+		calculationItem 'Last year' = CALCULATE ( SELECTEDMEASURE (), SAMEPERIODLASTYEAR ( 'Date'[Date] ) )
+			ordinal: 1
+
+		calculationItem Change =
+				VAR _now = SELECTEDMEASURE ()
+				VAR _then = CALCULATE ( SELECTEDMEASURE (), SAMEPERIODLASTYEAR ( 'Date'[Date] ) )
+				RETURN IF ( NOT ISBLANK ( _now ) && NOT ISBLANK ( _then ), _now - _then )
+			ordinal: 2
+
+	column Compare
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Name
+		sortByColumn: Ordinal
+
+	column Ordinal
+		dataType: int64
+		isHidden
+		summarizeBy: sum
+		sourceColumn: Ordinal
+
+	partition Partition_Compare = calculationGroup
+

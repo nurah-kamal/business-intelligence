@@ -1,0 +1,6 @@
+/// An invented South African workforce, 2016 to September 2026: headcount, leaving and employment equity.
+database 'HR Analytics'
+	compatibilityLevel: 1606
+	compatibilityMode: powerBI
+	language: 1033
+

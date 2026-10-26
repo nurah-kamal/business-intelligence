@@ -10,7 +10,7 @@ table Employees
 		lineageTag: 8ce388ff-6878-41a5-b065-899953566a0b
 
 	/// The last day of the period in view, no later than the data.
-	measure 'Period End' = MIN ( MAX ( 'Date'[Date] ), [Data As Of] )
+	measure 'Period End' = IF ( MIN ( 'Date'[Date] ) > [Data As Of], BLANK (), MIN ( MAX ( 'Date'[Date] ), [Data As Of] ) )
 		formatString: d mmm yyyy
 		isHidden
 		displayFolder: 0 Settings
